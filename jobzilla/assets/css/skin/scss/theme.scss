@@ -1,0 +1,28 @@
+/* Globle Css */
+/* Footer */
+
+@import "./variable";
+
+:root{
+	--primary:$primary_color;
+	--secondary:$secondary_color;
+	--border-radius-base:$rounded_corner;
+	--gradient: linear-gradient(to right,$primary_color 0, darken($primary_color, 10%) 51%,$primary_color 100%);
+	--gradient-sec: linear-gradient(to right,$secondary_color 0,darken($secondary_color, 10%) 51%,$secondary_color 100%);
+	--primary-hover: darken($primary_color, 10%);
+	--primary-dark: darken($primary_color, 14%);
+	--rgba-primary-1: rgba($primary_color, 0.1);
+	--rgba-primary-2: rgba($primary_color, 0.2);
+	--rgba-primary-3: rgba($primary_color, 0.3);
+	--rgba-primary-4: rgba($primary_color, 0.4);
+	--rgba-primary-5: rgba($primary_color, 0.5);
+	--rgba-primary-6: rgba($primary_color, 0.6);
+	--rgba-primary-7: rgba($primary_color, 0.7);
+	--rgba-primary-8: rgba($primary_color, 0.8);
+	--rgba-primary-9: rgba($primary_color, 0.9);
+	
+}
+
+.theme-rounded{
+	--border-radius-base:$rounded_corner;
+}

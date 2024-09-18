@@ -1,0 +1,208 @@
+<?php
+/**
+ * Job dashboard shortcode content.
+ *
+ * This template can be overridden by copying it to yourtheme/job_manager/job-dashboard.php.
+ *
+ * @see         https://wpjobmanager.com/document/template-overrides/
+ * @author      Automattic
+ * @package     wp-job-manager
+ * @category    Template
+ * @version     1.35.2
+ *
+ * @since 1.34.4 Available job actions are passed in an array (`$job_actions`, keyed by job ID) and not generated in the template.
+ * @since 1.35.0 Switched to new date functions.
+ *
+ * @var array     $job_dashboard_columns Array of the columns to show on the job dashboard page.
+ * @var int       $max_num_pages         Maximum number of pages
+ * @var WP_Post[] $jobs                  Array of job post results.
+ * @var array     $job_actions           Array of actions available for each job.
+ */
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly.
+}
+
+$submission_limit			= get_option( 'job_manager_submission_limit' );
+$submit_job_form_page_id	=  get_option('job_manager_submit_job_form_page_id');
+$count = 1;
+$type_color = array(
+					1=>'twm-bg-green',
+					2=>'twm-bg-brown',
+					3=>'twm-bg-purple',
+					4=>'twm-bg-sky',
+					5=>'twm-bg-golden', 
+				);
+				
+				
+?>
+<div class="panel panel-default">
+	 <div class="panel-heading wt-panel-heading">
+		<h5 class="panel-tittle m-a0"><i class="fa fa-suitcase"></i><?php echo esc_html('Job Form', 'jobzilla'); ?></h5>
+	</div>
+    <div class="panel-body wt-panel-body">
+		<div id="" class="twm-D_table table-responsive">
+			<p class="d-sm-flex justify-content-between"><?php esc_html_e( 'Your listings are shown in the table below.', 'jobzilla' ); ?>
+			<?php if ( $submit_job_form_page_id ){ ?>
+			<tfoot>
+				<tr>
+					<td colspan="<?php echo count( $job_dashboard_columns ); ?>">
+						<a href="<?php echo esc_url( get_permalink( $submit_job_form_page_id ) ); ?>" class="site-button m-r5 py-2">
+						   <?php esc_html_e( 'Add Job', 'jobzilla' ); ?>
+						</a>
+					</td>
+				</tr>
+			</tfoot>
+			<?php } ?> 
+			</p>
+			<table id="jobs_bookmark_table" class="table table-bordered twm-bookmark-list-wrap">
+				<thead>
+					<tr>
+						<?php foreach ( $job_dashboard_columns as $key => $column ) : ?>
+							<th class="<?php echo esc_attr( $key ); ?>"><?php echo esc_html( $column ); ?></th>
+						<?php endforeach; ?>
+					</tr>
+				</thead>
+				<tbody>
+					<?php if ( ! $jobs ) : ?>
+						<tr class="text-center">
+							<td colspan="<?php echo intval( count( $job_dashboard_columns ) ); ?>"><?php esc_html_e( 'No Record Found', 'jobzilla' ); ?></td>
+						</tr>
+					<?php else : ?>
+						<?php foreach ( $jobs as $job ) : 
+							if(!empty($count == 6)){
+								$count = 1;
+							}
+							$type_colors = $type_color[$count];
+						?>
+							<tr>
+								
+								<?php 
+								foreach ( $job_dashboard_columns as $key => $column ) :  ?>
+									<td class="<?php echo esc_attr( $key ); ?>">
+									
+										<?php if ('job_title' === $key ) { ?>
+											<div class="twm-bookmark-list">
+												<div class="twm-media">
+                                                    <div class="twm-media-pic">
+													<?php if( has_post_thumbnail($job->ID)) { 
+                                                       echo  get_the_post_thumbnail( $job->ID, 'thumbnail' );
+													}else{  ?>
+													<img class="company_logo" src="<?php echo esc_url(JOBZILLA_URL.'/assets/images/company.png'); ?>" alt="<?php 	wpjm_the_job_title($job); ?>">
+													<?php } ?>
+                                                    </div>
+                                                </div>
+											  <div class="twm-mid-content">
+											<?php if ( $job->post_status == 'publish' ) { ?>
+												<a class="twm-job-title" href="<?php echo esc_url( get_permalink( $job->ID ) ); ?>">
+												<h5>
+													<?php wpjm_the_job_title( $job ); ?>
+												</h5>
+												</a>
+											<?php }else{ ?>
+												<div class="twm-job-title">
+													 <h5>
+														<?php wpjm_the_job_title( $job ); ?> 
+													 </h5>
+												 </div>
+												<?php if($job->post_status == 'expired'){ ?>
+												 <small class="badge bg-danger"><?php the_job_status( $job ); ?></small>
+											<?php } else if($job->post_status === 'preview'){ 
+											?>
+												 <small class="badge bg-secondary"><?php the_job_status( $job ); ?></small>
+											<?php }	
+											} ?>
+											</div>
+											</div>
+											<?php
+											}
+											elseif ('job_type' === $key){ 
+											
+											 $types = wpjm_get_the_job_types($job->ID);   
+											foreach ( $types as $type ) {
+											?>
+											<div class="twm-jobs-category">
+												<a href="<?php echo esc_url( get_permalink( $job->ID ) ); ?>">
+												<span class="<?php echo esc_attr($type_colors); ?>  <?php echo esc_attr( sanitize_title( $type->slug ) ); ?>">
+													<?php echo esc_html( $type->name ); ?>
+												</span>
+												</a>
+											</div>
+
+											<?php 
+												
+											} ?>
+											
+										<?php 
+											}
+										elseif ('date' === $key ) { ?>
+											<div>
+											<?php echo esc_html( wp_date( get_option( 'date_format' ), get_post_datetime( $job )->getTimestamp() ) ); ?>
+											</div>
+										<?php }elseif('closing_date' ===  $key ){
+											?>
+											<div>
+											<?php do_action('job_manager_job_dashboard_column_closing_date',$job); ?>
+											</div>
+										<?php	
+										}elseif ('expires' === $key ) { ?>
+											<div>
+											<?php
+											$job_expires = WP_Job_Manager_Post_Types::instance()->get_job_expiration( $job );
+											echo esc_html( $job_expires ? wp_date( get_option( 'date_format' ), $job_expires->getTimestamp() ) : '&ndash;' );
+											?>
+											</div>
+										<?php }elseif ('filled' === $key ) { ?>
+											<?php echo is_position_filled( $job ) ? '&#10004;' : '&ndash;'; ?>
+										<?php }else { ?>
+												
+											<?php
+											if('applications' === $key){
+										
+												global $post;
+												if($count = get_job_application_count( $job->ID )){
+												echo '<a class="btn btn-primary btn-sm" href="' . add_query_arg( array( 'action' => 'show_applications', 'job_id' => $job->ID ), get_permalink( $post->ID ) ) . '">' . $count .'</a>'; 
+												}else{
+													echo '&ndash;';
+												}
+											
+											}
+											?>
+										<?php } ?>
+										<?php if ('action' === $key ) { ?>
+										
+										<div class="twm-table-controls">	
+											<ul class="twm-DT-controls-icon list-unstyled">
+												<?php
+												
+													if ( ! empty( $job_actions[ $job->ID ] ) ) {
+														foreach ( $job_actions[ $job->ID ] as $action => $value ) {
+															$action_url = add_query_arg( [
+																'action' => $action,
+																'job_id' => $job->ID
+															] );
+															if ( $value['nonce'] ) {
+																$action_url = wp_nonce_url( $action_url, $value['nonce'] );
+															}
+															
+															echo '<li><a title="'.  $value['label']  . '" href="' .  $action_url  . '" class="job-dashboard-action- ' .  $action  . '"><i class="'.  $value['class']  . '"></i></a></li>';
+														}
+													}
+												?>
+											</ul>
+										</div>
+										<?php } ?>
+									
+									</td>
+									
+								<?php
+								endforeach; ?>
+							
+								<?php $count++; ?>
+						<?php endforeach; ?>
+					<?php endif; ?>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>

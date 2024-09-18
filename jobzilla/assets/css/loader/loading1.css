@@ -1,0 +1,60 @@
+/* Advacne Loader Start */
+
+/*==== LOADING ====*/
+#loading-area {
+    width: 100%;
+    height: 100%;
+    background-color: #141516;
+    position: fixed;
+    left: 0;
+    top: 0;
+    opacity: 1;
+    z-index: 999999999;
+    background-repeat: no-repeat;
+    background-size: 60px;
+    background-position: center;
+}
+
+.ml12 {
+	font-weight: 400;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #fff;	   
+}
+.ml12 .letter {
+  display: inline-block;
+					  
+  line-height: 1em;
+}
+.loader2#loading-area{
+	background-image:none;
+}
+.box-load{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+.box-load .load-logo{
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+@media only screen and (max-width: 767px) {
+	.box-load .load-logo {
+		width: 200px;
+	}
+	.ml12{
+		font-size:14px;
+		letter-spacing:2px;	
+		font-weight:400;
+	}
+	.box-load .load-logo{
+		margin-bottom:5px;
+	}
+}
+/* Advacne Loader End */

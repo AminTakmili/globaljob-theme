@@ -1,0 +1,298 @@
+$breakpoint_1600:1600px;
+$breakpoint_1440:1440px;
+$breakpoint_1366:1366px;
+$breakpoint_1360:1360px;
+$breakpoint_1270:1270px;
+$breakpoint_1200:1200px;
+$breakpoint_1199:1199px;
+$breakpoint_1136:1136px;
+$breakpoint_1024:1024px;
+$breakpoint_991:991px;
+$breakpoint_800:800px;
+$breakpoint_768:768px;
+$breakpoint_767:767px;
+$breakpoint_640:640px;
+$breakpoint_600:600px;
+$breakpoint_575:575px;
+$breakpoint_540:540px;
+$breakpoint_480:480px;
+$breakpoint_460:460px;
+$breakpoint_420:420px;
+$breakpoint_400:400px;
+$breakpoint_360:360px;
+$breakpoint_320:320px;
+
+@mixin breakpoint_1600 {
+  @media (max-width:$breakpoint_1600) {
+    @content;
+  }
+}
+
+@mixin breakpoint_1440 {
+  @media (max-width:$breakpoint_1440) {
+    @content;
+  }
+}
+@mixin breakpoint_1366 {
+  @media (max-width:$breakpoint_1366) {
+    @content;
+  }
+}
+@mixin breakpoint_1360 {
+  @media (max-width:$breakpoint_1360) {
+    @content;
+  }
+}
+@mixin breakpoint_1270 {
+  @media (max-width:$breakpoint_1270) {
+    @content;
+  }
+}
+@mixin breakpoint_1200 {
+    @media (max-width:$breakpoint_1200) {
+      @content;
+    }
+}
+@mixin breakpoint_1199 {
+    @media (max-width:$breakpoint_1199) {
+      @content;
+    }
+}
+@mixin breakpoint_1136 {
+  @media (max-width:$breakpoint_1136) {
+    @content;
+  }
+}
+@mixin breakpoint_1024 {
+    @media (max-width:$breakpoint_1024) {
+      @content;
+    }
+}
+@mixin breakpoint_991 {
+    @media (max-width:$breakpoint_991) {
+      @content;
+    }
+}
+@mixin breakpoint_800 {
+  @media (max-width:$breakpoint_800) {
+    @content;
+  }
+}
+@mixin breakpoint_768 {
+    @media (max-width:$breakpoint_768) {
+      @content;
+    }
+}
+@mixin breakpoint_767 {
+    @media (max-width:$breakpoint_767) {
+      @content;
+    }
+}
+@mixin breakpoint_640 {
+  @media (max-width:$breakpoint_640) {
+    @content;
+  }
+}
+@mixin breakpoint_600 {
+    @media (max-width:$breakpoint_600) {
+      @content;
+    }
+}
+@mixin breakpoint_575 {
+  @media (max-width:$breakpoint_575) {
+    @content;
+  }
+}
+@mixin breakpoint_540 {
+    @media (max-width:$breakpoint_540) {
+      @content;
+    }
+}
+@mixin breakpoint_480 {
+    @media (max-width:$breakpoint_480) {
+      @content;
+    }
+}
+@mixin breakpoint_460 {
+  @media (max-width:$breakpoint_460) {
+    @content;
+  }
+}
+@mixin breakpoint_420 {
+  @media (max-width:$breakpoint_420) {
+    @content;
+  }
+}
+@mixin breakpoint_400 {
+    @media (max-width:$breakpoint_400) {
+      @content;
+    }
+}
+
+@mixin breakpoint_360 {
+  @media (max-width:$breakpoint_360) {
+    @content;
+  }
+}
+
+@mixin breakpoint_320 {
+  @media (max-width:$breakpoint_320) {
+    @content;
+  }
+}
+
+//MEDIA QUERY MANAGER
+// 0 - 500: Phone 
+// 500 - 900: Tablet portrait
+// 900 - 1200: Tablet landscape
+// 1200 - 1800: Normal styles
+// 1800+ : Big Desktop
+// 1em = 16px
+// The smaller device rules always should write below the bigger device rules
+// Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Component
+@mixin respond($breakpoint) {
+    @if($breakpoint=="phone") {
+        @media only screen and (max-width: 575px) {
+            @content;
+        }
+    }
+    @if($breakpoint=="phone-land") {
+        @media only screen and (max-width: 767px) {
+            @content;
+        }
+    }
+    @if($breakpoint=="tab-port") {
+        @media only screen and (max-width: 991px) {
+            @content;
+        }
+    }
+	@if($breakpoint=="tab-port-min") {
+        @media only screen and (min-width: 991px) {
+            @content;
+        }
+    }
+    @if($breakpoint=="tab-land") {
+        @media only screen and (max-width: 1199px) {
+            @content;
+        }
+    }
+	@if($breakpoint=="laptop") {
+        @media only screen and (max-width: 1480px) {
+            @content;
+        }
+    }	
+	@if($breakpoint=="laptop-min") {
+        @media only screen and (min-width: 1480px) {
+            @content;
+        }
+    }
+	@if($breakpoint=="wide-desktop") {
+        @media only screen and (max-width: 1680px) {
+            @content;
+        }
+    }
+	@if($breakpoint=="wide-desktop-min") {
+        @media only screen and (min-width: 1680px) {
+            @content;
+        }
+    }
+    @if($breakpoint=="big-desktop") {
+        @media only screen and (min-width: 1800px) {
+            @content;
+        }
+    }
+}
+
+//don't use it untill you need this too much
+@mixin custommq($min: null, $max: null) {
+    @if ($min !=null and $max !=null) {
+        @media only screen and (min-width: $min) and (max-width: $max) {
+            @content;
+        }
+    }
+    @if ($min==null and $max !=null) {
+        @media only screen and (max-width: $max) {
+            @content;
+        }
+    }
+    @if ($min !=null and $max==null) {
+        @media only screen and (min-width: $min) {
+            @content;
+        }
+    }
+}
+
+
+
+
+// transition
+@mixin transitionNone{
+	-webkit-transition: none;
+	-ms-transition: none;
+	transition: none;
+}
+@mixin transitionSlow{
+	-webkit-transition: all 1s;
+	-ms-transition: all 1s;
+	transition: all 1s;
+}
+@mixin transitionMedium{
+	-webkit-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	transition: all 0.8s;
+}
+@mixin transitionFast {
+	-webkit-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	transition: all 0.2s;
+}
+@mixin translateZ{
+	transform:translate(-50%, -50%);
+	-moz-transform:translate(-50%, -50%);
+	-webkit-transform:translate(-50%, -50%);
+	-ms-transform:translate(-50%, -50%);
+	-o-transform:translate(-50%, -50%);
+}
+
+@mixin transformScale{
+	transform:scale(1);
+	-moz-transform:scale(1);
+	-webkit-transform:scale(1);
+	-ms-transform:scale(1);
+	-o-transform:scale(1);
+}
+@mixin transformScaleXS{
+	transform:scale(0.8);
+	-moz-transform:scale(0.8);
+	-webkit-transform:scale(0.8);
+	-ms-transform:scale(0.8);
+	-o-transform:scale(0.8);
+}
+@mixin transformScaleXS1{
+	transform:scale(0.5);
+	-moz-transform:scale(0.5);
+	-webkit-transform:scale(0.5);
+	-ms-transform:scale(0.5);
+	-o-transform:scale(0.5);
+}
+@mixin transformScaleSM{
+	transform:scale(1.2);
+	-moz-transform:scale(1.2);
+	-webkit-transform:scale(1.2);
+	-ms-transform:scale(1.2);
+	-o-transform:scale(1.2);
+}
+@mixin transformScaleMD{
+	transform:scale(1.5);
+	-moz-transform:scale(1.5);
+	-webkit-transform:scale(1.5);
+	-ms-transform:scale(1.5);
+	-o-transform:scale(1.5);
+}
+@mixin translateZ50{
+	transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+}

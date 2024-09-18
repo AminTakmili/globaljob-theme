@@ -1,0 +1,6924 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Jobzilla Version 1.0\n"
+"POT-Creation-Date: 2024-01-12 10:07+0530\n"
+"PO-Revision-Date: 2019-11-30 19:59+0500\n"
+"Last-Translator: Dexign Zone <rahulxarma@gmail.com>\n"
+"Language-Team: Dexign Zone <rahulxarma@gmail.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: esc_html__;esc_html_e;_n;_x;esc_attr_e;esc_attr__;_e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:18 dz-inc/admin/templates/dashboard.php:35
+#: dz-inc/admin/templates/dashboard.php:47 dz-inc/admin/templates/dashboard.php:59
+#: dz-inc/elementor/ajax/post_listing_1_ajax.php:59
+#: dz-inc/elementor/ajax/post_listing_2_ajax.php:56
+#: dz-inc/elementor/ajax/post_listing_3_ajax.php:56
+#: dz-inc/elementor/ajax/post_listing_5_ajax.php:60
+#: dz-inc/elementor/elements/content_box_1_element.php:89
+#: dz-inc/elementor/elements/content_box_1_element.php:138
+#: dz-inc/elementor/elements/content_box_2_element.php:61
+#: dz-inc/elementor/elements/content_box_2_element.php:65
+#: dz-inc/elementor/elements/content_box_2_element.php:67
+#: dz-inc/elementor/elements/content_box_2_element.php:69
+#: dz-inc/elementor/elements/content_box_3_element.php:50
+#: dz-inc/elementor/elements/content_box_4_element.php:62
+#: dz-inc/elementor/elements/content_box_4_element.php:68
+#: dz-inc/elementor/elements/content_box_4_element.php:85
+#: dz-inc/elementor/elements/content_box_5_element.php:32
+#: dz-inc/elementor/elements/content_box_5_element.php:57
+#: dz-inc/elementor/elements/counter_box_1_element.php:95
+#: dz-inc/elementor/elements/home_banner_10_element.php:101
+#: dz-inc/elementor/elements/home_banner_11_element.php:142
+#: dz-inc/elementor/elements/home_banner_11_element.php:165
+#: dz-inc/elementor/elements/home_banner_12_element.php:195
+#: dz-inc/elementor/elements/home_banner_12_element.php:201
+#: dz-inc/elementor/elements/home_banner_14_element.php:210
+#: dz-inc/elementor/elements/home_banner_14_element.php:239
+#: dz-inc/elementor/elements/home_banner_16_element.php:203
+#: dz-inc/elementor/elements/home_banner_17_element.php:24
+#: dz-inc/elementor/elements/home_banner_18_element.php:201
+#: dz-inc/elementor/elements/home_banner_1_element.php:218
+#: dz-inc/elementor/elements/home_banner_4_element.php:97
+#: dz-inc/elementor/elements/home_banner_4_element.php:101
+#: dz-inc/elementor/elements/home_banner_4_element.php:105
+#: dz-inc/elementor/elements/home_banner_4_element.php:109
+#: dz-inc/elementor/elements/home_banner_4_element.php:113
+#: dz-inc/elementor/elements/home_banner_4_element.php:117
+#: dz-inc/elementor/elements/home_banner_4_element.php:121
+#: dz-inc/elementor/elements/home_banner_4_element.php:125
+#: dz-inc/elementor/elements/home_banner_4_element.php:129
+#: dz-inc/elementor/elements/home_banner_4_element.php:133
+#: dz-inc/elementor/elements/home_banner_4_element.php:137
+#: dz-inc/elementor/elements/home_banner_4_element.php:141
+#: dz-inc/elementor/elements/home_banner_5_element.php:174
+#: dz-inc/elementor/elements/home_banner_6_element.php:144
+#: dz-inc/elementor/elements/home_banner_6_element.php:167
+#: dz-inc/elementor/elements/home_banner_6_element.php:170
+#: dz-inc/elementor/elements/home_banner_6_element.php:174
+#: dz-inc/elementor/elements/home_banner_6_element.php:178
+#: dz-inc/elementor/elements/home_banner_8_element.php:156
+#: dz-inc/elementor/elements/home_banner_9_element.php:94
+#: dz-inc/elementor/elements/post_box_1_element.php:98
+#: dz-inc/elementor/elements/post_listing_4_element.php:211
+#: dz-inc/elementor/elements/process_flow_element.php:425
+#: dz-inc/elementor/elements/sitedown_element.php:51
+#: dz-inc/elementor/elements/subscribe_element.php:141
+#: dz-inc/elementor/elements/testimonial_slider_1_element.php:120
+#: dz-inc/elementor/elements/testimonial_slider_1_element.php:190
+#: dz-inc/elementor/elements/testimonial_slider_2_element.php:177
+#: dz-inc/elements/company_template/standard.php:24
+#: dz-inc/elements/company_template/standard.php:118
+#: dz-inc/elements/company_template/standard_2.php:210
+#: dz-inc/elements/job_template/standard.php:95
+#: dz-inc/elements/job_template/standard.php:259
+#: dz-inc/elements/job_template/standard_2.php:89
+#: dz-inc/elements/job_template/standard_2.php:426
+#: dz-inc/elements/maintinance/maintinance_1.php:51
+#: dz-inc/elements/post_template/post_slider_1.php:40
+#: dz-inc/elements/resume_template/standard.php:31
+#: dz-inc/elements/resume_template/standard_2.php:24 dz-inc/library/widgets.php:32
+#: dz-inc/library/wp-job-manager/mas-wp-job-manager-company.php:345
+#: dz-inc/user_panel/login.php:13 dz-inc/user_panel/lost-password.php:16
+#: job_manager/content-single-job_listing.php:63
+#: job_manager/content-single-job_listing.php:165
+msgid "Image"
+msgstr ""
+
+#: archive-company.php:20 job_manager/job-filters.php:25
+#: wp-job-manager-resumes/resume-filters.php:34
+msgid "Fillter"
+msgstr ""
+
+#: archive-company.php:48
+msgid "Search keywords"
+msgstr ""
+
+#: archive-company.php:51
+msgid "Company title or keywords"
+msgstr ""
+
+#: archive-company.php:74 dz-inc/dz-redux/theme-options.php:715
+#: dz-inc/dz-redux/theme-options.php:1928 functions.php:309
+msgid "Search"
+msgstr ""
+
+#: archive-company.php:124 archive-company.php:157
+#: dz-inc/library/wp-job-manager/mas-wp-job-manager-company.php:440
+#: dz-inc/library/wp-job-manager/mas-wp-job-manager-company.php:469
+msgid "Vacancies"
+msgstr ""
+
+#: archive-company.php:175
+msgid "There are currently no vacancies."
+msgstr ""
+
+#: archive.php:13
+msgid "yearly archives date format"
+msgstr ""
+
+#: assets/vendor/leaflet/leaflet.js:5
+msgid "number"
+msgstr ""
+
+#: assets/vendor/leaflet/leaflet.js:5
+msgid "shadow"
+msgstr ""
+
+#: category.php:14 functions.php:877
+msgid "Category : "
+msgstr ""
+
+#: comments.php:32 dz-inc/user_panel/elements/footer.php:39
+msgid "1 Comment"
+msgstr ""
+
+#: comments.php:34 comments.php:37 dz-inc/user_panel/elements/footer.php:41
+#: dz-inc/user_panel/elements/footer.php:44
+msgid "Comments"
+msgstr ""
+
+#: comments.php:62 dz-inc/user_panel/elements/footer.php:70
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:63 dz-inc/user_panel/elements/footer.php:71
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:64 dz-inc/user_panel/elements/footer.php:72
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:71 dz-inc/user_panel/elements/footer.php:78
+msgid "Comments are closed."
+msgstr ""
+
+#: dz-inc/admin/templates/dashboard.php:13 dz-inc/admin/templates/plugins.php:30
+#: dz-inc/admin/templates/system_status.php:263
+msgid "Introduction"
+msgstr ""
+
+#: dz-inc/admin/templates/dashboard.php:16 dz-inc/admin/templates/plugins.php:33
+#: dz-inc/admin/templates/system_status.php:266
+msgid "Plugins"
+msgstr ""
+
+#: dz-inc/admin/templates/dashboard.php:19 dz-inc/admin/templates/plugins.php:36
+#: dz-inc/admin/templates/system_status.php:269
+#: dz-inc/admin/templates/system_status.php:275
+#: dz-inc/library/class-menu-handle.php:66 dz-inc/library/class-menu-handle.php:67
+msgid "System Status"
+msgstr ""
+
+#: dz-inc/admin/templates/dashboard.php:38
+msgid "Support"
+msgstr ""
+
+#: dz-inc/admin/templates/dashboard.php:39
+msgid ""
+"We would happy to help you solve any issues. If you have any question then "
+"contact us on our support panel."
+msgstr ""
+
+#: dz-inc/admin/templates/dashboard.php:40
+msgid "Go To Support"
+msgstr ""
+
+#: dz-inc/admin/templates/dashboard.php:50
+msgid "Documentation"
+msgstr ""
+
+#: dz-inc/admin/templates/dashboard.php:51
+msgid ""
+"Our online documentation helps you to learn how to setup and customize the "
+"theme."
+msgstr ""
+
+#: dz-inc/admin/templates/dashboard.php:52
+msgid "Read Docs"
+msgstr ""
+
+#: dz-inc/admin/templates/dashboard.php:62
+msgid "Video Tutorials"
+msgstr ""
+
+#: dz-inc/admin/templates/dashboard.php:63
+msgid "The video tutorial will help you do the learn easily the theme."
+msgstr ""
+
+#: dz-inc/admin/templates/dashboard.php:64
+msgid "Watch Now"
+msgstr ""
+
+#: dz-inc/admin/templates/plugins.php:84
+msgid "Update Available: Version"
+msgstr ""
+
+#: dz-inc/admin/templates/plugins.php:91
+msgid "Active:"
+msgstr ""
+
+#: dz-inc/admin/templates/plugins.php:109
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2372
+msgid "Required"
+msgstr ""
+
+#: dz-inc/admin/templates/system_status.php:38
+#: dz-inc/admin/templates/system_status.php:45
+msgid "Theme Config"
+msgstr ""
+
+#: dz-inc/admin/templates/system_status.php:56
+msgid "Theme Version"
+msgstr ""
+
+#: dz-inc/admin/templates/system_status.php:66
+msgid "PHP Config"
+msgstr ""
+
+#: dz-inc/admin/templates/system_status.php:73
+msgid "Server Software"
+msgstr ""
+
+#: dz-inc/admin/templates/system_status.php:85
+msgid "PHP"
+msgstr ""
+
+#: dz-inc/admin/templates/system_status.php:91
+msgid "Required version 7.0 or greater."
+msgstr ""
+
+#: dz-inc/admin/templates/system_status.php:102
+msgid "MySQL"
+msgstr ""
+
+#: dz-inc/admin/templates/system_status.php:108
+msgid "Required version 5 or greater."
+msgstr ""
+
+#: dz-inc/admin/templates/system_status.php:119
+msgid "Max Execution Time"
+msgstr ""
+
+#: dz-inc/admin/templates/system_status.php:125
+msgid "Required max_execution_time more than 300."
+msgstr ""
+
+#: dz-inc/admin/templates/system_status.php:136
+msgid "Max Input Vars"
+msgstr ""
+
+#: dz-inc/admin/templates/system_status.php:142
+msgid "Required max_input_vars more than 1000."
+msgstr ""
+
+#: dz-inc/admin/templates/system_status.php:152
+msgid "Post Max Size"
+msgstr ""
+
+#: dz-inc/admin/templates/system_status.php:158
+msgid "Required post_max_size more than 32."
+msgstr ""
+
+#: dz-inc/admin/templates/system_status.php:168
+msgid "WordPress Config"
+msgstr ""
+
+#: dz-inc/admin/templates/system_status.php:175
+msgid "Site URL"
+msgstr ""
+
+#: dz-inc/admin/templates/system_status.php:186
+msgid "Home URL"
+msgstr ""
+
+#: dz-inc/admin/templates/system_status.php:197
+msgid "WP version"
+msgstr ""
+
+#: dz-inc/admin/templates/system_status.php:205
+msgid "Required version 5.0 or greater"
+msgstr ""
+
+#: dz-inc/admin/templates/system_status.php:216
+msgid "WP Multisite Status"
+msgstr ""
+
+#: dz-inc/admin/templates/system_status.php:220
+#: wc-paid-listings/my-packages.php:65
+msgid "Yes"
+msgstr ""
+
+#: dz-inc/admin/templates/system_status.php:220
+#: wc-paid-listings/my-packages.php:67
+msgid "No"
+msgstr ""
+
+#: dz-inc/admin/templates/system_status.php:227
+msgid "WP Language"
+msgstr ""
+
+#: dz-inc/admin/templates/system_status.php:238
+msgid "WP Memory Limit"
+msgstr ""
+
+#: dz-inc/admin/templates/system_status.php:245
+msgid "Required memory limit 64M."
+msgstr ""
+
+#: dz-inc/ajax/archive_ajax.php:68 dz-inc/ajax/author_ajax.php:76
+#: dz-inc/ajax/category_ajax.php:76 dz-inc/ajax/index_ajax.php:68
+#: dz-inc/ajax/search_ajax.php:78 dz-inc/ajax/tag_ajax.php:79
+#: dz-inc/elementor/ajax/post_listing_1_ajax.php:98
+#: dz-inc/elementor/ajax/post_listing_3_ajax.php:95
+#: dz-inc/elementor/elements/post_slider_1_element.php:173
+#: dz-inc/elements/archive_page_pagination_posts_element.php:54
+#: dz-inc/elements/author_page_pagination_posts_element.php:59
+#: dz-inc/elements/category_page_pagination_posts_element.php:57
+#: dz-inc/elements/index_page_pagination_posts_element.php:55
+#: dz-inc/elements/post_template/post_audio.php:67
+#: dz-inc/elements/post_template/post_cornerimage.php:57
+#: dz-inc/elements/post_template/post_gutenberg.php:44
+#: dz-inc/elements/post_template/post_header_image.php:52
+#: dz-inc/elements/post_template/post_link.php:67
+#: dz-inc/elements/post_template/post_slider_1.php:79
+#: dz-inc/elements/post_template/post_slider_2.php:85
+#: dz-inc/elements/post_template/post_standard.php:65
+#: dz-inc/elements/post_template/post_video.php:68
+#: dz-inc/elements/related_element.php:88
+#: dz-inc/elements/search_page_pagination_posts_element.php:55
+#: dz-inc/elements/tag_page_pagination_posts_element.php:55
+msgid "By"
+msgstr ""
+
+#: dz-inc/ajax/archive_ajax.php:86 dz-inc/ajax/author_ajax.php:94
+#: dz-inc/ajax/category_ajax.php:94 dz-inc/ajax/index_ajax.php:87
+#: dz-inc/ajax/search_ajax.php:96 dz-inc/ajax/tag_ajax.php:97
+#: dz-inc/elementor/ajax/post_listing_1_ajax.php:115
+#: dz-inc/elementor/ajax/post_listing_2_ajax.php:105
+#: dz-inc/elementor/ajax/post_listing_5_ajax.php:124
+#: dz-inc/elementor/elements/post_box_1_element.php:112
+#: dz-inc/elementor/elements/post_box_1_element.php:141
+#: dz-inc/elementor/elements/post_slider_1_element.php:131
+#: dz-inc/elements/archive_page_pagination_posts_element.php:73
+#: dz-inc/elements/author_page_pagination_posts_element.php:78
+#: dz-inc/elements/category_page_pagination_posts_element.php:76
+#: dz-inc/elements/index_page_pagination_posts_element.php:74
+#: dz-inc/elements/search_page_pagination_posts_element.php:74
+#: dz-inc/elements/tag_page_pagination_posts_element.php:74
+msgid "Read More"
+msgstr ""
+
+#: dz-inc/candidate_panel/candidate_dashboard.php:31
+#: dz-inc/user_panel/elements/candidate_dashboard.php:29
+#: dz-inc/user_panel/elements/employer_dashboard.php:27
+msgid "You are not authorize for this location."
+msgstr ""
+
+#: dz-inc/candidate_panel/candidate_dashboard.php:48
+#: dz-inc/user_panel/elements/candidate_dashboard.php:40
+msgid "Posted Resumes"
+msgstr ""
+
+#: dz-inc/candidate_panel/candidate_dashboard.php:61
+#: dz-inc/user_panel/elements/candidate_dashboard.php:53
+#: dz-inc/user_panel/elements/employer_dashboard.php:51
+msgid "Total Applications"
+msgstr ""
+
+#: dz-inc/candidate_panel/candidate_dashboard.php:75
+#: dz-inc/library/functions.php:2103 dz-inc/library/functions.php:2204
+#: dz-inc/library/functions.php:2254 dz-inc/library/functions.php:2313
+#: dz-inc/user_panel/elements/candidate_dashboard.php:67
+#: dz-inc/user_panel/elements/employer_dashboard.php:65
+msgid "Messages"
+msgstr ""
+
+#: dz-inc/candidate_panel/candidate_dashboard.php:90
+#: dz-inc/user_panel/elements/candidate_dashboard.php:82
+#: dz-inc/user_panel/elements/employer_dashboard.php:80
+msgid "Notifications"
+msgstr ""
+
+#: dz-inc/candidate_panel/candidate_dashboard.php:106
+#: dz-inc/user_panel/elements/candidate_dashboard.php:97
+msgid "Your Resumes Views"
+msgstr ""
+
+#: dz-inc/candidate_panel/candidate_dashboard.php:146
+#: dz-inc/user_panel/elements/candidate_dashboard.php:144
+#: dz-inc/user_panel/elements/employer_dashboard.php:143
+msgid "Inbox"
+msgstr ""
+
+#: dz-inc/candidate_panel/candidate_dashboard.php:185
+#: dz-inc/user_panel/elements/candidate_dashboard.php:190
+msgid "Jobs Applied Recently"
+msgstr ""
+
+#: dz-inc/candidate_panel/dashboard.php:60 dz-inc/elements/header/header_1.php:123
+#: dz-inc/elements/header/header_2.php:120 dz-inc/elements/header/header_3.php:120
+#: dz-inc/elements/header/header_4.php:120 dz-inc/elements/header/header_5.php:120
+#: dz-inc/elements/header/header_6.php:121
+#: dz-inc/user_panel/elements/header.php:209
+#: dz-inc/user_panel/elements/sidebar.php:46
+msgid "Logout"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:9
+msgid "Jobzilla Home 1"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:15
+msgid "Jobzilla Home 2"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:21
+msgid "Jobzilla Home 3"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:27
+msgid "Jobzilla Home 4"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:39
+msgid "Comingsoon"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:47 dz-inc/dz-redux/theme-options.php:376
+msgid "Maintenance"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:55
+msgid "Error"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:72
+#: dz-inc/library/wp-job-manager/job_manager.php:141
+#: dz-inc/library/wp-job-manager/job_manager.php:216
+#: dz-inc/library/wp-job-manager/mas-wp-job-manager-company.php:109
+#: dz-inc/library/wp-job-manager/mas-wp-job-manager-company.php:186
+#: dz-inc/library/wp-job-manager/wp-job-manager-resumes.php:97
+#: dz-inc/library/wp-job-manager/wp-job-manager-resumes.php:171
+msgid "Standard"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:80
+msgid "Gutenberg"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:88
+msgid "Corner Post"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:96
+msgid "Header Image"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:104
+msgid "Slider Post 2"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:112
+msgid "Link Post"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:120
+msgid "Video Post"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:128
+msgid "Audio Post"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:136
+msgid "Slider Post 1"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:152
+msgid "Style - Transparent"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:168
+msgid "Style - Transparent Header"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:184
+msgid "Style - Normal"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:200
+msgid "Style - Transparent For Container"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:217
+msgid "Style - Normal For Container"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:233
+msgid "Side Header"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:257
+msgid "Footer 1"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:272
+msgid "Footer 2"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:288
+msgid "Footer 3"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:306
+msgid "Dark Footer"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:331
+#: dz-inc/library/wp-job-manager/job_manager.php:142
+#: dz-inc/library/wp-job-manager/job_manager.php:217
+#: dz-inc/library/wp-job-manager/mas-wp-job-manager-company.php:110
+#: dz-inc/library/wp-job-manager/mas-wp-job-manager-company.php:187
+#: dz-inc/library/wp-job-manager/wp-job-manager-resumes.php:98
+#: dz-inc/library/wp-job-manager/wp-job-manager-resumes.php:172
+msgid "Full Width"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:338
+msgid "Left Side"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:345
+msgid "Right Side"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:361
+msgid "Post Box 1"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:369
+msgid "Post Box 2"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:377
+msgid "Post Box 3"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:385
+msgid "Post Box 4"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:393
+msgid "Post Box 5"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:401
+msgid "Post Box 6"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:409
+msgid "Post Box 7"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:417
+msgid "Post Box 8"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:425
+msgid "Post Box 9"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:433
+msgid "Post Box 10"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:450
+msgid "Post Listing 1"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:457
+msgid "Post Listing 2"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:464
+msgid "Team Listing 1"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:471
+msgid "Portfolio Listing 1"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:479
+msgid "Service Listing 1"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:495
+msgid "Post Tile 1"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:503
+msgid "Post Tile 2"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:519
+msgid "Fit to Screen"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:527
+msgid "Banner Medium"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:535
+msgid "Banner Small"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:543
+msgid "Custom Height"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:560
+msgid "Post Banner 1"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:573
+msgid "Post Banner 2"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:586
+msgid "Post Banner 3"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:607
+msgid "Full"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:615
+msgid "Box"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:623
+msgid "Frame"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:639 dz-inc/dz-redux/constant.php:895
+msgid "Brown"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:647 dz-inc/dz-redux/constant.php:832
+msgid "Green"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:655
+msgid "Pink"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:663 dz-inc/dz-redux/constant.php:859
+msgid "Red"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:671
+msgid "Cyan"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:679 dz-inc/dz-redux/constant.php:850
+msgid "Yellow"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:742
+msgid "Pattern Name 1"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:748
+msgid "Pattern Name 2"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:754
+msgid "Pattern Name 3"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:760
+msgid "Pattern Name 4"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:766
+msgid "Pattern Name 5"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:772
+msgid "Pattern Name 6"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:778
+msgid "Pattern Name 7"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:784
+msgid "Pattern Name 8"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:790
+msgid "Pattern Name 9"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:796
+msgid "Pattern Name 10"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:802
+msgid "Pattern Name 11"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:808
+msgid "Pattern Name 12"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:823
+msgid "Standard Orange"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:841
+msgid "Chocolate"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:868
+msgid "Sky Blue"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:877
+msgid "Dark Yellow"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:886
+msgid "Dark Green"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:910
+msgid "Loading 1"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:916
+msgid "Loading 2"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:922
+msgid "Loading 3"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:928
+msgid "Loading 4"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:934
+msgid "Loading 5"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:940
+msgid "Loading 6"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:954
+msgid "Date ASC"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:955
+msgid "Date DESC"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:956
+msgid "Title ASC"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:957
+msgid "Title DESC"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:958
+msgid "Most Visited"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:967
+msgid "Opens the link in a new tab."
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:968
+msgid "Opens the link in the parent frame."
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:969
+msgid "Open the link in the current frame."
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:970
+msgid "Opens the link in the top-most frame."
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:979
+msgid "Auto"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:980
+msgid "120 x 90"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:981
+msgid "120 x 240"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:982
+msgid "120 x 600"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:983
+msgid "125 x 125"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:984
+msgid "160 x 90"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:985
+msgid "160 x 600"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:986
+msgid "180 x 90"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:987
+msgid "180 x 150"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:988
+msgid "200 x 90"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:989
+msgid "200 x 200"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:990
+msgid "234 x 60"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:991
+msgid "250 x 250"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:992
+msgid "320 x 100"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:993
+msgid "300 x 250"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:994
+msgid "300 x 600"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:995
+msgid "300 x 1050"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:996
+msgid "320 x 50"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:997
+msgid "336 x 280"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:998
+msgid "360 x 300"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:999
+msgid "435 x 300"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1000
+msgid "468 x 15"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1001
+msgid "468 x 60"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1002
+msgid "640 x 165"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1003
+msgid "640 x 190"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1004
+msgid "640 x 300"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1005
+msgid "728 x 15"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1006
+msgid "728 x 90"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1007
+msgid "970 x 90"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1008
+msgid "970 x 250"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1009
+msgid "240 x 400 - Regional ad sizes"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1010
+msgid "250 x 360 - Regional ad sizes"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1011
+msgid "580 x 400 - Regional ad sizes"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1012
+msgid "750 x 100 - Regional ad sizes"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1013
+msgid "750 x 200 - Regional ad sizes"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1014
+msgid "750 x 300 - Regional ad sizes"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1015
+msgid "980 x 120 - Regional ad sizes"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1016
+msgid "930 x 180 - Regional ad sizes"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1028 dz-inc/dz-redux/constant.php:1170
+#: dz-inc/elements/company_template/standard.php:69
+#: dz-inc/elements/job_template/standard.php:206
+#: dz-inc/elements/job_template/standard_2.php:384
+#: dz-inc/library/wp-job-manager/mas-wp-job-manager-company.php:280
+#: job_manager/content-single-job_listing.php:128
+msgid "Facebook"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1032 dz-inc/dz-redux/constant.php:1174
+#: dz-inc/elements/company_template/standard.php:75
+#: dz-inc/elements/job_template/standard.php:209
+#: dz-inc/elements/job_template/standard_2.php:387
+#: dz-inc/library/wp-job-manager/mas-wp-job-manager-company.php:286
+#: job_manager/content-single-job_listing.php:131
+msgid "Twitter"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1036 dz-inc/dz-redux/constant.php:1178
+#: dz-inc/elements/company_template/standard.php:81
+#: dz-inc/elements/job_template/standard.php:213
+#: dz-inc/elements/job_template/standard_2.php:391
+#: dz-inc/library/wp-job-manager/mas-wp-job-manager-company.php:33
+#: dz-inc/library/wp-job-manager/mas-wp-job-manager-company.php:140
+#: dz-inc/library/wp-job-manager/mas-wp-job-manager-company.php:293
+#: job_manager/content-single-job_listing.php:135
+msgid "Linkedin"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1040
+msgid "Instagram"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1044
+msgid "Behance"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1048
+msgid "Skype"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1052 dz-inc/dz-redux/constant.php:1182
+#: dz-inc/elements/company_template/standard.php:93
+#: dz-inc/elements/job_template/standard.php:221
+#: dz-inc/elements/job_template/standard_2.php:399
+#: dz-inc/library/wp-job-manager/mas-wp-job-manager-company.php:47
+#: dz-inc/library/wp-job-manager/mas-wp-job-manager-company.php:148
+#: dz-inc/library/wp-job-manager/mas-wp-job-manager-company.php:304
+#: job_manager/content-single-job_listing.php:143
+msgid "Pinterest"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1056
+msgid "Vimeo"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1060
+msgid "Youtube"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1064 dz-inc/dz-redux/constant.php:1186
+msgid "Tumblr"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1068
+msgid "Rss"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1072
+msgid "Yelp"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1076
+msgid "Tripadvisor"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1080
+msgid "Blogger"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1084
+msgid "Delicious"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1088 dz-inc/dz-redux/constant.php:1190
+msgid "Digg"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1092
+msgid "Dribbble"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1096
+msgid "Flickr"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1100
+msgid "Lastfm"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1104
+msgid "Paypal"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1108 dz-inc/dz-redux/constant.php:1194
+msgid "Reddit"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1112
+msgid "Share"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1116
+msgid "Soundcloud"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1120
+msgid "Spotify"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1124
+msgid "Stack Overflow"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1128
+msgid "Steam"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1132
+msgid "Stumbleupon"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1136
+msgid "Telegram"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1140
+msgid "Twitch"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1144
+msgid "VKontakte"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1148
+msgid "Windows"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1152
+msgid "WordPress"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1156
+#: wp-job-manager-resumes/contact-details-email.php:27
+msgid "Yahoo"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1205
+msgid "Image Type Banner"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1218
+msgid "Banner Layout 1"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1225
+msgid "Banner Layout 2"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1233
+msgid "Banner Layout 3"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1241
+msgid "Banner Layout 4"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1249
+msgid "Banner Layout 5"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1266
+msgid "Post Related 1"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1273
+msgid "Post Related 2"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1280
+msgid "Post Related 3"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1287
+msgid "Post Related 4"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1303 dz-inc/dz-redux/theme-options.php:1902
+#: dz-inc/dz-redux/theme-options.php:2347
+msgid "Default"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1311 dz-inc/library/widgets.php:247
+msgid "Style 1"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1319 dz-inc/library/widgets.php:248
+msgid "Style 2"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1327
+msgid "Style 3"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1335
+msgid "Style 4"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1343
+msgid "Custom"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1359
+msgid "Banner Style 1"
+msgstr ""
+
+#: dz-inc/dz-redux/constant.php:1367
+msgid "Banner Style 2"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:50 dz-inc/dz-redux/theme-options.php:1500
+msgid "Post Settings"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:87 dz-inc/dz-redux/page-options.php:850
+#: dz-inc/elements/resume_template/standard.php:150
+msgid "General"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:93 dz-inc/dz-redux/page-options.php:842
+msgid "Featured Post?"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:94 dz-inc/dz-redux/page-options.php:843
+msgid "Check if you want to make this post as featured post"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:101
+msgid "Post Layout"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:108
+msgid "Layout"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:109
+msgid "Select a template."
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:110 dz-inc/dz-redux/theme-options.php:1516
+msgid "Click on the template icon to select."
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:114 dz-inc/dz-redux/theme-options.php:1520
+msgid "How it Works?"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:115
+msgid ""
+"Once you select the template from here, the template will apply for this page "
+"only."
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:121 dz-inc/dz-redux/page-options.php:134
+#: dz-inc/dz-redux/page-options.php:147
+msgid "Gallery"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:122 dz-inc/dz-redux/page-options.php:135
+#: dz-inc/dz-redux/page-options.php:148
+msgid "Select the gallery images"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:123 dz-inc/dz-redux/page-options.php:136
+#: dz-inc/dz-redux/page-options.php:149
+msgid ""
+"For better layout, Image size width greater than 1000 and height greater than "
+"600"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:160
+msgid "External Link"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:172 dz-inc/dz-redux/page-options.php:173
+msgid "Author Name"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:183 dz-inc/dz-redux/page-options.php:184
+msgid "Quote Text"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:194
+msgid "Sound Cloud Link"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:206
+msgid "Video Link"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:218 dz-inc/dz-redux/page-options.php:248
+#: dz-inc/dz-redux/page-options.php:702 dz-inc/dz-redux/page-options.php:724
+#: dz-inc/dz-redux/theme-options.php:487 dz-inc/dz-redux/theme-options.php:1868
+#: dz-inc/dz-redux/theme-options.php:1886 dz-inc/dz-redux/theme-options.php:2134
+#: dz-inc/dz-redux/theme-options.php:2152
+msgid "Sidebar"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:219
+msgid "Show / hide sidebar from this posts detail page."
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:220 dz-inc/dz-redux/page-options.php:264
+#: dz-inc/dz-redux/page-options.php:272 dz-inc/dz-redux/page-options.php:297
+#: dz-inc/dz-redux/page-options.php:382 dz-inc/dz-redux/page-options.php:501
+#: dz-inc/dz-redux/page-options.php:595 dz-inc/dz-redux/page-options.php:703
+#: dz-inc/dz-redux/page-options.php:758 dz-inc/dz-redux/theme-options.php:437
+#: dz-inc/dz-redux/theme-options.php:449 dz-inc/dz-redux/theme-options.php:460
+#: dz-inc/dz-redux/theme-options.php:475 dz-inc/dz-redux/theme-options.php:490
+#: dz-inc/dz-redux/theme-options.php:502 dz-inc/dz-redux/theme-options.php:717
+#: dz-inc/dz-redux/theme-options.php:758 dz-inc/dz-redux/theme-options.php:790
+#: dz-inc/dz-redux/theme-options.php:799 dz-inc/dz-redux/theme-options.php:808
+#: dz-inc/dz-redux/theme-options.php:823 dz-inc/dz-redux/theme-options.php:832
+#: dz-inc/dz-redux/theme-options.php:855 dz-inc/dz-redux/theme-options.php:875
+#: dz-inc/dz-redux/theme-options.php:893 dz-inc/dz-redux/theme-options.php:902
+#: dz-inc/dz-redux/theme-options.php:1031 dz-inc/dz-redux/theme-options.php:1090
+#: dz-inc/dz-redux/theme-options.php:1100 dz-inc/dz-redux/theme-options.php:1110
+#: dz-inc/dz-redux/theme-options.php:1210 dz-inc/dz-redux/theme-options.php:1528
+#: dz-inc/dz-redux/theme-options.php:1536 dz-inc/dz-redux/theme-options.php:1544
+#: dz-inc/dz-redux/theme-options.php:1552 dz-inc/dz-redux/theme-options.php:1571
+#: dz-inc/dz-redux/theme-options.php:1579 dz-inc/dz-redux/theme-options.php:1588
+#: dz-inc/dz-redux/theme-options.php:1596 dz-inc/dz-redux/theme-options.php:1605
+#: dz-inc/dz-redux/theme-options.php:1615 dz-inc/dz-redux/theme-options.php:1623
+#: dz-inc/dz-redux/theme-options.php:1724 dz-inc/dz-redux/theme-options.php:1869
+#: dz-inc/dz-redux/theme-options.php:1982 dz-inc/dz-redux/theme-options.php:2135
+#: dz-inc/dz-redux/theme-options.php:2542 dz-inc/dz-redux/theme-options.php:2550
+msgid "Enabled"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:221 dz-inc/dz-redux/page-options.php:265
+#: dz-inc/dz-redux/page-options.php:273 dz-inc/dz-redux/page-options.php:298
+#: dz-inc/dz-redux/page-options.php:383 dz-inc/dz-redux/page-options.php:502
+#: dz-inc/dz-redux/page-options.php:596 dz-inc/dz-redux/page-options.php:704
+#: dz-inc/dz-redux/page-options.php:759 dz-inc/dz-redux/theme-options.php:438
+#: dz-inc/dz-redux/theme-options.php:450 dz-inc/dz-redux/theme-options.php:461
+#: dz-inc/dz-redux/theme-options.php:476 dz-inc/dz-redux/theme-options.php:491
+#: dz-inc/dz-redux/theme-options.php:503 dz-inc/dz-redux/theme-options.php:718
+#: dz-inc/dz-redux/theme-options.php:759 dz-inc/dz-redux/theme-options.php:791
+#: dz-inc/dz-redux/theme-options.php:800 dz-inc/dz-redux/theme-options.php:809
+#: dz-inc/dz-redux/theme-options.php:824 dz-inc/dz-redux/theme-options.php:833
+#: dz-inc/dz-redux/theme-options.php:856 dz-inc/dz-redux/theme-options.php:876
+#: dz-inc/dz-redux/theme-options.php:894 dz-inc/dz-redux/theme-options.php:903
+#: dz-inc/dz-redux/theme-options.php:1032 dz-inc/dz-redux/theme-options.php:1091
+#: dz-inc/dz-redux/theme-options.php:1101 dz-inc/dz-redux/theme-options.php:1111
+#: dz-inc/dz-redux/theme-options.php:1211 dz-inc/dz-redux/theme-options.php:1529
+#: dz-inc/dz-redux/theme-options.php:1537 dz-inc/dz-redux/theme-options.php:1545
+#: dz-inc/dz-redux/theme-options.php:1553 dz-inc/dz-redux/theme-options.php:1572
+#: dz-inc/dz-redux/theme-options.php:1580 dz-inc/dz-redux/theme-options.php:1589
+#: dz-inc/dz-redux/theme-options.php:1597 dz-inc/dz-redux/theme-options.php:1606
+#: dz-inc/dz-redux/theme-options.php:1616 dz-inc/dz-redux/theme-options.php:1624
+#: dz-inc/dz-redux/theme-options.php:1725 dz-inc/dz-redux/theme-options.php:1870
+#: dz-inc/dz-redux/theme-options.php:1983 dz-inc/dz-redux/theme-options.php:2136
+#: dz-inc/dz-redux/theme-options.php:2543 dz-inc/dz-redux/theme-options.php:2551
+msgid "Disabled"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:234 dz-inc/dz-redux/page-options.php:710
+#: dz-inc/dz-redux/theme-options.php:1876 dz-inc/dz-redux/theme-options.php:2142
+msgid "Sidebar Layout"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:235 dz-inc/dz-redux/page-options.php:711
+#: dz-inc/dz-redux/theme-options.php:1877
+msgid "Choose the layout for page. (Default : Right Side)."
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:249
+msgid "Select sidebar."
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:263
+msgid "Show Feature Image"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:271
+msgid "Show Post Pagination"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:279 dz-inc/dz-redux/page-options.php:296
+#: dz-inc/dz-redux/theme-options.php:1622
+msgid "Post Banner"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:280
+msgid "Settings for post banner."
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:286
+msgid "Post Banner Settings"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:288 dz-inc/dz-redux/page-options.php:448
+#: dz-inc/dz-redux/page-options.php:492 dz-inc/dz-redux/page-options.php:749
+msgid "Theme Default"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:289 dz-inc/dz-redux/page-options.php:449
+#: dz-inc/dz-redux/page-options.php:493 dz-inc/dz-redux/page-options.php:750
+msgid "Custom Setting"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:310 dz-inc/dz-redux/theme-options.php:1630
+msgid "Post Banner Type"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:322 dz-inc/dz-redux/theme-options.php:1646
+#: dz-inc/dz-redux/theme-options.php:1812
+msgid "Post Banner Layout"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:334 dz-inc/dz-redux/theme-options.php:1658
+msgid "Post Banner Height"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:335 dz-inc/dz-redux/page-options.php:526
+#: dz-inc/dz-redux/theme-options.php:1759
+msgid "Choose the height for all tag page banner. Default : Medium Banner"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:349
+msgid "Post Banner Custom Height"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:350 dz-inc/dz-redux/page-options.php:541
+#: dz-inc/dz-redux/theme-options.php:1668 dz-inc/dz-redux/theme-options.php:1769
+#: dz-inc/dz-redux/theme-options.php:2029
+msgid "Hight description. Min: 100, max: 800"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:366 dz-inc/dz-redux/theme-options.php:1680
+msgid "Post Banner Image"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:367 dz-inc/dz-redux/page-options.php:569
+#: dz-inc/dz-redux/theme-options.php:1681 dz-inc/dz-redux/theme-options.php:1782
+msgid ""
+"Enter page banner image. It will work as default banner image for all pages"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:368 dz-inc/dz-redux/page-options.php:570
+#: dz-inc/dz-redux/theme-options.php:1682 dz-inc/dz-redux/theme-options.php:1783
+#: dz-inc/dz-redux/theme-options.php:2043
+msgid "Upload banner image."
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:379 dz-inc/dz-redux/page-options.php:592
+#: dz-inc/dz-redux/theme-options.php:457
+msgid "Breadcrumb Area"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:380 dz-inc/dz-redux/page-options.php:593
+#: dz-inc/dz-redux/theme-options.php:458
+msgid "Click on the tab to Enable / Disable the website breadcrumb."
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:381 dz-inc/dz-redux/page-options.php:594
+msgid "This setting affects only on this page."
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:402 dz-inc/dz-redux/theme-options.php:1710
+msgid "Page Settings"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:439
+msgid "Page Header"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:440
+msgid "Header settings for the page."
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:446
+msgid "Page Header Settings"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:456 dz-inc/dz-redux/theme-options.php:774
+msgid "Header Style"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:457
+msgid "Choose header style. White header is set as default header for this page."
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:470
+msgid "Header Theme"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:483 dz-inc/dz-redux/page-options.php:500
+#: dz-inc/dz-redux/theme-options.php:1723 dz-inc/dz-redux/theme-options.php:1981
+msgid "Page Banner"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:484
+msgid "Settings for page banner."
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:490
+msgid "Page Banner Settings"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:513 dz-inc/dz-redux/theme-options.php:1731
+#: dz-inc/dz-redux/theme-options.php:1990
+msgid "Page Banner Type"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:525 dz-inc/dz-redux/theme-options.php:1758
+#: dz-inc/dz-redux/theme-options.php:2017
+msgid "Page Banner Height"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:540 dz-inc/dz-redux/theme-options.php:1667
+#: dz-inc/dz-redux/theme-options.php:1768 dz-inc/dz-redux/theme-options.php:2028
+msgid "Page Banner Custom Height"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:555
+msgid "Page Banner Style"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:568 dz-inc/dz-redux/theme-options.php:1781
+#: dz-inc/dz-redux/theme-options.php:2041
+msgid "Page Banner Image"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:583
+msgid "Page Banner Title"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:584
+msgid "Enter page banner title."
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:607 dz-inc/dz-redux/theme-options.php:2052
+msgid "Don`t use banner image for this page"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:609 dz-inc/dz-redux/theme-options.php:2054
+msgid "Check if you don`t want to use banner image"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:616 dz-inc/dz-redux/theme-options.php:2057
+msgid ""
+"If we don`t have suitable image then we can hide current or default banner "
+"images and show only banner container with theme default color."
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:622 dz-inc/dz-redux/theme-options.php:1804
+#: dz-inc/dz-redux/theme-options.php:2075
+msgid "Number of Posts"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:623 dz-inc/dz-redux/theme-options.php:1805
+#: dz-inc/dz-redux/theme-options.php:2076
+msgid "Enter number of post. Default : 3"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:641 dz-inc/dz-redux/theme-options.php:1824
+#: dz-inc/dz-redux/theme-options.php:2087
+msgid "Post Category"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:642 dz-inc/dz-redux/theme-options.php:1825
+msgid "Select post category. It will work as default banner for all pages"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:653 dz-inc/dz-redux/theme-options.php:1833
+#: dz-inc/dz-redux/theme-options.php:2096
+msgid "Post Type"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:655 dz-inc/dz-redux/theme-options.php:1835
+#: dz-inc/dz-redux/theme-options.php:2098
+#: dz-inc/elementor/elements/job_slider_1_element.php:79
+msgid "All"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:656 dz-inc/dz-redux/theme-options.php:1836
+#: dz-inc/dz-redux/theme-options.php:2099
+#: dz-inc/elementor/elements/candidate_listing_1_element.php:88
+#: wp-job-manager-resumes/content-resume.php:54
+#: wp-job-manager-resumes/content-resume.php:93
+msgid "Featured"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:669 dz-inc/dz-redux/theme-options.php:1845
+#: dz-inc/dz-redux/theme-options.php:2108
+msgid "Items With"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:671 dz-inc/dz-redux/theme-options.php:1847
+#: dz-inc/dz-redux/theme-options.php:2110
+msgid "Any Type"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:672 dz-inc/dz-redux/theme-options.php:1848
+#: dz-inc/dz-redux/theme-options.php:2111
+msgid "With Featured Image"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:673 dz-inc/dz-redux/theme-options.php:1849
+#: dz-inc/dz-redux/theme-options.php:2112
+msgid "Without Featured Iimage"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:686
+msgid "Page Sidebar"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:687
+msgid "Settings for sidebar area."
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:694
+msgid "Sidebar Information!"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:696
+msgid "These settings only working with default template in page attribute."
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:725
+msgid "Select sidebar for the page"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:740
+msgid "Page Footer"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:741
+msgid "Settings for footer area."
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:747
+msgid "Page Footer Settings"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:757 dz-inc/dz-redux/theme-options.php:854
+msgid "Footer"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:771 dz-inc/dz-redux/theme-options.php:865
+msgid "Footer Template"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:772 dz-inc/dz-redux/theme-options.php:866
+msgid "Choose a template for footer."
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:799
+msgid "Customer Data"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:836
+msgid "Feature Post"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:856
+msgid "Designation"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:857
+msgid "Enter client designation"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:863
+msgid "Client Name"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:864
+msgid "Enter client name"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:865
+msgid "Guy Hawkins"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:870
+msgid "Rating"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:871
+msgid "Select Rating."
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:874
+msgid "1 Star"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:875
+msgid "2 Star"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:876
+msgid "3 Star"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:877
+msgid "4 Star"
+msgstr ""
+
+#: dz-inc/dz-redux/page-options.php:878
+msgid "5 Star"
+msgstr ""
+
+#: dz-inc/dz-redux/template-functions.php:155
+#: dz-inc/dz-redux/theme-options.php:1195
+msgid "Choose Contact Form"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:133 dz-inc/dz-redux/theme-options.php:134
+#: dz-inc/library/class-menu-handle.php:146
+msgid "Theme Options"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:290 dz-inc/dz-redux/theme-options.php:1022
+#: dz-inc/dz-redux/theme-options.php:1505 dz-inc/dz-redux/theme-options.php:1715
+msgid "General Settings"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:291
+msgid ""
+"General Settings is a global setting that will affects all the pages of you "
+"website. From here you can make changes globaly. The setting will apply if "
+"there is no individual settings."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:297
+msgid "Website Status"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:298
+msgid "Click on the option tabs to change the status of your website."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:299
+msgid "Select option tabs to change the status."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:301
+msgid "Live"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:302
+msgid "Coming Soon"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:303
+msgid "Site Down For Maintenance"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:307
+#: dz-inc/library/wp-job-manager/mas-wp-job-manager-company.php:7
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2653
+#: wp-job-manager-applications/past-applications.php:32
+msgid "Status"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:308
+msgid "1. Live status indicate that your website is available and operational."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:308
+msgid ""
+"2. Coming Soon status show your website visitors that you are working on your "
+"website for making it better."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:308
+msgid ""
+"3. Maintenance mode show your website visitors that you are working on your "
+"website for making it better."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:308
+msgid ""
+" Coming soon template and maintenance template will not show when user login."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:314
+msgid "Coming Soon Template"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:315
+msgid "Choose the template for Coming Soon page. (Default : 1)."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:316 dz-inc/dz-redux/theme-options.php:362
+msgid "Click on the icon to change the template."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:321 dz-inc/dz-redux/theme-options.php:367
+#: dz-inc/dz-redux/theme-options.php:1035
+msgid "Hint Title"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:322
+msgid "Choose the coming soon template design as you want to show."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:328
+msgid "Coming soon Date"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:335
+msgid "Coming Soon Page Background"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:344
+msgid "Comingsoon Soon Page Title"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:345
+msgid "Default Comingsoon Soon page title."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:346
+msgid "Coming Soon!"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:346
+msgid "Were doing something amazingalmost done...."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:352
+msgid "Comingsoon Soon Page Description"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:353
+msgid "Default Comingsoon Soon page description."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:354
+msgid "Type Your Email To Get Notified"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:360
+msgid "Maintenance Template"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:361
+msgid "Choose the template for Maintenance page."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:368
+msgid "Choose the maintenance template design as you want to show."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:374
+msgid "Maintenance Page Title"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:376
+msgid "Website is under "
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:381
+msgid "Maintenance Page Description"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:382
+msgid "Default Maintenance page description."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:383
+msgid "We apologize for any Inconvenience caused. We've almost done."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:390 dz-inc/dz-redux/theme-options.php:400
+msgid "Maintenance Page Image"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:409
+msgid "Logo Type"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:410
+msgid "Choose the logo type"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:411
+msgid "Click o the tab to change the logo type."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:413
+msgid "Image Logo"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:414
+msgid "Text Logo"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:418
+msgid "Choose Logo Type:"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:419
+msgid ""
+"1. Image Logo will be the .pmg / .jpg type. This setting affects all the site "
+"pages."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:419
+msgid "2. Text Logo will the text type. This setting affects all the site pages."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:426
+msgid "Blog Page Title"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:427
+msgid "Default blog page title."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:428 dz-inc/library/functions.php:1262
+#: dz-inc/library/functions.php:1387
+msgid "Blog"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:434
+msgid "Page Loading"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:435
+msgid "Click on the tab to Enable / Disable the page loading setting."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:436 dz-inc/dz-redux/theme-options.php:448
+#: dz-inc/dz-redux/theme-options.php:459 dz-inc/dz-redux/theme-options.php:474
+#: dz-inc/dz-redux/theme-options.php:489
+msgid "Once you click on disable, This setting affects all the site pages."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:446
+msgid "Social Icon"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:447
+msgid "Click on the tab to Enable / Disable the social icon setting."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:465
+msgid "Select Breadcrumb Area:"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:466
+msgid ""
+"This breadcrumb option only works when page level banner Theme Settings option "
+"selected. This option will not work when custom settings selected."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:472
+msgid "Login / Register"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:473
+msgid "Click on the tab to Enable / Disable the login / register button / likns."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:480
+msgid "Login/Register Visible"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:481
+msgid "This is show in top bar."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:488
+msgid "Click on the tab to Enable / Disable the sidebar."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:500
+msgid "Mailchimp"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:501
+msgid "Click on the tab to Enable / Disable mailchimp subscription."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:510
+msgid "MailChimp Api Key"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:511
+msgid "Input an API key to enable MailChimp."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:518
+msgid "MailChimp List ID"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:519
+msgid "Input an List ID to enable MailChimp."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:527
+msgid "Preload Image"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:538
+msgid "Logo Settings"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:545 dz-inc/dz-redux/theme-options.php:552
+msgid "Favicon"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:546
+msgid "Select favicon image."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:547
+msgid "Upload favicon image."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:553
+msgid ""
+"From here you can upload an image. This setting affects all the site pages."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:559
+msgid "Logo Text"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:560
+msgid "Name your text logo."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:566
+msgid "Tag Line"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:567
+msgid "Name a tagline for the text logo."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:573
+msgid "Logo Title"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:574
+msgid ""
+"Title attribute for the logo. This attribute specifies extra information about "
+"the logo. Most browsers will show a tooltip with this text on logo hover."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:581
+msgid "Logo Alt"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:582
+msgid ""
+"Alt attribute for the logo. This is the alternative text if the logo cannot be "
+"displayed. It`s useful for SEO and generally is the name of the site."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:588
+msgid "Site Logo Setting"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:596
+msgid "Logo"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:597 dz-inc/dz-redux/theme-options.php:607
+msgid "Upload your logo (272 x 90px) .png or .jpg"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:606
+msgid "Other Logo"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:682
+msgid "Icon Class "
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:690
+msgid "Value "
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:701
+msgid "Header Information!"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:703
+msgid "header settings display here."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:716
+msgid "Show or hide the website search option."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:730 dz-inc/dz-redux/theme-options.php:737
+#: dz-inc/dz-redux/theme-options.php:951 dz-inc/dz-redux/theme-options.php:958
+msgid "Button "
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:730 dz-inc/dz-redux/theme-options.php:951
+msgid " Text"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:737 dz-inc/dz-redux/theme-options.php:958
+#: dz-inc/dz-redux/theme-options.php:2502
+msgid " URL"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:745 dz-inc/dz-redux/theme-options.php:966
+msgid "Choose Button "
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:745 dz-inc/dz-redux/theme-options.php:966
+msgid " Target"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:756
+msgid "Header Social Link"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:757
+msgid "Show or hide the hader social link option."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:768
+msgid "Header Settings"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:775
+msgid "Choose header style. White header is set as default header for all theme."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:781
+msgid "This is the content of the tool-tip"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:788 dz-inc/dz-redux/theme-options.php:821
+#: dz-inc/dz-redux/theme-options.php:1325
+#: dz-inc/user_panel/model-box-popup.php:142
+#: woocommerce/myaccount/form-login.php:32
+msgid "Login"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:789 dz-inc/dz-redux/theme-options.php:822
+msgid "Show or hide the header login option."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:797 dz-inc/dz-redux/theme-options.php:830
+#: dz-inc/dz-redux/theme-options.php:1333 dz-inc/user_panel/register.php:31
+#: woocommerce/myaccount/form-login.php:70
+#: woocommerce/myaccount/form-login.php:107
+msgid "Register"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:798 dz-inc/dz-redux/theme-options.php:831
+msgid "Show or hide the header register option."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:806
+msgid "Sticky Header"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:807
+msgid "Header will be sticked when applicable."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:815
+msgid "Mobile Device Options"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:874
+msgid "Footer Subscribe On"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:883
+msgid "Subscribe Text"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:884
+msgid "Write footer subscribe text here."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:885
+msgid ""
+"Join our email subscription now to get updates on new jobs and notifications."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:892
+msgid "Footer Top On"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:901
+msgid "Footer Bottom On"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:928
+msgid "Footer Image"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:929
+msgid "Show or hide the image."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:981 dz-inc/dz-redux/theme-options.php:988
+msgid "Field "
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:981
+msgid " Title"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:988
+msgid " Content"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1000
+msgid "Copyright Text"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1001
+msgid "Write footer copyright text here."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1002
+msgid "Copyright © 2022"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1002
+msgid "DexignZone"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1002
+msgid "All rights reserved."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1007
+msgid "Footer Settings"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1008
+msgid "Footer blocks are change according to footer templates."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1017
+msgid "Job Settings"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1029
+msgid "Recruiter Widget"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1030
+msgid "Click on the tab to Enable / Disable Recruiter Widget functionality."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1036
+msgid "  Recruiter widget show on job detail page side bar."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1044 dz-inc/dz-redux/theme-options.php:1140
+msgid "Enter your title"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1045 dz-inc/dz-redux/theme-options.php:1141
+#: dz-inc/elementor/elements/job_listing_map_element.php:102
+#: dz-inc/library/wp-job-manager/wp-job-manager-resumes.php:9
+msgid "Title"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1052
+msgid "Enter your image url"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1053
+msgid "Image Url"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1059 dz-inc/dz-redux/theme-options.php:1148
+msgid "Enter your description"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1060 dz-inc/dz-redux/theme-options.php:1149
+#: dz-inc/library/mega_menu/edit_mega_menu_walker.php:165
+msgid "Description"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1067 dz-inc/dz-redux/theme-options.php:1156
+msgid "Enter your button text"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1068 dz-inc/dz-redux/theme-options.php:1157
+msgid "Button Text"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1074
+msgid "Enter your button link"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1075
+msgid "Button Link"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1081
+msgid "Enter your button target"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1082
+msgid "Button Target"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1088
+msgid "Post A Job On"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1089
+msgid "Click on the tab to Enable / Disable post a job button functionality."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1099
+msgid "Job View"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1109
+msgid "Job Alert Subscribe"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1118
+msgid "After Close Interval"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1119 dz-inc/dz-redux/theme-options.php:1130
+msgid "Interval to show modal box  after save subscriber"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1129
+msgid "After Subscription Interval"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1143
+#: dz-inc/user_panel/model-box-popup.php:386
+msgid "Job Alert"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1151
+msgid ""
+"Subscribe to receive instant alerts of new relevant jobs directly to your email "
+"inbox."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1159
+msgid "Subcrible"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1166
+msgid "Login page background image url"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1167
+msgid "Login page background Image Url"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1173
+msgid "Register page background image url"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1174
+msgid "Register page background Image Url"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1179 dz-inc/dz-redux/theme-options.php:1186
+msgid "Enter your text"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1180
+msgid "Sign Up Popup Text"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1181
+msgid "Sign Up and get access to all the features of Jobzilla"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1187
+msgid "Sign In Popup Text"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1188
+msgid "Login and get access to all the features of Jobzilla"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1194
+msgid "Company Mail Send"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1201
+msgid "Job Pages Settings"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1208
+msgid "Auto Login"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1209
+msgid "Click on the tab to Enable / Disable autologin functionality."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1219
+msgid "Choose Dashboard Page"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1220
+msgid "Dashboard Page"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1221
+msgid "It will show dashboard page on user panel."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1227
+msgid "Choose Company Profile Page"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1228
+msgid "Company Profile Page"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1229
+msgid "It will show company profile page on user panel."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1235
+msgid "Choose Add Company Page"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1236
+msgid "Add Company Page"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1237
+msgid "It will show add company page on user panel."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1243
+msgid "Choose Job Page"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1244
+msgid "Job Page"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1245
+msgid "It will show job page on user panel."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1251
+msgid "Choose Job List Page"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1252
+msgid "Job List Page"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1253
+msgid "It will show job list page on user panel."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1259
+msgid "Choose Messages Page"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1260
+msgid "Messages Page"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1261
+msgid "It will show messages page on user panel."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1268
+msgid "Choose My Profile Page"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1269
+msgid "My Profile Page"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1270
+msgid "It will show my profile page on user panel."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1276
+msgid "Choose Candidate Page"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1277
+msgid "Candidate Page"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1278
+msgid "It will show candidate page on user panel."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1284
+msgid "Choose Bookmark Resumes Page"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1285
+msgid "Bookmark Resumes Page"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1286
+msgid "It will show bookmark resumes page on user panel."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1292
+msgid "Choose Add Resume Page"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1293
+msgid "Add Resume Page"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1294
+msgid "It will show add resumes page on user panel."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1300
+msgid "Choose Past Applications  Page"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1301
+msgid "Past Applications"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1302
+msgid "It will show past applications page on user panel."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1308
+msgid "Choose Resume Alerts Page"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1309
+msgid "Resume Alerts Page"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1310
+msgid "It will show resume alerts page on user panel."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1316
+msgid "Choose Change Password Page"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1317 dz-inc/library/functions.php:2174
+#: dz-inc/library/functions.php:2234 dz-inc/library/functions.php:2283
+msgid "Change Password"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1318
+msgid "It will show change password page on user panel."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1324
+msgid "Choose Login Page"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1326
+msgid "It will show login page on user panel."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1332
+msgid "Choose Register Page"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1334
+msgid "It will show register page on user panel."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1340
+msgid "Choose Forgot Password Page"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1341
+#: dz-inc/user_panel/model-box-popup.php:181
+msgid "Forgot Password"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1342
+msgid "It will show forgot password page on user panel."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1348
+msgid "Choose Job Filter Page"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1349
+msgid "Job Filter"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1350
+msgid "It will show job filter page on user panel."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1356
+msgid "Choose Job Filter Map Page"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1357
+msgid "Job Filter Map"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1358
+msgid "It will show job filter map page on user panel."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1364
+msgid "Choose Terms and conditions"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1365 dz-inc/user_panel/model-box-popup.php:92
+#: dz-inc/user_panel/register.php:97
+msgid "Terms and conditions"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1366
+msgid "It will show Terms and conditions page on user panel."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1372
+msgid "User Role Settings"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1381
+msgid "Choose  Employer Pages"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1382
+msgid "Select Employer Pages"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1383
+msgid "It will show employer pages on user panel."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1390
+msgid "Choose  Candidate Pages"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1391
+msgid "Select Candidate Pages"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1392
+msgid "It will show candidate pages on user panel."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1401
+msgid "Map Settings"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1407
+msgid "Map Type"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1408
+msgid "You have two option Open Street Map and Bing Map."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1410
+msgid ""
+"Bing Map: It is required Map API key. Go to bing map portal and generate API "
+"key."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1410
+msgid "Bing map is microsoft based you can read microsoft bing map documentation"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1410
+msgid "Click Here"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1412
+msgid "OpenstreetMap: In this is map you no need API Key."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1414
+msgid ""
+"Google Map: Click here to generate google map api key. Google Map key field "
+"available in general settings."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1416
+msgid "Open Street Map"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1417
+msgid "Google Map"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1418
+msgid "Bing Map"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1426
+msgid "Center Location Latitude"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1427 dz-inc/dz-redux/theme-options.php:1434
+msgid "Please enter center location latitude of map."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1433
+msgid "Center Location Longitude"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1441
+msgid "Bing Map Key"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1442
+msgid "Generate bing map API Key"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1449
+msgid "Map Icon"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1456
+msgid "Map Icon Color"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1463
+msgid "Map Type ID"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1465
+msgid "Road (Default)"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1466
+msgid "Aerial"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1467
+msgid "CanvasDark"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1468
+msgid "CanvasLight"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1477
+msgid "Map Style (Optional)"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1478
+msgid "You can choose map style."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1488
+msgid "Custom Style"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1489
+msgid "You can drop here map style json format"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1506
+msgid ""
+"This option will work on all new post and edit post sections. On new post page "
+"we will display only Post Layout Selection , all other settings will be "
+"applicable from here."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1514
+msgid "Single Post Layout"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1515
+msgid "Select a layout for post page."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1521
+msgid ""
+"Once you select the template from here the template will apply for default post "
+"page."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1527
+#: dz-inc/elementor/elements/job_listing_map_element.php:101
+msgid "Date"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1535
+#: dz-inc/elementor/elements/job_listing_map_element.php:105
+msgid "Comment Count"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1543
+msgid "Comment View"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1551
+msgid "Post View"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1559
+msgid "Post Start View"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1561
+msgid "Enter only number."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1563
+msgid "Post Views"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1564
+msgid ""
+"We will display view count by adding this number in original post views. It "
+"will help to build post reputation on blog."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1570
+msgid "Author Box"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1578 dz-inc/dz-redux/theme-options.php:1922
+#: dz-inc/elementor/elements/home_banner_11_element.php:44
+#: dz-inc/elementor/elements/home_banner_12_element.php:84
+#: dz-inc/elementor/elements/home_banner_13_element.php:112
+#: dz-inc/elementor/elements/home_banner_14_element.php:89
+#: dz-inc/elementor/elements/home_banner_15_element.php:107
+#: dz-inc/elementor/elements/home_banner_16_element.php:86
+#: dz-inc/elementor/elements/home_banner_17_element.php:63
+#: dz-inc/elementor/elements/home_banner_18_element.php:85
+#: dz-inc/elementor/elements/home_banner_1_element.php:88
+#: dz-inc/elementor/elements/home_banner_3_element.php:90
+#: dz-inc/elementor/elements/home_banner_5_element.php:50
+#: dz-inc/elementor/elements/home_banner_6_element.php:47
+#: dz-inc/elementor/elements/home_banner_7_element.php:76
+#: dz-inc/elementor/elements/home_banner_8_element.php:65
+#: dz-inc/elementor/elements/job_listing_map_element.php:136
+#: dz-inc/elementor/elements/job_listing_map_element.php:325
+#: dz-inc/elementor/elements/job_map_element.php:77
+#: dz-inc/elementor/elements/job_search_form_2_element.php:70
+#: dz-inc/library/widgets.php:331
+#: dz-inc/library/wp-job-manager/wp-job-manager-resumes.php:11
+#: job_manager/job-filters-map.php:94 job_manager/job-filters.php:95
+#: sidebar-jobs.php:53 wp-job-manager-resumes/resume-filters.php:67
+msgid "Category"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1587
+msgid "Previous & Next Post"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1595
+msgid "Featured Image"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1604
+msgid "Related Post"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1613
+msgid "Show Image On Post List"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1614
+msgid "Show feature image on post listing in admin panel."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1638
+msgid "Banner Setting"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1659
+msgid "Choose the height for all tag page banner. Default : Small Banner"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1696
+msgid "Custom Post Background Image"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1697
+msgid "Choose custom background image for post single page."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1698
+msgid "Upload background image."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1739 dz-inc/dz-redux/theme-options.php:1998
+msgid "Image Banner Setting"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1746 dz-inc/dz-redux/theme-options.php:2005
+msgid "Page Banner Layout"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1797 dz-inc/dz-redux/theme-options.php:2068
+msgid "Post Banner Setting"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1813
+msgid "Select banner layout. Default : Full Banner"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1826 dz-inc/dz-redux/theme-options.php:2089
+msgid "Allow you to select multiple categories."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1862 dz-inc/dz-redux/theme-options.php:2128
+msgid "Sidebar Setting"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1887
+msgid "Select sidebar for all pages"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1900
+msgid "Pagination"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1903
+#: dz-inc/elementor/elements/post_listing_1_element.php:153
+#: dz-inc/elementor/elements/post_listing_2_element.php:154
+#: dz-inc/elementor/elements/post_listing_3_element.php:153
+#: dz-inc/elementor/elements/post_listing_5_element.php:152
+#: dz-inc/elements/archive_page_ajax_posts_element.php:70
+#: dz-inc/elements/author_page_ajax_posts_element.php:73
+#: dz-inc/elements/category_page_ajax_posts_element.php:71
+#: dz-inc/elements/index_page_ajax_posts_element.php:29
+#: dz-inc/elements/search_page_ajax_posts_element.php:68
+#: dz-inc/elements/tag_page_ajax_posts_element.php:68
+msgid "Load More"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1914
+msgid ""
+"The author template is shown when a user clicks on the author in the front end "
+"of the site."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1916
+#: dz-inc/elementor/elements/job_listing_map_element.php:104
+#: dz-inc/library/functions.php:265
+msgid "Author"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1920
+msgid ""
+"The category template is shown when a user clicks on the category in the front "
+"end of the site."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1926
+msgid "Set the default layout for all the search page."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1932
+msgid ""
+"This template is used by WordPress to generate the archives. By default "
+"WordPress generates daily, monthly and yearly archives."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1934
+msgid "Archive"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1938
+msgid "Set the default layout for all the tag page."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1940
+msgid "Tag"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:1974 dz-inc/dz-redux/theme-options.php:2186
+msgid "Page Title"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2018
+msgid "Choose the height for page banner. Default : Medium Banner"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2042
+msgid ""
+"Enter page banner image. It will work as default banner image for the page."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2088
+msgid "Select post category. It will work as default banner for the page."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2143
+msgid "Choose the layout for the page. (Default : Right Side)."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2153
+msgid "Select sidebar for the page."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2168
+msgid " Page"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2178
+msgid "404 Page"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2187 functions.php:927
+msgid "404"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2195
+msgid "404 Template"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2196
+msgid "Select a template for the page."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2206
+msgid "404 Page Image"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2215
+msgid "404 Page Text"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2216
+msgid "We Are Sorry, Page Not Found."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2222
+msgid "404 Page Text 2"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2223
+msgid ""
+"The page you are looking for might have been removed had its name changed or is "
+"temporarily unavailable."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2229
+msgid "404 Page Button Text"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2230
+msgid "BACK TO HOME PAGE"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2243
+msgid "Theme Settings"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2248
+msgid "Page Loader Setting"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2255
+msgid "Page Loader Type"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2256
+msgid "Select Loader Type."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2257
+msgid "Choose Loading Image"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2259
+msgid "Loading Image"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2260
+msgid "Advanced Page Loader"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2264
+msgid "Write title text here"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2265
+msgid "Write content text here."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2271 dz-inc/dz-redux/theme-options.php:2278
+msgid "Loding Image (Gif)"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2272
+msgid "Select Gif Image."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2273 dz-inc/dz-redux/theme-options.php:2279
+#: dz-inc/dz-redux/theme-options.php:2292
+msgid "Choose Gif Image."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2287 dz-inc/dz-redux/theme-options.php:2291
+msgid "Custom Loding Image (Gif)"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2288
+msgid "Select Custom Loding Gif Image."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2289
+msgid "Choose Gif Image"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2299
+msgid "Advanced Loding Image"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2300
+msgid "Select Advance Loding Image (Gif)"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2301 dz-inc/dz-redux/theme-options.php:2310
+msgid "Choose Advance Loding Image"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2309
+msgid "Advance Loding Image (Gif)"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2348
+msgid "Google Fonts"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2355
+msgid "Body"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2356
+msgid "This will be the default font for body tag of your website."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2371
+msgid "H1"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2372
+msgid "This will be the default font for all H1 tags of your website."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2386
+msgid "H2"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2387
+msgid "This will be the default font for all H2 tags of your website."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2401
+msgid "H3"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2402
+msgid "This will be the default font for all H3 tags of your website."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2416
+msgid "H4"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2417
+msgid "This will be the default font for all H4 tags of your website."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2431
+msgid "H5"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2432
+msgid "This will be the default font for all H5 tags of your website."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2446
+msgid "H6"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2447
+msgid "This will be the default font for all H6 tags of your website."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2461
+msgid "P (Paragraph Text)"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2462
+msgid "This will be the default font for all P tags of your website."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2481
+msgid "Social Setting"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2488
+msgid "Choose Social Link Target"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2503
+msgid "Link to : "
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2509
+msgid "Social Link"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2534 dz-inc/dz-redux/theme-options.php:2557
+msgid "Social Sharing"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2541
+msgid "Enable Social Shaing On Post"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2549
+msgid "Enable Social Shaing On Page"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2558
+msgid "Select active social share links and sort them with drag and drop."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2571 dz-inc/dz-redux/theme-options.php:2576
+msgid "Custom Script"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2583
+msgid "Body Class(s)"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2584
+msgid ""
+"You can add one or more classes on theme body element. If you need more then "
+"one class, add them with a space between them."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2585
+msgid "Ex: body-class-1 body-class-2"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2590
+msgid "CSS Code"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2591
+msgid "Paste your CSS code here."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2598
+msgid "Javascript Code"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2599
+msgid "Paste your JS code here."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2606
+msgid "HTML Code"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2607
+msgid "Paste your HTML code here."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2615
+msgid "Analytic Code"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2624
+msgid "Header Custom Codes"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2625
+msgid "It will insert the code to wp_head hook."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2631
+msgid "Footer Custom Codes"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2632
+msgid "It will insert the code to wp_footer hook."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2641
+msgid "Advance Options"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2648
+msgid "Sidebar Name"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2649
+msgid "Name your sidebar!"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2650
+msgid "Enter the text only. "
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2650
+msgid "Click Here."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2650
+msgid " to check your sidebars"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2652
+msgid "What to Do?"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2653
+msgid ""
+"1. Once you named your sidebar click on the Save Changes button @ the top of "
+"the panel."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2653
+msgid ""
+"2. After save changes please just refresh the page, you will see the sidebar "
+"listed below."
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2683
+msgid "Create Sidebar"
+msgstr ""
+
+#: dz-inc/dz-redux/theme-options.php:2685
+msgid ""
+"Dexignlab gives you the functionality to create your own Sidebars. Default "
+"there are three Sidebars as display below."
+msgstr ""
+
+#: dz-inc/elementor/elements/comingsoon_element.php:36
+#: dz-inc/elements/comingsoon/comingsoon_1.php:36
+#: dz-inc/elements/footer/footer_1.php:28 dz-inc/elements/footer/footer_2.php:28
+#: dz-inc/elements/footer/footer_4.php:28
+msgid "Enter Your Email Address..."
+msgstr ""
+
+#: dz-inc/elementor/elements/comingsoon_element.php:39
+#: dz-inc/elements/comingsoon/comingsoon_1.php:38
+msgid "Subscribe"
+msgstr ""
+
+#: dz-inc/elementor/elements/company_listing_1_element.php:76
+#: dz-inc/elementor/elements/company_listing_1_element.php:78
+#: dz-inc/elementor/elements/home_banner_13_element.php:252
+#: dz-inc/elementor/elements/job_listing_2_element.php:111
+#: dz-inc/elementor/elements/job_listing_2_element.php:113
+#: dz-inc/elementor/elements/job_listing_2_element.php:239
+#: dz-inc/elementor/elements/job_listing_2_element.php:241
+#: dz-inc/elementor/elements/job_slider_1_element.php:132
+#: dz-inc/elements/company_template/standard.php:31
+#: dz-inc/elements/company_template/standard_2.php:26
+#: mas-wp-job-manager-company/company-dashboard.php:74
+msgid "company-logo"
+msgstr ""
+
+#: dz-inc/elementor/elements/content_box_3_element.php:60
+#: dz-inc/elementor/elements/image_slider_element.php:44
+#: dz-inc/elementor/elements/image_slider_element.php:46
+#: dz-inc/elementor/elements/image_slider_element.php:137
+#: dz-inc/elementor/elements/image_slider_element.php:139
+#: dz-inc/elementor/elements/partners_1_element.php:38
+#: dz-inc/elementor/elements/partners_1_element.php:40
+#: dz-inc/elementor/elements/partners_1_element.php:86
+#: dz-inc/elementor/elements/partners_1_element.php:88
+#: dz-inc/elementor/elements/resume_content_box_element.php:24
+#: dz-inc/elementor/elements/resume_content_box_element.php:90
+#: dz-inc/elementor/elements/resume_content_box_element.php:150
+#: dz-inc/elementor/elements/testimonial_slider_1_element.php:268
+#: dz-inc/user_panel/register.php:16
+#: wp-job-manager-applications/past-applications.php:54
+msgid "image"
+msgstr ""
+
+#: dz-inc/elementor/elements/home_banner_10_element.php:44
+#: dz-inc/elementor/elements/home_banner_12_element.php:61
+#: dz-inc/elementor/elements/home_banner_13_element.php:89
+#: dz-inc/elementor/elements/home_banner_14_element.php:66
+#: dz-inc/elementor/elements/home_banner_15_element.php:84
+#: dz-inc/elementor/elements/home_banner_16_element.php:63
+#: dz-inc/elementor/elements/home_banner_18_element.php:62
+#: dz-inc/elementor/elements/home_banner_1_element.php:65
+#: dz-inc/elementor/elements/home_banner_3_element.php:67
+#: dz-inc/elementor/elements/home_banner_4_element.php:39
+#: dz-inc/elementor/elements/home_banner_7_element.php:53
+#: dz-inc/elementor/elements/home_banner_8_element.php:42
+#: dz-inc/elementor/elements/home_banner_9_element.php:38
+#: dz-inc/elementor/elements/job_search_form_2_element.php:46
+#: dz-inc/elementor/elements/job_search_form_element.php:52
+msgid "What"
+msgstr ""
+
+#: dz-inc/elementor/elements/home_banner_10_element.php:47
+#: dz-inc/elementor/elements/home_banner_12_element.php:64
+#: dz-inc/elementor/elements/home_banner_13_element.php:92
+#: dz-inc/elementor/elements/home_banner_14_element.php:69
+#: dz-inc/elementor/elements/home_banner_15_element.php:87
+#: dz-inc/elementor/elements/home_banner_16_element.php:66
+#: dz-inc/elementor/elements/home_banner_18_element.php:65
+#: dz-inc/elementor/elements/home_banner_1_element.php:68
+#: dz-inc/elementor/elements/home_banner_3_element.php:70
+#: dz-inc/elementor/elements/home_banner_4_element.php:42
+#: dz-inc/elementor/elements/home_banner_7_element.php:56
+#: dz-inc/elementor/elements/home_banner_8_element.php:45
+#: dz-inc/elementor/elements/home_banner_9_element.php:41
+#: dz-inc/elementor/elements/job_search_form_2_element.php:49
+#: dz-inc/elementor/elements/job_search_form_element.php:55
+msgid "Select Title"
+msgstr ""
+
+#: dz-inc/elementor/elements/home_banner_11_element.php:48
+#: dz-inc/elementor/elements/home_banner_12_element.php:88
+#: dz-inc/elementor/elements/home_banner_13_element.php:116
+#: dz-inc/elementor/elements/home_banner_14_element.php:93
+#: dz-inc/elementor/elements/home_banner_15_element.php:111
+#: dz-inc/elementor/elements/home_banner_16_element.php:90
+#: dz-inc/elementor/elements/home_banner_17_element.php:66
+#: dz-inc/elementor/elements/home_banner_18_element.php:89
+#: dz-inc/elementor/elements/home_banner_1_element.php:92
+#: dz-inc/elementor/elements/home_banner_3_element.php:94
+#: dz-inc/elementor/elements/home_banner_5_element.php:53
+#: dz-inc/elementor/elements/home_banner_6_element.php:51
+#: dz-inc/elementor/elements/home_banner_7_element.php:80
+#: dz-inc/elementor/elements/home_banner_8_element.php:69
+#: dz-inc/elementor/elements/job_listing_map_element.php:140
+#: dz-inc/elementor/elements/job_listing_map_element.php:329
+#: dz-inc/elementor/elements/job_map_element.php:81
+#: dz-inc/elementor/elements/job_search_form_2_element.php:74
+#: dz-inc/elementor/elements/job_search_form_element.php:79
+msgid "Select Category"
+msgstr ""
+
+#: dz-inc/elementor/elements/home_banner_11_element.php:51
+#: dz-inc/elementor/elements/home_banner_12_element.php:91
+#: dz-inc/elementor/elements/home_banner_13_element.php:119
+#: dz-inc/elementor/elements/home_banner_14_element.php:96
+#: dz-inc/elementor/elements/home_banner_15_element.php:114
+#: dz-inc/elementor/elements/home_banner_16_element.php:93
+#: dz-inc/elementor/elements/home_banner_17_element.php:70
+#: dz-inc/elementor/elements/home_banner_18_element.php:92
+#: dz-inc/elementor/elements/home_banner_1_element.php:95
+#: dz-inc/elementor/elements/home_banner_3_element.php:97
+#: dz-inc/elementor/elements/home_banner_5_element.php:57
+#: dz-inc/elementor/elements/home_banner_6_element.php:54
+#: dz-inc/elementor/elements/home_banner_7_element.php:83
+#: dz-inc/elementor/elements/home_banner_8_element.php:72
+#: dz-inc/elementor/elements/job_listing_map_element.php:143
+#: dz-inc/elementor/elements/job_listing_map_element.php:332
+#: dz-inc/elementor/elements/job_map_element.php:84
+#: dz-inc/elementor/elements/job_search_form_2_element.php:77
+#: dz-inc/elementor/elements/job_search_form_element.php:83
+msgid "All Category"
+msgstr ""
+
+#: dz-inc/elementor/elements/home_banner_11_element.php:73
+#: dz-inc/elementor/elements/home_banner_12_element.php:113
+#: dz-inc/elementor/elements/home_banner_13_element.php:141
+#: dz-inc/elementor/elements/home_banner_14_element.php:119
+#: dz-inc/elementor/elements/home_banner_15_element.php:136
+#: dz-inc/elementor/elements/home_banner_16_element.php:115
+#: dz-inc/elementor/elements/home_banner_17_element.php:92
+#: dz-inc/elementor/elements/home_banner_18_element.php:114
+#: dz-inc/elementor/elements/home_banner_1_element.php:118
+#: dz-inc/elementor/elements/home_banner_3_element.php:120
+#: dz-inc/elementor/elements/home_banner_5_element.php:79
+#: dz-inc/elementor/elements/home_banner_6_element.php:76
+#: dz-inc/elementor/elements/home_banner_7_element.php:105
+#: dz-inc/elementor/elements/home_banner_8_element.php:94
+#: dz-inc/elementor/elements/job_listing_map_element.php:167
+#: dz-inc/elementor/elements/job_listing_map_element.php:304
+#: dz-inc/elementor/elements/job_map_element.php:108
+#: dz-inc/elementor/elements/job_search_form_2_element.php:103
+#: dz-inc/elementor/elements/job_search_form_element.php:108 sidebar-jobs.php:140
+msgid "Regions"
+msgstr ""
+
+#: dz-inc/elementor/elements/home_banner_11_element.php:76
+#: dz-inc/elementor/elements/home_banner_12_element.php:116
+#: dz-inc/elementor/elements/home_banner_13_element.php:144
+#: dz-inc/elementor/elements/home_banner_14_element.php:122
+#: dz-inc/elementor/elements/home_banner_15_element.php:139
+#: dz-inc/elementor/elements/home_banner_16_element.php:118
+#: dz-inc/elementor/elements/home_banner_17_element.php:95
+#: dz-inc/elementor/elements/home_banner_18_element.php:117
+#: dz-inc/elementor/elements/home_banner_1_element.php:121
+#: dz-inc/elementor/elements/home_banner_3_element.php:123
+#: dz-inc/elementor/elements/home_banner_5_element.php:82
+#: dz-inc/elementor/elements/home_banner_6_element.php:79
+#: dz-inc/elementor/elements/home_banner_7_element.php:108
+#: dz-inc/elementor/elements/home_banner_8_element.php:97
+#: dz-inc/elementor/elements/job_listing_map_element.php:170
+#: dz-inc/elementor/elements/job_listing_map_element.php:307
+#: dz-inc/elementor/elements/job_map_element.php:111
+#: dz-inc/elementor/elements/job_search_form_2_element.php:106
+#: dz-inc/elementor/elements/job_search_form_element.php:111
+msgid "Select Regions"
+msgstr ""
+
+#: dz-inc/elementor/elements/home_banner_11_element.php:79
+#: dz-inc/elementor/elements/home_banner_12_element.php:119
+#: dz-inc/elementor/elements/home_banner_13_element.php:147
+#: dz-inc/elementor/elements/home_banner_14_element.php:125
+#: dz-inc/elementor/elements/home_banner_15_element.php:142
+#: dz-inc/elementor/elements/home_banner_16_element.php:121
+#: dz-inc/elementor/elements/home_banner_17_element.php:99
+#: dz-inc/elementor/elements/home_banner_18_element.php:120
+#: dz-inc/elementor/elements/home_banner_1_element.php:124
+#: dz-inc/elementor/elements/home_banner_3_element.php:126
+#: dz-inc/elementor/elements/home_banner_5_element.php:86
+#: dz-inc/elementor/elements/home_banner_6_element.php:82
+#: dz-inc/elementor/elements/home_banner_7_element.php:111
+#: dz-inc/elementor/elements/home_banner_8_element.php:100
+#: dz-inc/elementor/elements/job_listing_map_element.php:172
+#: dz-inc/elementor/elements/job_listing_map_element.php:309
+#: dz-inc/elementor/elements/job_map_element.php:113
+#: dz-inc/elementor/elements/job_search_form_2_element.php:109
+#: dz-inc/elementor/elements/job_search_form_element.php:114
+#: job_manager/job-filters-map.php:62 job_manager/job-filters.php:67
+#: sidebar-jobs.php:147
+msgid "All Regions"
+msgstr ""
+
+#: dz-inc/elementor/elements/home_banner_11_element.php:96
+#: dz-inc/elementor/elements/home_banner_12_element.php:136
+#: dz-inc/elementor/elements/home_banner_13_element.php:164
+#: dz-inc/elementor/elements/home_banner_14_element.php:142
+#: dz-inc/elementor/elements/home_banner_15_element.php:159
+#: dz-inc/elementor/elements/home_banner_16_element.php:138
+#: dz-inc/elementor/elements/home_banner_17_element.php:116
+#: dz-inc/elementor/elements/home_banner_18_element.php:137
+#: dz-inc/elementor/elements/home_banner_1_element.php:141
+#: dz-inc/elementor/elements/home_banner_3_element.php:144
+#: dz-inc/elementor/elements/home_banner_5_element.php:103
+#: dz-inc/elementor/elements/home_banner_6_element.php:99
+#: dz-inc/elementor/elements/home_banner_7_element.php:128
+#: dz-inc/elementor/elements/home_banner_8_element.php:117
+#: dz-inc/elementor/elements/job_search_form_2_element.php:128
+#: dz-inc/elementor/elements/job_search_form_element.php:131
+#: dz-inc/elements/company_template/standard.php:269
+#: dz-inc/elements/job_template/standard.php:231
+#: dz-inc/elements/job_template/standard.php:341
+#: dz-inc/elements/job_template/standard_2.php:235
+#: dz-inc/elements/job_template/standard_2.php:406
+#: dz-inc/elements/resume_template/standard.php:142
+#: dz-inc/elements/resume_template/standard_2.php:210
+#: dz-inc/library/wp-job-manager/wp-job-manager-resumes.php:10
+#: job_manager/job-filters-map.php:79 job_manager/job-filters-map.php:81
+#: job_manager/job-filters.php:83 job_manager/job-filters.php:85
+#: sidebar-jobs.php:128 wp-job-manager-alerts/alert-form.php:68
+#: wp-job-manager-alerts/my-alerts.php:42
+#: wp-job-manager-resumes/resume-filters.php:55
+msgid "Location"
+msgstr ""
+
+#: dz-inc/elementor/elements/home_banner_11_element.php:100
+#: dz-inc/elementor/elements/home_banner_12_element.php:140
+#: dz-inc/elementor/elements/home_banner_13_element.php:168
+#: dz-inc/elementor/elements/home_banner_14_element.php:146
+#: dz-inc/elementor/elements/home_banner_15_element.php:163
+#: dz-inc/elementor/elements/home_banner_16_element.php:142
+#: dz-inc/elementor/elements/home_banner_17_element.php:120
+#: dz-inc/elementor/elements/home_banner_18_element.php:141
+#: dz-inc/elementor/elements/home_banner_1_element.php:145
+#: dz-inc/elementor/elements/home_banner_3_element.php:148
+#: dz-inc/elementor/elements/home_banner_5_element.php:107
+#: dz-inc/elementor/elements/home_banner_6_element.php:103
+#: dz-inc/elementor/elements/home_banner_7_element.php:132
+#: dz-inc/elementor/elements/home_banner_8_element.php:121
+#: dz-inc/elementor/elements/job_search_form_2_element.php:132
+#: dz-inc/elementor/elements/job_search_form_element.php:135
+msgid "Select Location"
+msgstr ""
+
+#: dz-inc/elementor/elements/home_banner_11_element.php:103
+#: dz-inc/elementor/elements/home_banner_12_element.php:143
+#: dz-inc/elementor/elements/home_banner_13_element.php:171
+#: dz-inc/elementor/elements/home_banner_14_element.php:149
+#: dz-inc/elementor/elements/home_banner_15_element.php:166
+#: dz-inc/elementor/elements/home_banner_16_element.php:145
+#: dz-inc/elementor/elements/home_banner_17_element.php:123
+#: dz-inc/elementor/elements/home_banner_18_element.php:144
+#: dz-inc/elementor/elements/home_banner_1_element.php:148
+#: dz-inc/elementor/elements/home_banner_3_element.php:151
+#: dz-inc/elementor/elements/home_banner_5_element.php:110
+#: dz-inc/elementor/elements/home_banner_6_element.php:106
+#: dz-inc/elementor/elements/home_banner_7_element.php:135
+#: dz-inc/elementor/elements/home_banner_8_element.php:124
+#: dz-inc/elementor/elements/job_search_form_2_element.php:135
+#: dz-inc/elementor/elements/job_search_form_element.php:138
+msgid "All Location"
+msgstr ""
+
+#: dz-inc/elementor/elements/job_listing_1_element.php:181
+#: dz-inc/elementor/elements/job_listing_1_element.php:347
+#: dz-inc/elements/company_template/standard.php:252
+#: dz-inc/elements/company_template/standard_2.php:329
+msgid "Browse Jobs"
+msgstr ""
+
+#: dz-inc/elementor/elements/job_listing_map_element.php:103
+#: dz-inc/library/wp-job-manager/mas-wp-job-manager-company.php:6
+#: dz-inc/library/wp-job-manager/wp-job-manager-resumes.php:8
+#: woocommerce/single-product-reviews.php:89
+msgid "Name"
+msgstr ""
+
+#: dz-inc/elementor/elements/job_listing_map_element.php:106
+msgid "View Count"
+msgstr ""
+
+#: dz-inc/elementor/elements/job_listing_map_element.php:107
+msgid "Random"
+msgstr ""
+
+#: dz-inc/elementor/elements/job_listing_map_element.php:126
+#: dz-inc/elementor/elements/job_listing_map_element.php:285
+#: dz-inc/elementor/elements/job_map_element.php:67
+#: job_manager/job-filters-map.php:35 job_manager/job-filters-map.php:38
+#: job_manager/job-filters.php:41 job_manager/job-filters.php:44
+#: wp-job-manager-alerts/my-alerts.php:35
+#: wp-job-manager-resumes/resume-filters.php:48
+msgid "Keywords"
+msgstr ""
+
+#: dz-inc/elementor/elements/job_listing_map_element.php:210
+msgid "Filter"
+msgstr ""
+
+#: dz-inc/elementor/elements/job_listing_map_element.php:215
+msgid "Showing"
+msgstr ""
+
+#: dz-inc/elementor/elements/job_listing_map_element.php:215
+msgid "Of"
+msgstr ""
+
+#: dz-inc/elementor/elements/job_listing_map_element.php:215
+msgid " Results"
+msgstr ""
+
+#: dz-inc/elementor/elements/job_listing_map_element.php:218
+msgid "Default sorting"
+msgstr ""
+
+#: dz-inc/elementor/elements/job_search_form_element.php:75
+#: dz-inc/library/woocommerce_functions.php:238
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2648
+msgid "Type"
+msgstr ""
+
+#: dz-inc/elementor/elements/job_search_form_element.php:157
+msgid "Find Job"
+msgstr ""
+
+#: dz-inc/elementor/elements/job_search_form_element.php:172
+msgid "Trusted By :"
+msgstr ""
+
+#: dz-inc/elementor/elements/post_listing_2_element.php:101
+msgid "site-text-white"
+msgstr ""
+
+#: dz-inc/elementor/elements/pricing_table_1_element.php:68
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2375
+#: wc-paid-listings/package-selection.php:54
+#: wc-paid-listings/resume-package-selection.php:53
+msgid "Recommended"
+msgstr ""
+
+#: dz-inc/elementor/elements/pricing_table_1_element.php:82
+msgid "Monthly"
+msgstr ""
+
+#: dz-inc/elementor/elements/search_form_element.php:49
+msgid "select car brand"
+msgstr ""
+
+#: dz-inc/elementor/elements/search_form_element.php:81
+msgid "select car type"
+msgstr ""
+
+#: dz-inc/elementor/elements/search_form_element.php:112
+msgid "select price"
+msgstr ""
+
+#: dz-inc/elementor/elements/search_form_element.php:116
+msgid "Sort by popularity"
+msgstr ""
+
+#: dz-inc/elementor/elements/search_form_element.php:120
+msgid "Sort by average rating"
+msgstr ""
+
+#: dz-inc/elementor/elements/search_form_element.php:124
+msgid "selected active"
+msgstr ""
+
+#: dz-inc/elementor/elements/search_form_element.php:128
+msgid "Price low to high"
+msgstr ""
+
+#: dz-inc/elementor/elements/search_form_element.php:132
+msgid "Price high to low"
+msgstr ""
+
+#: dz-inc/elementor/elements/subscribe_element.php:67
+#: dz-inc/elementor/elements/subscribe_element.php:107
+msgid "Enter Your Email Address"
+msgstr ""
+
+#: dz-inc/elementor/job-map-listing/job-grid-listing.php:123
+#: dz-inc/elementor/job-map-listing/job-grid-listing.php:245
+#: dz-inc/elementor/job-map-listing/job-grid-listing.php:370
+#: dz-inc/elements/job_template/standard_2.php:559
+#: dz-inc/user_panel/elements/employer_dashboard.php:265
+#: job_manager/content-job_listing.php:142 job_manager/content-job_listing.php:206
+msgid "Browse Job"
+msgstr ""
+
+#: dz-inc/elements/author_block_element.php:11
+#: dz-inc/elements/author_information_page_element.php:13
+msgid "Profile Pic"
+msgstr ""
+
+#: dz-inc/elements/company_template/standard.php:53
+#: dz-inc/elements/company_template/standard_2.php:76
+msgid "Add Review"
+msgstr ""
+
+#: dz-inc/elements/company_template/standard.php:65
+#: dz-inc/elements/job_template/standard.php:202
+#: dz-inc/elements/job_template/standard_2.php:380
+#: job_manager/content-single-job_listing.php:124
+msgid "Social Profile"
+msgstr ""
+
+#: dz-inc/elements/company_template/standard.php:87
+#: dz-inc/elements/job_template/standard.php:217
+#: dz-inc/elements/job_template/standard_2.php:395
+#: dz-inc/library/wp-job-manager/mas-wp-job-manager-company.php:40
+#: dz-inc/library/wp-job-manager/mas-wp-job-manager-company.php:144
+#: job_manager/content-single-job_listing.php:139
+msgid "Whats App"
+msgstr ""
+
+#: dz-inc/elements/company_template/standard.php:108
+#: dz-inc/elements/company_template/standard_2.php:200
+#: dz-inc/elements/job_template/standard.php:249
+#: dz-inc/elements/job_template/standard_2.php:417
+#: dz-inc/library/wp-job-manager/mas-wp-job-manager-company.php:335
+#: job_manager/content-single-job_listing.php:155
+msgid "Office Photos"
+msgstr ""
+
+#: dz-inc/elements/company_template/standard.php:134
+#: dz-inc/elements/company_template/standard_2.php:186
+#: dz-inc/elements/job_template/standard.php:274
+#: dz-inc/elements/job_template/standard_2.php:440
+#: dz-inc/library/wp-job-manager/mas-wp-job-manager-company.php:374
+#: job_manager/content-single-job_listing.php:180
+msgid "Video"
+msgstr ""
+
+#: dz-inc/elements/company_template/standard.php:161
+#: dz-inc/elements/company_template/standard_2.php:236
+msgid "Available Jobs"
+msgstr ""
+
+#: dz-inc/elements/company_template/standard.php:277
+#: dz-inc/elements/company_template/standard_2.php:99
+#: dz-inc/elements/resume_template/standard_2.php:62
+msgid "Profile Info"
+msgstr ""
+
+#: dz-inc/elements/company_template/standard.php:286
+#: dz-inc/elements/company_template/standard_2.php:107
+#: dz-inc/elements/job_template/standard.php:419
+#: dz-inc/elements/job_template/standard_2.php:313
+#: dz-inc/library/wp-job-manager/mas-wp-job-manager-company.php:68
+#: dz-inc/library/wp-job-manager/mas-wp-job-manager-company.php:168
+msgid "Offered Salary"
+msgstr ""
+
+#: dz-inc/elements/company_template/standard.php:300
+#: dz-inc/elements/company_template/standard_2.php:116
+#: dz-inc/elements/job_template/standard.php:480
+#: dz-inc/elements/resume_template/standard.php:203
+#: dz-inc/elements/resume_template/standard_2.php:96
+#: dz-inc/user_panel/functions.php:20
+#: dz-inc/user_panel/functions_14_July_2023.php:20
+msgid "Phone"
+msgstr ""
+
+#: dz-inc/elements/company_template/standard.php:315
+#: dz-inc/elements/company_template/standard_2.php:127
+#: dz-inc/elements/job_template/standard.php:495
+#: dz-inc/elements/resume_template/standard.php:218
+#: dz-inc/elements/resume_template/standard_2.php:105
+#: dz-inc/library/functions.php:266 dz-inc/library/widgets.php:91
+#: dz-inc/user_panel/lost-password.php:43 dz-inc/user_panel/model-box-popup.php:65
+#: dz-inc/user_panel/register.php:71 woocommerce/single-product-reviews.php:95
+#: wp-job-manager-applications/job-application-footer.php:49
+msgid "Email"
+msgstr ""
+
+#: dz-inc/elements/company_template/standard.php:330
+#: dz-inc/elements/company_template/standard_2.php:138
+#: dz-inc/elements/job_template/standard.php:525
+#: dz-inc/elements/resume_template/standard.php:248
+#: dz-inc/elements/resume_template/standard_2.php:124
+#: dz-inc/library/widgets.php:88
+msgid "Address"
+msgstr ""
+
+#: dz-inc/elements/company_template/standard.php:345
+#: dz-inc/elements/company_template/standard_2.php:156
+#: dz-inc/elements/resume_template/standard.php:263
+#: dz-inc/elements/resume_template/standard_2.php:218
+msgid "Contact us"
+msgstr ""
+
+#: dz-inc/elements/footer/footer_1.php:29 dz-inc/elements/footer/footer_2.php:29
+#: dz-inc/elements/footer/footer_4.php:29
+msgid "Subscribe Now"
+msgstr ""
+
+#: dz-inc/elements/header/header_1.php:62 dz-inc/elements/header/header_1.php:207
+#: dz-inc/elements/header/header_2.php:62 dz-inc/elements/header/header_2.php:203
+#: dz-inc/elements/header/header_3.php:62 dz-inc/elements/header/header_3.php:203
+#: dz-inc/elements/header/header_4.php:62 dz-inc/elements/header/header_4.php:204
+#: dz-inc/elements/header/header_5.php:62 dz-inc/elements/header/header_5.php:203
+#: dz-inc/elements/header/header_6.php:63 dz-inc/elements/header/header_6.php:200
+#: dz-inc/elements/header_top_bar_1.php:43
+#: dz-inc/user_panel/model-box-popup.php:17
+#: dz-inc/user_panel/model-box-popup.php:110
+#: dz-inc/user_panel/model-box-popup.php:196 dz-inc/user_panel/register.php:113
+msgid "Sign Up"
+msgstr ""
+
+#: dz-inc/elements/header/header_1.php:71 dz-inc/elements/header/header_1.php:203
+#: dz-inc/elements/header/header_2.php:69 dz-inc/elements/header/header_2.php:199
+#: dz-inc/elements/header/header_3.php:69 dz-inc/elements/header/header_3.php:199
+#: dz-inc/elements/header/header_4.php:69 dz-inc/elements/header/header_4.php:200
+#: dz-inc/elements/header/header_5.php:69 dz-inc/elements/header/header_5.php:199
+#: dz-inc/elements/header/header_6.php:70 dz-inc/elements/header/header_6.php:196
+#: dz-inc/elements/header_top_bar_1.php:39
+msgid "Sign In"
+msgstr ""
+
+#: dz-inc/elements/header/header_1.php:89 dz-inc/elements/header/header_2.php:86
+#: dz-inc/elements/header/header_3.php:86 dz-inc/elements/header/header_4.php:86
+#: dz-inc/elements/header/header_5.php:86 dz-inc/elements/header/header_6.php:87
+msgid "Post a Job"
+msgstr ""
+
+#: dz-inc/elements/header/header_1.php:140 dz-inc/elements/header/header_2.php:137
+#: dz-inc/elements/header/header_3.php:137 dz-inc/elements/header/header_4.php:137
+#: dz-inc/elements/header/header_5.php:137 dz-inc/elements/header/header_6.php:138
+msgid "Enter Your Search ..."
+msgstr ""
+
+#: dz-inc/elements/header/header_1.php:213 dz-inc/elements/header/header_2.php:209
+#: dz-inc/elements/header/header_3.php:209 dz-inc/elements/header/header_4.php:210
+#: dz-inc/elements/header/header_5.php:209 dz-inc/elements/header/header_6.php:206
+msgid "Profile "
+msgstr ""
+
+#: dz-inc/elements/job_template/standard.php:85
+#: dz-inc/elements/job_template/standard_2.php:79
+#: wp-job-manager-applications/application-submitted.php:19
+msgid "Your job application has been submitted successfully"
+msgstr ""
+
+#: dz-inc/elements/job_template/standard.php:159
+#: dz-inc/elements/job_template/standard_2.php:147
+msgid "Application ends:"
+msgstr ""
+
+#: dz-inc/elements/job_template/standard.php:173
+#: dz-inc/elements/job_template/standard.php:180
+#: dz-inc/elements/job_template/standard_2.php:160
+#: dz-inc/elements/job_template/standard_2.php:167
+#: job_manager/job-application.php:23 job_manager/job-application.php:34
+msgid "Apply for job"
+msgstr ""
+
+#: dz-inc/elements/job_template/standard.php:299
+#: dz-inc/elements/job_template/standard_2.php:193
+msgid "Job Information"
+msgstr ""
+
+#: dz-inc/elements/job_template/standard.php:307
+#: dz-inc/elements/job_template/standard_2.php:201
+msgid "Applicants"
+msgstr ""
+
+#: dz-inc/elements/job_template/standard.php:320
+#: dz-inc/elements/job_template/standard_2.php:214
+msgid "Views"
+msgstr ""
+
+#: dz-inc/elements/job_template/standard.php:331
+#: dz-inc/elements/job_template/standard_2.php:225
+#: dz-inc/library/wp-job-manager/job_manager.php:72
+#: dz-inc/library/wp-job-manager/mas-wp-job-manager-company.php:8
+#: dz-inc/library/wp-job-manager/wp-job-manager-resumes.php:12
+msgid "Date Posted"
+msgstr ""
+
+#: dz-inc/elements/job_template/standard.php:355
+#: dz-inc/elements/job_template/standard_2.php:249
+#: dz-inc/library/wp-job-manager/job_manager.php:69
+msgid "Job Title"
+msgstr ""
+
+#: dz-inc/elements/job_template/standard.php:369
+#: dz-inc/elements/job_template/standard_2.php:263
+#: dz-inc/elements/resume_template/standard.php:173
+#: dz-inc/elements/resume_template/standard_2.php:78
+#: dz-inc/library/wp-job-manager/job_manager.php:120
+#: dz-inc/library/wp-job-manager/job_manager.php:199
+#: dz-inc/library/wp-job-manager/wp-job-manager-resumes.php:73
+#: dz-inc/library/wp-job-manager/wp-job-manager-resumes.php:154
+#: dz-inc/user_panel/functions.php:23
+#: dz-inc/user_panel/functions_14_July_2023.php:23
+msgid "Experience"
+msgstr ""
+
+#: dz-inc/elements/job_template/standard.php:384
+#: dz-inc/elements/job_template/standard_2.php:278
+#: dz-inc/elements/resume_template/standard.php:233
+#: dz-inc/elements/resume_template/standard_2.php:114
+#: dz-inc/library/wp-job-manager/job_manager.php:112
+#: dz-inc/library/wp-job-manager/job_manager.php:194
+#: dz-inc/library/wp-job-manager/wp-job-manager-resumes.php:65
+#: dz-inc/library/wp-job-manager/wp-job-manager-resumes.php:149
+#: dz-inc/user_panel/functions.php:22
+#: dz-inc/user_panel/functions_14_July_2023.php:22
+msgid "Qualification"
+msgstr ""
+
+#: dz-inc/elements/job_template/standard.php:399
+#: dz-inc/elements/job_template/standard_2.php:293
+#: dz-inc/elements/resume_template/standard.php:188
+#: dz-inc/elements/resume_template/standard_2.php:87
+#: dz-inc/library/wp-job-manager/job_manager.php:127
+#: dz-inc/library/wp-job-manager/job_manager.php:203
+#: dz-inc/library/wp-job-manager/wp-job-manager-resumes.php:80
+#: dz-inc/library/wp-job-manager/wp-job-manager-resumes.php:158
+msgid "Gender"
+msgstr ""
+
+#: dz-inc/elements/job_template/standard.php:434
+#: dz-inc/elements/job_template/standard_2.php:328
+msgid "Job Skills"
+msgstr ""
+
+#: dz-inc/elements/job_template/standard.php:465
+msgid "Company"
+msgstr ""
+
+#: dz-inc/elements/job_template/standard.php:510
+#: job_manager/content-single-job_listing-company.php:30
+msgid "Website"
+msgstr ""
+
+#: dz-inc/elements/job_template/standard.php:537
+msgid "Vew Profile"
+msgstr ""
+
+#: dz-inc/elements/job_template/standard_2.php:463
+msgid "Top Jobs"
+msgstr ""
+
+#: dz-inc/elements/job_template/standard_2.php:465
+msgid "Related Jobs"
+msgstr ""
+
+#: dz-inc/elements/page_no_record_found_element.php:2
+msgid "No result found. Perhaps searching can help."
+msgstr ""
+
+#: dz-inc/elements/pagination_element.php:38
+msgid "Start"
+msgstr ""
+
+#: dz-inc/elements/pagination_element.php:71
+#: dz-inc/elements/pagination_element.php:73
+msgid "Prev Post"
+msgstr ""
+
+#: dz-inc/elements/pagination_element.php:76
+#: dz-inc/elements/pagination_element.php:78
+msgid "Next Post"
+msgstr ""
+
+#: dz-inc/elements/post_template/post_audio.php:112
+#: dz-inc/elements/post_template/post_cornerimage.php:108
+#: dz-inc/elements/post_template/post_gutenberg.php:88
+#: dz-inc/elements/post_template/post_header_image.php:115
+#: dz-inc/elements/post_template/post_link.php:111
+#: dz-inc/elements/post_template/post_slider_1.php:124
+#: dz-inc/elements/post_template/post_slider_2.php:129
+#: dz-inc/elements/post_template/post_standard.php:108
+#: dz-inc/elements/post_template/post_video.php:113 page.php:52
+#: shop_template.php:49 template-jobs-no-map.php:54
+msgid "Pages: "
+msgstr ""
+
+#: dz-inc/elements/related_element.php:38
+msgid "Related Blogs"
+msgstr ""
+
+#: dz-inc/elements/resume_template/standard.php:57
+#: dz-inc/elements/resume_template/standard_2.php:46
+#: wp-job-manager-resumes/content-single-resume.php:52
+msgid "Download CV"
+msgstr ""
+
+#: dz-inc/elements/resume_template/standard.php:68
+#: dz-inc/elements/resume_template/standard_2.php:139
+#: wp-job-manager-resumes/content-single-resume.php:61
+msgid "Skills"
+msgstr ""
+
+#: dz-inc/elements/resume_template/standard.php:81
+#: dz-inc/elements/resume_template/standard_2.php:153
+#: wp-job-manager-resumes/content-single-resume.php:108
+msgid "Work Experience"
+msgstr ""
+
+#: dz-inc/elements/resume_template/standard.php:94
+#: dz-inc/elements/resume_template/standard.php:121
+#: dz-inc/elements/resume_template/standard_2.php:166
+#: dz-inc/elements/resume_template/standard_2.php:193
+#, php-format
+msgid "%1$s %2$s"
+msgstr ""
+
+#: dz-inc/elements/resume_template/standard.php:107
+#: dz-inc/elements/resume_template/standard_2.php:179
+#: wp-job-manager-resumes/content-single-resume.php:76
+msgid "Education & Training"
+msgstr ""
+
+#: dz-inc/elements/resume_template/standard.php:160
+#: dz-inc/elements/resume_template/standard_2.php:69
+#: dz-inc/library/wp-job-manager/wp-job-manager-resumes.php:49
+#: dz-inc/library/wp-job-manager/wp-job-manager-resumes.php:139
+#: dz-inc/user_panel/functions.php:24
+#: dz-inc/user_panel/functions_14_July_2023.php:24
+msgid "Current Salary"
+msgstr ""
+
+#: dz-inc/elements/tag_block_element.php:4
+#: dz-inc/user_panel/model-box-popup.php:343
+#: wp-job-manager-alerts/alert-form.php:100 wp-job-manager-alerts/my-alerts.php:40
+msgid "Tags"
+msgstr ""
+
+#: dz-inc/library/class-menu-handle.php:51
+#: dz-inc/library/class-menu-handle.php:113
+#: dz-inc/library/class-menu-handle.php:118 dz-inc/library/functions.php:2088
+#: dz-inc/library/functions.php:2117 dz-inc/library/functions.php:2154
+#: dz-inc/library/functions.php:2214 dz-inc/library/functions.php:2263
+msgid "Dashboard"
+msgstr ""
+
+#: dz-inc/library/class-menu-handle.php:57 dz-inc/library/class-menu-handle.php:58
+msgid "DZ Plugins"
+msgstr ""
+
+#: dz-inc/library/class-menu-handle.php:129
+#: dz-inc/library/class-menu-handle.php:134
+msgid "Import Demo"
+msgstr ""
+
+#: dz-inc/library/class-menu-handle.php:151
+msgid "Import Demos"
+msgstr ""
+
+#: dz-inc/library/functions.php:47 template-dashboard.php:66
+msgid "Home"
+msgstr ""
+
+#: dz-inc/library/functions.php:123 dz-inc/library/functions.php:128
+#: dz-inc/library/functions.php:133 dz-inc/library/functions.php:138
+msgid "Archive for "
+msgstr ""
+
+#: dz-inc/library/functions.php:142
+msgid "Search Results for "
+msgstr ""
+
+#: dz-inc/library/functions.php:145
+msgid "404 - Not Found"
+msgstr ""
+
+#: dz-inc/library/functions.php:196
+msgid "says:"
+msgstr ""
+
+#: dz-inc/library/functions.php:212
+msgid "Reply"
+msgstr ""
+
+#: dz-inc/library/functions.php:268
+#, php-format
+msgid "Required fields are marked %s"
+msgstr ""
+
+#: dz-inc/library/functions.php:280
+msgid "Type Comment Here"
+msgstr ""
+
+#: dz-inc/library/functions.php:281
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: dz-inc/library/functions.php:282
+msgid "Log out of this account"
+msgstr ""
+
+#: dz-inc/library/functions.php:282
+msgid "Log out?"
+msgstr ""
+
+#: dz-inc/library/functions.php:282
+#, php-format
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\""
+msgstr ""
+
+#: dz-inc/library/functions.php:287
+msgid "site-button"
+msgstr ""
+
+#: dz-inc/library/functions.php:288
+msgid "Leave Comment"
+msgstr ""
+
+#: dz-inc/library/functions.php:289 woocommerce/single-product-reviews.php:77
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: dz-inc/library/functions.php:290
+msgid "Cancel reply"
+msgstr ""
+
+#: dz-inc/library/functions.php:291
+msgid "Submit Now "
+msgstr ""
+
+#: dz-inc/library/functions.php:826
+#: dz-inc/library/wp-job-manager/mas-wp-job-manager-company.php:276
+msgid "Share Profile"
+msgstr ""
+
+#: dz-inc/library/functions.php:943 dz-inc/user_panel/mail-send-template.php:80
+msgid "Jobzilla"
+msgstr ""
+
+#: dz-inc/library/functions.php:944
+msgid "Architecture Theme"
+msgstr ""
+
+#: dz-inc/library/functions.php:1133
+msgid "Author :"
+msgstr ""
+
+#: dz-inc/library/functions.php:1136
+msgid "Search :"
+msgstr ""
+
+#: dz-inc/library/functions.php:1139
+msgid "Category :"
+msgstr ""
+
+#: dz-inc/library/functions.php:1142
+msgid "Product :"
+msgstr ""
+
+#: dz-inc/library/functions.php:1145
+msgid "Tag :"
+msgstr ""
+
+#: dz-inc/library/functions.php:1153
+msgid "Archive :"
+msgstr ""
+
+#: dz-inc/library/functions.php:1497
+msgid "Your Wait Is Going To Finish"
+msgstr ""
+
+#: dz-inc/library/functions.php:2093 dz-inc/library/functions.php:2123
+#: dz-inc/library/functions.php:2169 dz-inc/library/functions.php:2229
+#: dz-inc/library/functions.php:2278
+msgid "Profile"
+msgstr ""
+
+#: dz-inc/library/functions.php:2098 dz-inc/library/functions.php:2179
+#: dz-inc/library/functions.php:2288
+msgid "Manage Jobs"
+msgstr ""
+
+#: dz-inc/library/functions.php:2108 dz-inc/library/functions.php:2184
+#: dz-inc/library/functions.php:2293
+msgid "Add Jobs"
+msgstr ""
+
+#: dz-inc/library/functions.php:2128 dz-inc/library/functions.php:2189
+#: dz-inc/library/functions.php:2239 dz-inc/library/functions.php:2298
+#: wp-job-manager-bookmarks/my-bookmarks.php:31
+msgid "Bookmark"
+msgstr ""
+
+#: dz-inc/library/functions.php:2133 dz-inc/library/functions.php:2199
+#: dz-inc/library/functions.php:2249 dz-inc/library/functions.php:2308
+msgid "Job Alerts"
+msgstr ""
+
+#: dz-inc/library/functions.php:2138 dz-inc/library/functions.php:2224
+#: dz-inc/library/functions.php:2325
+msgid "Add Resumes"
+msgstr ""
+
+#: dz-inc/library/functions.php:2159 dz-inc/library/functions.php:2268
+msgid "Manage Companies"
+msgstr ""
+
+#: dz-inc/library/functions.php:2164 dz-inc/library/functions.php:2273
+#: mas-wp-job-manager-company/company-dashboard.php:34
+msgid "Add Company"
+msgstr ""
+
+#: dz-inc/library/functions.php:2194 dz-inc/library/functions.php:2244
+#: dz-inc/library/functions.php:2303
+#: dz-inc/library/wp-job-manager/job_manager.php:75
+msgid "Applications"
+msgstr ""
+
+#: dz-inc/library/functions.php:2219 dz-inc/library/functions.php:2320
+msgid "Manage Resumes"
+msgstr ""
+
+#: dz-inc/library/functions.php:2342
+#, php-format
+msgid " %s ago"
+msgstr ""
+
+#: dz-inc/library/functions.php:2366
+msgid "Industry"
+msgstr ""
+
+#: dz-inc/library/functions.php:2367
+msgid "Industries"
+msgstr ""
+
+#: dz-inc/library/functions.php:2372
+msgid "Employee Strength"
+msgstr ""
+
+#: dz-inc/library/functions.php:2373
+msgid "Employees Strength"
+msgstr ""
+
+#: dz-inc/library/functions.php:2378 dz-inc/library/functions.php:2379
+msgid "Avg. Salary"
+msgstr ""
+
+#: dz-inc/library/functions.php:2384 dz-inc/library/functions.php:2385
+msgid "Revenue"
+msgstr ""
+
+#: dz-inc/library/functions.php:2439
+msgid "Photo Gallery"
+msgstr ""
+
+#: dz-inc/library/functions.php:2451 dz-inc/library/functions.php:2453
+msgid "Comment Title"
+msgstr ""
+
+#: dz-inc/library/mega_menu/edit_mega_menu_walker.php:74
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#: dz-inc/library/mega_menu/edit_mega_menu_walker.php:102
+msgid "Move up"
+msgstr ""
+
+#: dz-inc/library/mega_menu/edit_mega_menu_walker.php:115
+msgid "Move down"
+msgstr ""
+
+#: dz-inc/library/mega_menu/edit_mega_menu_walker.php:117
+msgid "Edit Menu Item"
+msgstr ""
+
+#: dz-inc/library/mega_menu/edit_mega_menu_walker.php:128
+msgid "URL"
+msgstr ""
+
+#: dz-inc/library/mega_menu/edit_mega_menu_walker.php:135
+msgid "Navigation Label"
+msgstr ""
+
+#: dz-inc/library/mega_menu/edit_mega_menu_walker.php:141
+msgid "Title Attribute"
+msgstr ""
+
+#: dz-inc/library/mega_menu/edit_mega_menu_walker.php:148
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: dz-inc/library/mega_menu/edit_mega_menu_walker.php:153
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: dz-inc/library/mega_menu/edit_mega_menu_walker.php:159
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: dz-inc/library/mega_menu/edit_mega_menu_walker.php:167
+msgid ""
+"The description will be displayed in the menu if the current theme supports it."
+msgstr ""
+
+#: dz-inc/library/mega_menu/edit_mega_menu_walker.php:185
+msgid "Make this a category mega menu"
+msgstr ""
+
+#: dz-inc/library/mega_menu/edit_mega_menu_walker.php:203
+msgid "No. of post per category (Default 6)"
+msgstr ""
+
+#: dz-inc/library/mega_menu/edit_mega_menu_walker.php:211
+msgid "Posts With Images Only: (Default No)"
+msgstr ""
+
+#: dz-inc/library/mega_menu/edit_mega_menu_walker.php:221
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: dz-inc/library/mega_menu/edit_mega_menu_walker.php:234
+#: wp-job-manager-resumes/form-fields/repeated-field.php:22
+#: wp-job-manager-resumes/form-fields/repeated-field.php:56
+msgid "Remove"
+msgstr ""
+
+#: dz-inc/library/mega_menu/edit_mega_menu_walker.php:235
+msgid "Cancel"
+msgstr ""
+
+#: dz-inc/library/widgets.php:9
+msgid "Jobzilla About Us"
+msgstr ""
+
+#: dz-inc/library/widgets.php:9
+msgid "Show the information about company"
+msgstr ""
+
+#: dz-inc/library/widgets.php:86
+msgid "Many desktop publishing packages and web page editors now."
+msgstr ""
+
+#: dz-inc/library/widgets.php:89
+msgid "65 Sunset CA 90026, USA"
+msgstr ""
+
+#: dz-inc/library/widgets.php:92
+msgid "example@domain.com"
+msgstr ""
+
+#: dz-inc/library/widgets.php:94
+msgid "Call"
+msgstr ""
+
+#: dz-inc/library/widgets.php:95
+msgid "555-555-1234"
+msgstr ""
+
+#: dz-inc/library/widgets.php:100
+msgid "Logo url here:"
+msgstr ""
+
+#: dz-inc/library/widgets.php:101
+msgid "Logo url"
+msgstr ""
+
+#: dz-inc/library/widgets.php:105 dz-inc/library/widgets.php:222
+msgid "Title:"
+msgstr ""
+
+#: dz-inc/library/widgets.php:106
+msgid "About us"
+msgstr ""
+
+#: dz-inc/library/widgets.php:109
+msgid "Content :"
+msgstr ""
+
+#: dz-inc/library/widgets.php:110
+msgid "Content"
+msgstr ""
+
+#: dz-inc/library/widgets.php:114
+msgid "Contect Title 1:"
+msgstr ""
+
+#: dz-inc/library/widgets.php:115
+msgid "Contect Title 1"
+msgstr ""
+
+#: dz-inc/library/widgets.php:119
+msgid "Contect Value 1:"
+msgstr ""
+
+#: dz-inc/library/widgets.php:120
+msgid "Contect Value 1"
+msgstr ""
+
+#: dz-inc/library/widgets.php:124
+msgid "Contect Title 2:"
+msgstr ""
+
+#: dz-inc/library/widgets.php:125
+msgid "Contect Title 2"
+msgstr ""
+
+#: dz-inc/library/widgets.php:129
+msgid "Contect Value 2:"
+msgstr ""
+
+#: dz-inc/library/widgets.php:130
+msgid "Contect Value 2"
+msgstr ""
+
+#: dz-inc/library/widgets.php:133
+msgid "Contect title 3:"
+msgstr ""
+
+#: dz-inc/library/widgets.php:134
+msgid "Contect title 3"
+msgstr ""
+
+#: dz-inc/library/widgets.php:137
+msgid "Contect Value 3:"
+msgstr ""
+
+#: dz-inc/library/widgets.php:138
+msgid "Contect Value 3"
+msgstr ""
+
+#: dz-inc/library/widgets.php:152
+msgid "Jobzilla Navigation"
+msgstr ""
+
+#: dz-inc/library/widgets.php:152
+msgid "Show the Navigation"
+msgstr ""
+
+#: dz-inc/library/widgets.php:216
+msgid "Navigation"
+msgstr ""
+
+#: dz-inc/library/widgets.php:223
+msgid "Menu"
+msgstr ""
+
+#: dz-inc/library/widgets.php:226
+msgid "Select Menu:"
+msgstr ""
+
+#: dz-inc/library/widgets.php:244
+msgid "Select Menu Style:"
+msgstr ""
+
+#: dz-inc/library/widgets.php:256
+msgid "Choose Style"
+msgstr ""
+
+#: dz-inc/library/widgets.php:279
+msgid "Jobzilla Recent Post"
+msgstr ""
+
+#: dz-inc/library/widgets.php:279
+msgid "Show the footer recent posts sidebar"
+msgstr ""
+
+#: dz-inc/library/widgets.php:318
+msgid "LATEST NEWS"
+msgstr ""
+
+#: dz-inc/library/widgets.php:323
+msgid "Title: "
+msgstr ""
+
+#: dz-inc/library/widgets.php:327
+msgid "No. of Posts:"
+msgstr ""
+
+#: dz-inc/library/widgets.php:332
+msgid "All Categories"
+msgstr ""
+
+#: dz-inc/library/woocommerce_functions.php:162
+msgid "Extra"
+msgstr ""
+
+#: dz-inc/library/woocommerce_functions.php:182
+msgid "Attribute1_title"
+msgstr ""
+
+#: dz-inc/library/woocommerce_functions.php:184
+#: dz-inc/library/woocommerce_functions.php:200
+#: dz-inc/library/woocommerce_functions.php:216
+msgid "Enter the title of your custom text ."
+msgstr ""
+
+#: dz-inc/library/woocommerce_functions.php:190
+msgid "Attribute1_value"
+msgstr ""
+
+#: dz-inc/library/woocommerce_functions.php:192
+#: dz-inc/library/woocommerce_functions.php:208
+#: dz-inc/library/woocommerce_functions.php:224
+msgid "Enter the value of your custom text ."
+msgstr ""
+
+#: dz-inc/library/woocommerce_functions.php:198
+msgid "Attribute2_title"
+msgstr ""
+
+#: dz-inc/library/woocommerce_functions.php:206
+msgid "Attribute2_value"
+msgstr ""
+
+#: dz-inc/library/woocommerce_functions.php:214
+msgid "Attribute3_title"
+msgstr ""
+
+#: dz-inc/library/woocommerce_functions.php:222
+msgid "Attribute3_value"
+msgstr ""
+
+#: dz-inc/library/woocommerce_functions.php:230
+msgid "Model"
+msgstr ""
+
+#: dz-inc/library/woocommerce_functions.php:232
+msgid "Enter the car model of your custom text ."
+msgstr ""
+
+#: dz-inc/library/woocommerce_functions.php:241
+msgid "Select your car type ."
+msgstr ""
+
+#: dz-inc/library/woocommerce_functions.php:244
+msgid "Choose Type"
+msgstr ""
+
+#: dz-inc/library/woocommerce_functions.php:245
+msgid "Hatchback"
+msgstr ""
+
+#: dz-inc/library/woocommerce_functions.php:246
+msgid "Sedan"
+msgstr ""
+
+#: dz-inc/library/woocommerce_functions.php:247
+msgid "SUV"
+msgstr ""
+
+#: dz-inc/library/woocommerce_functions.php:248
+msgid "Crossover"
+msgstr ""
+
+#: dz-inc/library/woocommerce_functions.php:249
+msgid "Coupe"
+msgstr ""
+
+#: dz-inc/library/woocommerce_functions.php:250
+msgid "Convertible"
+msgstr ""
+
+#: dz-inc/library/wp-job-manager/functions.php:10
+#: dz-inc/user_panel/functions.php:48 dz-inc/user_panel/functions.php:131
+#: dz-inc/user_panel/functions.php:250 dz-inc/user_panel/functions.php:350
+#: dz-inc/user_panel/functions.php:405
+#: dz-inc/user_panel/functions_14_July_2023.php:48
+#: dz-inc/user_panel/functions_14_July_2023.php:131
+#: dz-inc/user_panel/functions_14_July_2023.php:249
+#: dz-inc/user_panel/functions_14_July_2023.php:349
+#: dz-inc/user_panel/functions_14_July_2023.php:404
+#: dz-inc/user_panel/user-profile-class.php:9
+#: dz-inc/user_panel/user-profile-class_2_1_2024.php:9
+msgid "Something went wrong, Please try again."
+msgstr ""
+
+#: dz-inc/library/wp-job-manager/functions.php:49
+msgid "Message has sent successfully."
+msgstr ""
+
+#: dz-inc/library/wp-job-manager/functions.php:51
+msgid "Message could not be send, Please try after sometime."
+msgstr ""
+
+#: dz-inc/library/wp-job-manager/functions.php:82
+msgid "Messsges"
+msgstr ""
+
+#: dz-inc/library/wp-job-manager/functions.php:93
+msgid "Message:"
+msgstr ""
+
+#: dz-inc/library/wp-job-manager/functions.php:95
+msgid "Enter your message"
+msgstr ""
+
+#: dz-inc/library/wp-job-manager/functions.php:99
+msgid "submit"
+msgstr ""
+
+#: dz-inc/library/wp-job-manager/functions.php:128
+#: dz-inc/library/wp-job-manager/functions.php:137
+#: dz-inc/library/wp-job-manager/functions.php:146
+msgid "You are logged in."
+msgstr ""
+
+#: dz-inc/library/wp-job-manager/job-salary-filter.php:14
+msgid "Salary"
+msgstr ""
+
+#: dz-inc/library/wp-job-manager/job-salary-filter.php:17
+msgid "Any Salary"
+msgstr ""
+
+#: dz-inc/library/wp-job-manager/job-salary-filter.php:18
+msgid "Up to $20,000"
+msgstr ""
+
+#: dz-inc/library/wp-job-manager/job-salary-filter.php:19
+msgid "$20,000 to $40,000"
+msgstr ""
+
+#: dz-inc/library/wp-job-manager/job-salary-filter.php:20
+msgid "$40,000 to $60,000"
+msgstr ""
+
+#: dz-inc/library/wp-job-manager/job-salary-filter.php:21
+msgid "$60,000+"
+msgstr ""
+
+#: dz-inc/library/wp-job-manager/job_manager.php:53
+msgid "List Layout Page"
+msgstr ""
+
+#: dz-inc/library/wp-job-manager/job_manager.php:54
+msgid ""
+"Select the page for company listing. This lets the plugin know the location of "
+"the company listings page."
+msgstr ""
+
+#: dz-inc/library/wp-job-manager/job_manager.php:70
+#: dz-inc/user_panel/model-box-popup.php:358
+#: job_manager/job-filter-job-types.php:27
+#: wp-job-manager-alerts/alert-form.php:122
+msgid "Job Type"
+msgstr ""
+
+#: dz-inc/library/wp-job-manager/job_manager.php:71
+msgid "Filled?"
+msgstr ""
+
+#: dz-inc/library/wp-job-manager/job_manager.php:73
+msgid "Closing Date"
+msgstr ""
+
+#: dz-inc/library/wp-job-manager/job_manager.php:74
+msgid "Listing Expires"
+msgstr ""
+
+#: dz-inc/library/wp-job-manager/job_manager.php:76
+msgid "Actions"
+msgstr ""
+
+#: dz-inc/library/wp-job-manager/job_manager.php:113
+#: dz-inc/library/wp-job-manager/job_manager.php:195
+#: dz-inc/library/wp-job-manager/wp-job-manager-resumes.php:66
+#: dz-inc/library/wp-job-manager/wp-job-manager-resumes.php:150
+msgid "Bachelor Degree"
+msgstr ""
+
+#: dz-inc/library/wp-job-manager/job_manager.php:121
+#: dz-inc/library/wp-job-manager/job_manager.php:200
+msgid "How many years of experience do you required"
+msgstr ""
+
+#: dz-inc/library/wp-job-manager/job_manager.php:130
+#: dz-inc/library/wp-job-manager/job_manager.php:206
+#: dz-inc/library/wp-job-manager/wp-job-manager-resumes.php:84
+#: dz-inc/library/wp-job-manager/wp-job-manager-resumes.php:162
+msgid "Male"
+msgstr ""
+
+#: dz-inc/library/wp-job-manager/job_manager.php:131
+#: dz-inc/library/wp-job-manager/job_manager.php:207
+#: dz-inc/library/wp-job-manager/wp-job-manager-resumes.php:85
+#: dz-inc/library/wp-job-manager/wp-job-manager-resumes.php:163
+msgid "Female"
+msgstr ""
+
+#: dz-inc/library/wp-job-manager/job_manager.php:132
+#: dz-inc/library/wp-job-manager/job_manager.php:208
+#: dz-inc/library/wp-job-manager/wp-job-manager-resumes.php:86
+#: dz-inc/library/wp-job-manager/wp-job-manager-resumes.php:164
+msgid "Both"
+msgstr ""
+
+#: dz-inc/library/wp-job-manager/job_manager.php:138
+#: dz-inc/library/wp-job-manager/job_manager.php:213
+msgid "Job Detail Layout"
+msgstr ""
+
+#: dz-inc/library/wp-job-manager/job_manager.php:148
+#: dz-inc/library/wp-job-manager/job_manager.php:221
+msgid "Longitude"
+msgstr ""
+
+#: dz-inc/library/wp-job-manager/job_manager.php:149
+#: dz-inc/library/wp-job-manager/job_manager.php:222
+msgid "Location Longitude"
+msgstr ""
+
+#: dz-inc/library/wp-job-manager/job_manager.php:155
+#: dz-inc/library/wp-job-manager/job_manager.php:228
+msgid "Latitude"
+msgstr ""
+
+#: dz-inc/library/wp-job-manager/job_manager.php:156
+#: dz-inc/library/wp-job-manager/job_manager.php:229
+msgid "Location Latitude"
+msgstr ""
+
+#: dz-inc/library/wp-job-manager/job_manager.php:162
+#: dz-inc/library/wp-job-manager/job_manager.php:235
+msgid "Sidebar(on/off)"
+msgstr ""
+
+#: dz-inc/library/wp-job-manager/job_manager.php:166
+#: dz-inc/library/wp-job-manager/job_manager.php:238
+msgid "Job Detail Sidebar (on/off)"
+msgstr ""
+
+#: dz-inc/library/wp-job-manager/job_manager.php:172
+#: dz-inc/library/wp-job-manager/job_manager.php:245
+msgid "Maximum Salary"
+msgstr ""
+
+#: dz-inc/library/wp-job-manager/job_manager.php:175
+#: dz-inc/library/wp-job-manager/job_manager.php:247
+msgid "e.g. 50000"
+msgstr ""
+
+#: dz-inc/library/wp-job-manager/job_manager.php:248
+msgid ""
+"Maximum of salary range you can offer - you can leave it empty and set only "
+"minimum salary "
+msgstr ""
+
+#: dz-inc/library/wp-job-manager/job_manager.php:422
+msgid "Filter by tag:"
+msgstr ""
+
+#: dz-inc/library/wp-job-manager/mas-wp-job-manager-company.php:9
+#: dz-inc/library/wp-job-manager/wp-job-manager-resumes.php:13
+#: wp-job-manager-alerts/my-alerts.php:44
+#: wp-job-manager-bookmarks/my-bookmarks.php:33
+msgid "Action"
+msgstr ""
+
+#: dz-inc/library/wp-job-manager/mas-wp-job-manager-company.php:34
+#: dz-inc/library/wp-job-manager/mas-wp-job-manager-company.php:41
+#: dz-inc/library/wp-job-manager/mas-wp-job-manager-company.php:48
+msgid "text"
+msgstr ""
+
+#: dz-inc/library/wp-job-manager/mas-wp-job-manager-company.php:35
+#: dz-inc/library/wp-job-manager/mas-wp-job-manager-company.php:141
+msgid "company linkedin page link"
+msgstr ""
+
+#: dz-inc/library/wp-job-manager/mas-wp-job-manager-company.php:42
+#: dz-inc/library/wp-job-manager/mas-wp-job-manager-company.php:145
+msgid "company whatsapp page link"
+msgstr ""
+
+#: dz-inc/library/wp-job-manager/mas-wp-job-manager-company.php:49
+#: dz-inc/library/wp-job-manager/mas-wp-job-manager-company.php:149
+msgid "company pinterest page link"
+msgstr ""
+
+#: dz-inc/library/wp-job-manager/mas-wp-job-manager-company.php:54
+#: dz-inc/library/wp-job-manager/mas-wp-job-manager-company.php:152
+msgid "Company Image"
+msgstr ""
+
+#: dz-inc/library/wp-job-manager/mas-wp-job-manager-company.php:55
+#: dz-inc/library/wp-job-manager/mas-wp-job-manager-company.php:153
+msgid "URL to the company image"
+msgstr ""
+
+#: dz-inc/library/wp-job-manager/mas-wp-job-manager-company.php:61
+#: dz-inc/library/wp-job-manager/mas-wp-job-manager-company.php:157
+msgid "Company Video Image"
+msgstr ""
+
+#: dz-inc/library/wp-job-manager/mas-wp-job-manager-company.php:62
+#: dz-inc/library/wp-job-manager/mas-wp-job-manager-company.php:158
+msgid "URL to the video company image"
+msgstr ""
+
+#: dz-inc/library/wp-job-manager/mas-wp-job-manager-company.php:69
+#: dz-inc/library/wp-job-manager/mas-wp-job-manager-company.php:169
+msgid "Company offered Salary"
+msgstr ""
+
+#: dz-inc/library/wp-job-manager/mas-wp-job-manager-company.php:75
+#: dz-inc/library/wp-job-manager/mas-wp-job-manager-company.php:162
+msgid "Company Office Gallery"
+msgstr ""
+
+#: dz-inc/library/wp-job-manager/mas-wp-job-manager-company.php:76
+#: dz-inc/library/wp-job-manager/mas-wp-job-manager-company.php:163
+msgid "URL to the company Office gallery"
+msgstr ""
+
+#: dz-inc/library/wp-job-manager/mas-wp-job-manager-company.php:83
+#: dz-inc/library/wp-job-manager/mas-wp-job-manager-company.php:173
+#: dz-inc/library/wp-job-manager/wp-job-manager-resumes.php:102
+#: dz-inc/library/wp-job-manager/wp-job-manager-resumes.php:176
+msgid "Latitude "
+msgstr ""
+
+#: dz-inc/library/wp-job-manager/mas-wp-job-manager-company.php:85
+msgid "Enter your latitude"
+msgstr ""
+
+#: dz-inc/library/wp-job-manager/mas-wp-job-manager-company.php:90
+#: dz-inc/library/wp-job-manager/mas-wp-job-manager-company.php:178
+#: dz-inc/library/wp-job-manager/wp-job-manager-resumes.php:108
+#: dz-inc/library/wp-job-manager/wp-job-manager-resumes.php:181
+msgid "Longitude "
+msgstr ""
+
+#: dz-inc/library/wp-job-manager/mas-wp-job-manager-company.php:92
+msgid "enter your longitude"
+msgstr ""
+
+#: dz-inc/library/wp-job-manager/mas-wp-job-manager-company.php:97
+msgid "Adderss "
+msgstr ""
+
+#: dz-inc/library/wp-job-manager/mas-wp-job-manager-company.php:99
+msgid "enter your adderss"
+msgstr ""
+
+#: dz-inc/library/wp-job-manager/mas-wp-job-manager-company.php:104
+#: dz-inc/library/wp-job-manager/mas-wp-job-manager-company.php:183
+msgid "Employer Detail Layout"
+msgstr ""
+
+#: dz-inc/library/wp-job-manager/mas-wp-job-manager-company.php:136
+msgid "Adderss"
+msgstr ""
+
+#: dz-inc/library/wp-job-manager/mas-wp-job-manager-company.php:137
+msgid "Enter your adderss"
+msgstr ""
+
+#: dz-inc/library/wp-job-manager/mas-wp-job-manager-company.php:175
+#: dz-inc/library/wp-job-manager/wp-job-manager-resumes.php:178
+msgid "26.9026609192594"
+msgstr ""
+
+#: dz-inc/library/wp-job-manager/mas-wp-job-manager-company.php:180
+#: dz-inc/library/wp-job-manager/wp-job-manager-resumes.php:183
+msgid "75.80664793220636"
+msgstr ""
+
+#: dz-inc/library/wp-job-manager/mas-wp-job-manager-company.php:298
+msgid "Whatsapp"
+msgstr ""
+
+#: dz-inc/library/wp-job-manager/wp-job-manager-resumes.php:51
+#: dz-inc/library/wp-job-manager/wp-job-manager-resumes.php:140
+msgid "Candidate Current Salary"
+msgstr ""
+
+#: dz-inc/library/wp-job-manager/wp-job-manager-resumes.php:57
+#: dz-inc/library/wp-job-manager/wp-job-manager-resumes.php:144
+msgid "Contact Phone"
+msgstr ""
+
+#: dz-inc/library/wp-job-manager/wp-job-manager-resumes.php:59
+#: dz-inc/library/wp-job-manager/wp-job-manager-resumes.php:145
+msgid "1234567890"
+msgstr ""
+
+#: dz-inc/library/wp-job-manager/wp-job-manager-resumes.php:75
+#: dz-inc/library/wp-job-manager/wp-job-manager-resumes.php:155
+msgid "How many years of experience do you have"
+msgstr ""
+
+#: dz-inc/library/wp-job-manager/wp-job-manager-resumes.php:81
+#: dz-inc/library/wp-job-manager/wp-job-manager-resumes.php:159
+msgid "Select Gender"
+msgstr ""
+
+#: dz-inc/library/wp-job-manager/wp-job-manager-resumes.php:92
+#: dz-inc/library/wp-job-manager/wp-job-manager-resumes.php:168
+msgid "Candidate Detail Layout"
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:343
+msgid "Install Required Plugins"
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:344
+msgid "Install Plugins"
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:346
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:348
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:349
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:401
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:402
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:921
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2632
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:3673
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:403
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:3258
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:404
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:3051
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:406
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:408
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. Please "
+"update the plugin."
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:410
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:411
+msgid "Dismiss this notice"
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:412
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:413
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:616
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:617
+msgid "Update Required"
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:1028
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug and "
+"renaming did not work."
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:1028
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:1031
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:1031
+msgid ""
+"The remote plugin package consists of more than one file, but the files are not "
+"packaged in a folder."
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2076
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2391
+msgid "WordPress Repository"
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2394
+msgid "External Source"
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2397
+msgid "Pre-Packaged"
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2414
+msgid "Not Installed"
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2418
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2420
+msgid "Active"
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2426
+msgid "Required Update not Available"
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2429
+msgid "Requires Update"
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2432
+msgid "Update recommended"
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2441
+#, php-format
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2491
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2495
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2499
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2581
+msgid "unknown"
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2589
+msgid "Installed version:"
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2597
+msgid "Minimum required version:"
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2609
+msgid "Available version:"
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2632
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2646
+msgid "Plugin"
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2647
+msgid "Source"
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2652
+msgid "Version"
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2702
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2707
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2713
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2783
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2816
+msgid "Install"
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2822
+msgid "Update"
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2825
+msgid "Activate"
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2856
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2858
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2899
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2901
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:3007
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:3033
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:3257
+msgid "Plugin activation failed."
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:3591
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:3596
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:3603
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:3608
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:3610
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:3611
+msgid "All installations have been completed."
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:3613
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/plugins.php:63
+msgid "DZ Core (Required)"
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/plugins.php:73
+msgid "DZ Import"
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/plugins.php:83
+msgid "WP Job Manager Applications"
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/plugins.php:93
+msgid "WP Job Manager Bookmarks"
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/plugins.php:103
+msgid "WP Job Manager Resumes"
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/plugins.php:113
+msgid "WP Job Manager Tags"
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/plugins.php:123
+#: dz-inc/thirdparty/tgm-plugin-activation/plugins.php:191
+msgid "MAS Wp Job Manager Company"
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/plugins.php:133
+msgid "WP Job Manager Wc Paid Listings"
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/plugins.php:144
+msgid " WP Job Manager Application Deadline"
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/plugins.php:154
+msgid " DZ Mega Menu"
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/plugins.php:164
+msgid " DZ User Message"
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/plugins.php:174
+msgid " WP Job Manager Alerts"
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/plugins.php:184
+msgid "MAS Wp Job Manager Company Reviews"
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/plugins.php:199
+msgid "WP Job Manager Locations"
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/plugins.php:207
+msgid "Elementor"
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/plugins.php:213
+msgid "Redux-Framework"
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/plugins.php:219
+msgid "Contact Form 7"
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/plugins.php:225
+msgid "Woocommerce"
+msgstr ""
+
+#: dz-inc/thirdparty/tgm-plugin-activation/plugins.php:230
+msgid "WP Job Manager"
+msgstr ""
+
+#: dz-inc/user_panel/elements/candidate_dashboard.php:133
+#: dz-inc/user_panel/elements/candidate_dashboard.php:177
+#: dz-inc/user_panel/elements/candidate_dashboard.php:244
+#: dz-inc/user_panel/elements/employer_dashboard.php:132
+#: dz-inc/user_panel/elements/employer_dashboard.php:180
+#: dz-inc/user_panel/elements/employer_dashboard.php:277
+#: dz-inc/user_panel/recent-activities.php:110 job_manager/job-dashboard.php:69
+#: mas-wp-job-manager-company/company-dashboard.php:53
+#: wp-job-manager-alerts/my-alerts.php:51
+#: wp-job-manager-applications/past-applications-none.php:17
+#: wp-job-manager-bookmarks/my-bookmarks.php:39
+#: wp-job-manager-resumes/candidate-dashboard.php:54
+msgid "No Record Found"
+msgstr ""
+
+#: dz-inc/user_panel/elements/candidate_dashboard.php:161
+#: dz-inc/user_panel/elements/employer_dashboard.php:159
+msgid "User"
+msgstr ""
+
+#: dz-inc/user_panel/elements/employer_dashboard.php:38
+msgid "Posted Jobs"
+msgstr ""
+
+#: dz-inc/user_panel/elements/employer_dashboard.php:95
+msgid "Your Profile Views"
+msgstr ""
+
+#: dz-inc/user_panel/elements/employer_dashboard.php:191
+msgid "Recent Jobs"
+msgstr ""
+
+#: dz-inc/user_panel/elements/header.php:61
+msgid " ago"
+msgstr ""
+
+#: dz-inc/user_panel/elements/header.php:70
+#: dz-inc/user_panel/elements/header.php:79
+#: dz-inc/user_panel/elements/header.php:88
+#: dz-inc/user_panel/elements/header.php:97
+msgid "Listing "
+msgstr ""
+
+#: dz-inc/user_panel/elements/header.php:70
+msgid " was updated"
+msgstr ""
+
+#: dz-inc/user_panel/elements/header.php:79
+#: dz-inc/user_panel/elements/header.php:115
+msgid " was created."
+msgstr ""
+
+#: dz-inc/user_panel/elements/header.php:88
+#: dz-inc/user_panel/elements/header.php:124
+msgid " was approved."
+msgstr ""
+
+#: dz-inc/user_panel/elements/header.php:97
+#: dz-inc/user_panel/elements/header.php:133
+msgid " was removed."
+msgstr ""
+
+#: dz-inc/user_panel/elements/header.php:106
+#: dz-inc/user_panel/elements/header.php:115
+#: dz-inc/user_panel/elements/header.php:124
+#: dz-inc/user_panel/elements/header.php:133
+msgid "Resume "
+msgstr ""
+
+#: dz-inc/user_panel/elements/header.php:106
+msgid " was updated."
+msgstr ""
+
+#: dz-inc/user_panel/elements/header.php:142
+msgid "Your Listing "
+msgstr ""
+
+#: dz-inc/user_panel/elements/header.php:142
+msgid " has been approved!"
+msgstr ""
+
+#: dz-inc/user_panel/elements/header.php:151
+msgid "You have added listing "
+msgstr ""
+
+#: dz-inc/user_panel/elements/header.php:160
+#: dz-inc/user_panel/recent-activities.php:92
+msgid "Someone applied to your job "
+msgstr ""
+
+#: dz-inc/user_panel/functions.php:21
+#: dz-inc/user_panel/functions_14_July_2023.php:21
+msgid "Job  Title"
+msgstr ""
+
+#: dz-inc/user_panel/functions.php:81
+#: dz-inc/user_panel/functions_14_July_2023.php:81
+msgid "Change Password successful, redirecting..."
+msgstr ""
+
+#: dz-inc/user_panel/functions.php:141 dz-inc/user_panel/functions.php:182
+#: dz-inc/user_panel/functions_14_July_2023.php:141
+#: dz-inc/user_panel/functions_14_July_2023.php:181
+msgid "Please fill username."
+msgstr ""
+
+#: dz-inc/user_panel/functions.php:143 dz-inc/user_panel/functions.php:191
+#: dz-inc/user_panel/functions_14_July_2023.php:143
+#: dz-inc/user_panel/functions_14_July_2023.php:190
+msgid "Please fill password."
+msgstr ""
+
+#: dz-inc/user_panel/functions.php:155
+#: dz-inc/user_panel/functions_14_July_2023.php:154
+msgid "Wrong username or password."
+msgstr ""
+
+#: dz-inc/user_panel/functions.php:164 dz-inc/user_panel/functions.php:329
+#: dz-inc/user_panel/functions_14_July_2023.php:163
+#: dz-inc/user_panel/functions_14_July_2023.php:328
+msgid "Login successful, redirecting..."
+msgstr ""
+
+#: dz-inc/user_panel/functions.php:183
+#: dz-inc/user_panel/functions_14_July_2023.php:182
+msgid "Please enter valid username."
+msgstr ""
+
+#: dz-inc/user_panel/functions.php:184
+#: dz-inc/user_panel/functions_14_July_2023.php:183
+msgid "The username already exists."
+msgstr ""
+
+#: dz-inc/user_panel/functions.php:185
+#: dz-inc/user_panel/functions_14_July_2023.php:184
+msgid "Please provide your user login."
+msgstr ""
+
+#: dz-inc/user_panel/functions.php:187
+#: dz-inc/user_panel/functions_14_July_2023.php:186
+msgid "Please enter email."
+msgstr ""
+
+#: dz-inc/user_panel/functions.php:188
+#: dz-inc/user_panel/functions_14_July_2023.php:187
+msgid "The email address is not valid."
+msgstr ""
+
+#: dz-inc/user_panel/functions.php:189
+#: dz-inc/user_panel/functions_14_July_2023.php:188
+msgid "The email address already exists"
+msgstr ""
+
+#: dz-inc/user_panel/functions.php:192
+#: dz-inc/user_panel/functions_14_July_2023.php:191
+msgid "Password did not matched."
+msgstr ""
+
+#: dz-inc/user_panel/functions.php:193
+#: dz-inc/user_panel/functions_14_July_2023.php:192
+msgid "Your password is incorrect."
+msgstr ""
+
+#: dz-inc/user_panel/functions.php:194
+#: dz-inc/user_panel/functions_14_July_2023.php:193
+msgid "You have forgot about the password."
+msgstr ""
+
+#: dz-inc/user_panel/functions.php:196
+#: dz-inc/user_panel/functions_14_July_2023.php:195
+msgid "Please fill first name."
+msgstr ""
+
+#: dz-inc/user_panel/functions.php:197
+#: dz-inc/user_panel/functions_14_July_2023.php:196
+msgid "Please fill last name."
+msgstr ""
+
+#: dz-inc/user_panel/functions.php:199
+#: dz-inc/user_panel/functions_14_July_2023.php:198
+msgid "New user registration is currently not allowed."
+msgstr ""
+
+#: dz-inc/user_panel/functions.php:200
+#: dz-inc/user_panel/functions_14_July_2023.php:199
+msgid "Please check the reCaptcha checkbox."
+msgstr ""
+
+#: dz-inc/user_panel/functions.php:201
+#: dz-inc/user_panel/functions_14_July_2023.php:200
+msgid "ReCaptcha validation is failed."
+msgstr ""
+
+#: dz-inc/user_panel/functions.php:202
+#: dz-inc/user_panel/functions_14_July_2023.php:201
+msgid "Please accept the privacy policy to register account."
+msgstr ""
+
+#: dz-inc/user_panel/functions.php:204
+#: dz-inc/user_panel/functions_14_July_2023.php:203
+msgid "Please fill old password."
+msgstr ""
+
+#: dz-inc/user_panel/functions.php:205
+#: dz-inc/user_panel/functions_14_July_2023.php:204
+msgid "Please fill new password."
+msgstr ""
+
+#: dz-inc/user_panel/functions.php:206
+#: dz-inc/user_panel/functions_14_July_2023.php:205
+msgid "Please fill confirm new password."
+msgstr ""
+
+#: dz-inc/user_panel/functions.php:210
+#: dz-inc/user_panel/functions_14_July_2023.php:209
+msgid "Something Went Wrong, Please try again."
+msgstr ""
+
+#: dz-inc/user_panel/functions.php:336
+#: dz-inc/user_panel/functions_14_July_2023.php:335
+msgid "You have successfully applied to the job, redirecting ..."
+msgstr ""
+
+#: dz-inc/user_panel/functions.php:356
+#: dz-inc/user_panel/functions_14_July_2023.php:355
+msgid "Enter your e-mail address"
+msgstr ""
+
+#: dz-inc/user_panel/functions.php:363
+#: dz-inc/user_panel/functions_14_July_2023.php:362
+msgid "Invalid e-mail address."
+msgstr ""
+
+#: dz-inc/user_panel/functions.php:388
+#: dz-inc/user_panel/functions_14_July_2023.php:387
+msgid "Check your email address for you new password."
+msgstr ""
+
+#: dz-inc/user_panel/functions.php:391
+#: dz-inc/user_panel/functions_14_July_2023.php:390
+msgid "System is unable to send you mail containg your new password."
+msgstr ""
+
+#: dz-inc/user_panel/functions.php:414
+#: dz-inc/user_panel/functions_14_July_2023.php:413
+msgid "activitie remove successful"
+msgstr ""
+
+#: dz-inc/user_panel/login.php:28
+msgid "Log In"
+msgstr ""
+
+#: dz-inc/user_panel/login.php:39
+msgid "Usearname"
+msgstr ""
+
+#: dz-inc/user_panel/login.php:45 dz-inc/user_panel/model-box-popup.php:71
+#: dz-inc/user_panel/register.php:77 woocommerce/myaccount/form-login.php:43
+#: woocommerce/myaccount/form-login.php:93
+msgid "Password"
+msgstr ""
+
+#: dz-inc/user_panel/login.php:53
+msgid "Remember Me"
+msgstr ""
+
+#: dz-inc/user_panel/login.php:55 dz-inc/user_panel/login.php:56
+msgid "Forgot Password?"
+msgstr ""
+
+#: dz-inc/user_panel/login.php:63 dz-inc/user_panel/model-box-popup.php:190
+#: woocommerce/myaccount/form-login.php:54
+msgid "Log in"
+msgstr ""
+
+#: dz-inc/user_panel/login.php:68 dz-inc/user_panel/model-box-popup.php:115
+#: dz-inc/user_panel/model-box-popup.php:203 dz-inc/user_panel/register.php:119
+msgid "Or"
+msgstr ""
+
+#: dz-inc/user_panel/lost-password.php:30 dz-inc/user_panel/lost-password.php:56
+#: dz-inc/user_panel/model-box-popup.php:232
+#: dz-inc/user_panel/model-box-popup.php:258
+msgid "Reset Password"
+msgstr ""
+
+#: dz-inc/user_panel/lost-password.php:49 dz-inc/user_panel/lost-password.php:50
+#: dz-inc/user_panel/model-box-popup.php:252
+msgid "Back To Login"
+msgstr ""
+
+#: dz-inc/user_panel/mail-send-template.php:16
+msgid "JOBZILLA"
+msgstr ""
+
+#: dz-inc/user_panel/mail-send-template.php:43
+msgid "New Password :"
+msgstr ""
+
+#: dz-inc/user_panel/mail-send-template.php:45
+msgid "Dear Valid User"
+msgstr ""
+
+#: dz-inc/user_panel/mail-send-template.php:50
+msgid "Thanks &amp; Regards,"
+msgstr ""
+
+#: dz-inc/user_panel/mail-send-template.php:52
+msgid "Jobzilla Support Team"
+msgstr ""
+
+#: dz-inc/user_panel/mail-send-template.php:81
+msgid "Email : "
+msgstr ""
+
+#: dz-inc/user_panel/model-box-popup.php:33 dz-inc/user_panel/register.php:41
+msgid "Candidate"
+msgstr ""
+
+#: dz-inc/user_panel/model-box-popup.php:38 dz-inc/user_panel/register.php:46
+msgid "Employer"
+msgstr ""
+
+#: dz-inc/user_panel/model-box-popup.php:49 dz-inc/user_panel/register.php:55
+msgid "First Name"
+msgstr ""
+
+#: dz-inc/user_panel/model-box-popup.php:54 dz-inc/user_panel/register.php:60
+msgid "Last Name"
+msgstr ""
+
+#: dz-inc/user_panel/model-box-popup.php:59 dz-inc/user_panel/register.php:65
+#: woocommerce/myaccount/form-login.php:79
+msgid "Username"
+msgstr ""
+
+#: dz-inc/user_panel/model-box-popup.php:78 dz-inc/user_panel/register.php:84
+msgid "Confirm Password"
+msgstr ""
+
+#: dz-inc/user_panel/model-box-popup.php:87
+msgid "I agree to the"
+msgstr ""
+
+#: dz-inc/user_panel/model-box-popup.php:98 dz-inc/user_panel/register.php:101
+msgid "Already registered?"
+msgstr ""
+
+#: dz-inc/user_panel/model-box-popup.php:100 dz-inc/user_panel/register.php:103
+msgid "Log in here"
+msgstr ""
+
+#: dz-inc/user_panel/model-box-popup.php:179
+#: woocommerce/myaccount/form-login.php:51
+msgid "Remember me"
+msgstr ""
+
+#: dz-inc/user_panel/model-box-popup.php:194
+msgid "Don 't have an account ?"
+msgstr ""
+
+#: dz-inc/user_panel/model-box-popup.php:245
+msgid "Email*"
+msgstr ""
+
+#: dz-inc/user_panel/model-box-popup.php:295
+#: dz-inc/user_panel/model-box-popup.php:296
+#: wp-job-manager-alerts/alert-form.php:30 wp-job-manager-alerts/my-alerts.php:34
+msgid "Alert Name"
+msgstr ""
+
+#: dz-inc/user_panel/model-box-popup.php:301
+msgid "Email;"
+msgstr ""
+
+#: dz-inc/user_panel/model-box-popup.php:302
+msgid "Enter your email"
+msgstr ""
+
+#: dz-inc/user_panel/model-box-popup.php:307 sidebar-jobs.php:110
+#: wp-job-manager-alerts/alert-form.php:38
+msgid "Keyword"
+msgstr ""
+
+#: dz-inc/user_panel/model-box-popup.php:308
+msgid "Keyword*"
+msgstr ""
+
+#: dz-inc/user_panel/model-box-popup.php:314
+#: wp-job-manager-alerts/alert-form.php:47
+msgid "Job Region"
+msgstr ""
+
+#: dz-inc/user_panel/model-box-popup.php:315
+msgid "Any job Regions"
+msgstr ""
+
+#: dz-inc/user_panel/model-box-popup.php:329
+#: wp-job-manager-alerts/alert-form.php:77 wp-job-manager-alerts/my-alerts.php:37
+msgid "Categories"
+msgstr ""
+
+#: dz-inc/user_panel/model-box-popup.php:330
+msgid "Any job Categories"
+msgstr ""
+
+#: dz-inc/user_panel/model-box-popup.php:344
+msgid "Any job Tags"
+msgstr ""
+
+#: dz-inc/user_panel/model-box-popup.php:359
+#: wp-job-manager-alerts/alert-form.php:124
+msgid "Any job type"
+msgstr ""
+
+#: dz-inc/user_panel/model-box-popup.php:375
+#: wp-job-manager-alerts/my-alerts.php:43
+msgid "Frequency"
+msgstr ""
+
+#: dz-inc/user_panel/recent-activities.php:15
+msgid "Recent Activities"
+msgstr ""
+
+#: dz-inc/user_panel/recent-activities.php:33
+msgid "ago"
+msgstr ""
+
+#: dz-inc/user_panel/recent-activities.php:38
+#: dz-inc/user_panel/recent-activities.php:43
+#: dz-inc/user_panel/recent-activities.php:52
+msgid "Listing"
+msgstr ""
+
+#: dz-inc/user_panel/recent-activities.php:38
+#: dz-inc/user_panel/recent-activities.php:57
+msgid "was updated"
+msgstr ""
+
+#: dz-inc/user_panel/recent-activities.php:43
+msgid "was created. "
+msgstr ""
+
+#: dz-inc/user_panel/recent-activities.php:47
+#: dz-inc/user_panel/recent-activities.php:78
+msgid "Your Listing"
+msgstr ""
+
+#: dz-inc/user_panel/recent-activities.php:47
+#: dz-inc/user_panel/recent-activities.php:66
+msgid "was approved"
+msgstr ""
+
+#: dz-inc/user_panel/recent-activities.php:52
+#: dz-inc/user_panel/recent-activities.php:71
+msgid "was removed"
+msgstr ""
+
+#: dz-inc/user_panel/recent-activities.php:57
+#: dz-inc/user_panel/recent-activities.php:62
+#: dz-inc/user_panel/recent-activities.php:71
+msgid "Resume"
+msgstr ""
+
+#: dz-inc/user_panel/recent-activities.php:62
+msgid "was created."
+msgstr ""
+
+#: dz-inc/user_panel/recent-activities.php:66
+msgid "Your Resume"
+msgstr ""
+
+#: dz-inc/user_panel/recent-activities.php:78
+msgid "has been approved!"
+msgstr ""
+
+#: dz-inc/user_panel/recent-activities.php:85
+msgid "You have added listing"
+msgstr ""
+
+#: dz-inc/user_panel/register.php:93
+msgid "I agree to the "
+msgstr ""
+
+#: dz-inc/user_panel/user-profile-class.php:106
+#: dz-inc/user_panel/user-profile-class_2_1_2024.php:106
+msgid "Profile has been successfully updated."
+msgstr ""
+
+#: functions.php:23
+msgid "Personal Blog"
+msgstr ""
+
+#: functions.php:26
+msgid "© 2024 All Rights Reserved."
+msgstr ""
+
+#: functions.php:74
+msgid "Main Menu"
+msgstr ""
+
+#: functions.php:120
+msgid "Blog Sidebar"
+msgstr ""
+
+#: functions.php:122 functions.php:154 functions.php:186
+msgid "Widgets in this area will be shown on the right-hand side."
+msgstr ""
+
+#: functions.php:130
+msgid "Footer Sidebar"
+msgstr ""
+
+#: functions.php:132 functions.php:142
+msgid "Widgets in this area will be shown in Footer Area."
+msgstr ""
+
+#: functions.php:140
+msgid "Footer Sidebar 2"
+msgstr ""
+
+#: functions.php:152
+msgid "Shop Sidebar"
+msgstr ""
+
+#: functions.php:162
+msgid "Header Shopping Cart"
+msgstr ""
+
+#: functions.php:164
+msgid "Widgets in this area will be shown in Header Area."
+msgstr ""
+
+#: functions.php:437
+msgid ""
+"Sed laoreet orci id pretium sodales. Nunc ac est dolor. Donec placerat dolor et "
+"mi elementum, in suscipit libero tincidunt. Ut at tempor ex, vel auctor tortor. "
+"Sed finibus vitae mi et imperdiet."
+msgstr ""
+
+#: functions.php:440
+msgid "info@dexignzone.com"
+msgstr ""
+
+#: functions.php:717
+msgid "Archive : "
+msgstr ""
+
+#: functions.php:748
+msgid "Tag : "
+msgstr ""
+
+#: functions.php:780
+msgid "Author : "
+msgstr ""
+
+#: functions.php:817
+msgid "Jobzilla Personal Blog"
+msgstr ""
+
+#: functions.php:823
+msgid "Search : "
+msgstr ""
+
+#: functions.php:928
+msgid "Something went wrong !"
+msgstr ""
+
+#: functions.php:930
+msgid "We Are Sorry, Page Not Found"
+msgstr ""
+
+#: functions.php:931
+msgid ""
+"The page you are looking for might have been removed, had its name changed, or "
+"is temporarily unavailable."
+msgstr ""
+
+#: functions.php:932
+msgid "Back to Home"
+msgstr ""
+
+#: functions.php:1086 functions.php:1087 functions.php:1088 functions.php:1089
+#: functions.php:1090
+msgid "on"
+msgstr ""
+
+#: functions.php:1141
+msgid "strong magenta"
+msgstr ""
+
+#: functions.php:1146
+msgid "light grayish magenta"
+msgstr ""
+
+#: functions.php:1151
+msgid "very light gray"
+msgstr ""
+
+#: functions.php:1156
+msgid "very dark gray"
+msgstr ""
+
+#: functions.php:1281
+msgid "View your shopping cart"
+msgstr ""
+
+#: functions.php:1281
+#, php-format
+msgid "%d"
+msgstr ""
+
+#: job_manager/account-signin.php:21 wp-job-manager-resumes/account-signin.php:21
+msgid "Your account"
+msgstr ""
+
+#: job_manager/account-signin.php:26 wp-job-manager-resumes/account-signin.php:25
+#, php-format
+msgid "You are currently signed in as <strong>%s</strong>."
+msgstr ""
+
+#: job_manager/account-signin.php:29 wp-job-manager-resumes/account-signin.php:28
+msgid "Sign out"
+msgstr ""
+
+#: job_manager/account-signin.php:40 wp-job-manager-resumes/account-signin.php:41
+msgid "Have an account?"
+msgstr ""
+
+#: job_manager/account-signin.php:42 job_manager/job-dashboard-login.php:20
+#: wp-job-manager-resumes/account-signin.php:43
+#: wp-job-manager-resumes/candidate-dashboard-login.php:20
+msgid "Sign in"
+msgstr ""
+
+#: job_manager/account-signin.php:46
+msgid ""
+"If you don't have an account you can create one below by entering your email "
+"address/username."
+msgstr ""
+
+#: job_manager/account-signin.php:46
+msgid "optionally"
+msgstr ""
+
+#: job_manager/account-signin.php:48
+msgid "Your account details will be confirmed via email."
+msgstr ""
+
+#: job_manager/account-signin.php:53
+msgid "You must sign in to create a new listing."
+msgstr ""
+
+#: job_manager/account-signin.php:64 job_manager/job-submit.php:44
+#: job_manager/job-submit.php:66 mas-wp-job-manager-company/company-submit.php:48
+#: wp-job-manager-applications/application-form.php:48
+#: wp-job-manager-resumes/account-signin.php:60
+#: wp-job-manager-resumes/form-fields/repeated-field.php:24
+#: wp-job-manager-resumes/form-fields/repeated-field.php:58
+#: wp-job-manager-resumes/resume-submit.php:52
+msgid "(optional)"
+msgstr ""
+
+#: job_manager/content-single-job_listing-meta.php:49
+#: job_manager/content-single-job_listing.php:102
+msgid "This position has been filled"
+msgstr ""
+
+#: job_manager/content-single-job_listing-meta.php:51
+#: job_manager/content-single-job_listing.php:104
+msgid "Applications have closed"
+msgstr ""
+
+#: job_manager/content-single-job_listing.php:53
+msgid "This listing has expired."
+msgstr ""
+
+#: job_manager/form-fields/file-field.php:62
+#, php-format
+msgid "Maximum file size: %s."
+msgstr ""
+
+#: job_manager/job-dashboard-login.php:20
+msgid "You need to be signed in to manage your listings."
+msgstr ""
+
+#: job_manager/job-dashboard.php:45
+msgid "Your listings are shown in the table below."
+msgstr ""
+
+#: job_manager/job-dashboard.php:51
+msgid "Add Job"
+msgstr ""
+
+#: job_manager/job-filters-map.php:46 job_manager/job-filters.php:50
+msgid "Region"
+msgstr ""
+
+#: job_manager/job-filters-map.php:111 job_manager/job-filters.php:112
+#: sidebar-jobs.php:77 wp-job-manager-alerts/alert-form.php:90
+#: wp-job-manager-resumes/resume-filters.php:86
+msgid "Any category"
+msgstr ""
+
+#: job_manager/job-filters-map.php:143
+msgid "Search Job"
+msgstr ""
+
+#: job_manager/job-filters-map.php:157 job_manager/job-filters.php:164
+msgid ""
+"Your browser does not support JavaScript, or it is disabled. JavaScript must be "
+"enabled in order to view listings."
+msgstr ""
+
+#: job_manager/job-filters.php:138
+msgid "Search Jobs"
+msgstr ""
+
+#: job_manager/job-preview.php:30 wp-job-manager-resumes/resume-preview.php:33
+msgid "Preview"
+msgstr ""
+
+#: job_manager/job-preview.php:32
+#: mas-wp-job-manager-company/company-dashboard.php:119
+#: mas-wp-job-manager-company/company-dashboard.php:138
+#: mas-wp-job-manager-company/company-dashboard.php:151
+#: wp-job-manager-alerts/my-alerts.php:146
+#: wp-job-manager-applications/job-application-footer.php:53
+#: wp-job-manager-resumes/candidate-dashboard.php:143
+#: wp-job-manager-resumes/candidate-dashboard.php:157
+#: wp-job-manager-resumes/candidate-dashboard.php:172
+#: wp-job-manager-resumes/resume-preview.php:35
+msgid "Edit"
+msgstr ""
+
+#: job_manager/job-preview.php:33 woocommerce/single-product-reviews.php:81
+msgid "Submit"
+msgstr ""
+
+#: job_manager/job-submit.php:22
+msgid "Job Form"
+msgstr ""
+
+#: job_manager/job-submit.php:29
+#, php-format
+msgid "You are editing an existing job. %s"
+msgstr ""
+
+#: job_manager/job-submit.php:29
+msgid "Create A New Job"
+msgstr ""
+
+#: job_manager/job-submit.php:37
+msgid "Company Details"
+msgstr ""
+
+#: job_manager/job-submitted.php:25
+#, php-format
+msgid ""
+"%1$s listed successfully. To view your listing <a href=\"%2$s\">click here</a>."
+msgstr ""
+
+#: job_manager/job-submitted.php:35
+#, php-format
+msgid "%s submitted successfully. Your listing will be visible once approved."
+msgstr ""
+
+#: job_manager/job-submitted.php:49
+#, php-format
+msgid "  <a href=\"%1$s\"> View your %2$s</a>"
+msgstr ""
+
+#: job_manager/job-submitted.php:57
+#, php-format
+msgid "  <a href=\"%s\"> %s</a>"
+msgstr ""
+
+#: mas-wp-job-manager-company/company-dashboard.php:23
+msgid "Company Listing"
+msgstr ""
+
+#: mas-wp-job-manager-company/company-dashboard.php:28
+msgid "Your company can be viewed, edited or removed below."
+msgstr ""
+
+#: mas-wp-job-manager-company/company-dashboard.php:124
+#: wp-job-manager-resumes/candidate-dashboard.php:149
+msgid "Hide"
+msgstr ""
+
+#: mas-wp-job-manager-company/company-dashboard.php:131
+#: mas-wp-job-manager-company/company-dashboard.php:142
+#: wp-job-manager-resumes/candidate-dashboard.php:163
+msgid "Publish"
+msgstr ""
+
+#: mas-wp-job-manager-company/company-dashboard.php:160
+#: wp-job-manager-resumes/candidate-dashboard.php:181
+msgid "Relist"
+msgstr ""
+
+#: mas-wp-job-manager-company/company-dashboard.php:168
+#: wp-job-manager-alerts/my-alerts.php:156
+#: wp-job-manager-applications/job-application-edit.php:39
+#: wp-job-manager-bookmarks/my-bookmarks.php:82
+#: wp-job-manager-resumes/candidate-dashboard.php:190
+msgid "Delete"
+msgstr ""
+
+#: mas-wp-job-manager-company/company-submit.php:20
+msgid "Company Form"
+msgstr ""
+
+#: mas-wp-job-manager-company/company-submitted.php:20
+#, php-format
+msgid ""
+"Your company has been submitted successfully. To view your company <a href=\"%s"
+"\">click here</a>."
+msgstr ""
+
+#: mas-wp-job-manager-company/company-submitted.php:22
+msgid "Your company has been submitted successfully."
+msgstr ""
+
+#: mas-wp-job-manager-company/company-submitted.php:26
+msgid "Your company has been submitted successfully and is pending approval."
+msgstr ""
+
+#: mas-wp-job-manager-company/emails/admin-new-company.php:26
+#, php-format
+msgid "A new company has been submitted to <a href=\"%s\">%s</a>."
+msgstr ""
+
+#: mas-wp-job-manager-company/emails/admin-new-company.php:33
+#: mas-wp-job-manager-company/emails/plain/admin-new-company.php:26
+#: wp-job-manager-resumes/emails/admin-new-resume.php:36
+#: wp-job-manager-resumes/emails/plain/admin-new-resume.php:35
+msgid "It has been published and is now available to the public."
+msgstr ""
+
+#: mas-wp-job-manager-company/emails/admin-new-company.php:39
+#: wp-job-manager-resumes/emails/admin-new-resume.php:40
+#, php-format
+msgid ""
+"It is awaiting approval by an administrator in <a href=\"%s\">WordPress admin</"
+"a>."
+msgstr ""
+
+#: mas-wp-job-manager-company/emails/admin-updated-company.php:25
+#, php-format
+msgid "A company has been updated on <a href=\"%s\">%s</a>."
+msgstr ""
+
+#: mas-wp-job-manager-company/emails/admin-updated-company.php:28
+#: mas-wp-job-manager-company/emails/plain/admin-updated-company.php:25
+msgid "The changes have been published and are now available to the public."
+msgstr ""
+
+#: mas-wp-job-manager-company/emails/admin-updated-company.php:33
+#, php-format
+msgid ""
+"The company is not publicly available until the changes are approved by an "
+"administrator in the site's <a href=\"%s\">WordPress admin</a>."
+msgstr ""
+
+#: mas-wp-job-manager-company/emails/plain/admin-new-company.php:23
+#, php-format
+msgid "A new company has been submitted to %1$s (%2$s)."
+msgstr ""
+
+#: mas-wp-job-manager-company/emails/plain/admin-new-company.php:30
+#: wp-job-manager-resumes/emails/plain/admin-new-resume.php:39
+#, php-format
+msgid "It is awaiting approval by an administrator in WordPress admin (%s)."
+msgstr ""
+
+#: mas-wp-job-manager-company/emails/plain/admin-updated-company.php:22
+#, php-format
+msgid "A company has been updated on %1$s (%2$s)."
+msgstr ""
+
+#: mas-wp-job-manager-company/emails/plain/admin-updated-company.php:29
+#, php-format
+msgid ""
+"The company is not publicly available until the changes are approved by an "
+"administrator in the site's WordPress admin (%s)."
+msgstr ""
+
+#: search.php:45
+msgid "Nothing Found"
+msgstr ""
+
+#: search.php:49
+msgid "If you are not happy with the results, please do another search."
+msgstr ""
+
+#: search.php:56
+msgid "Write your text"
+msgstr ""
+
+#: searchform.php:5
+msgid "Search Here ..."
+msgstr ""
+
+#: sidebar-jobs.php:167
+msgid "Job Types"
+msgstr ""
+
+#: sidebar-jobs.php:176
+msgid "Job Tags"
+msgstr ""
+
+#: wc-paid-listings/my-packages.php:23
+msgid "My Job Packages"
+msgstr ""
+
+#: wc-paid-listings/my-packages.php:25
+msgid "My Resume Packages"
+msgstr ""
+
+#: wc-paid-listings/my-packages.php:32
+msgid "Package Name"
+msgstr ""
+
+#: wc-paid-listings/my-packages.php:33
+msgid "Remaining"
+msgstr ""
+
+#: wc-paid-listings/my-packages.php:35
+msgid "Listing Duration"
+msgstr ""
+
+#: wc-paid-listings/my-packages.php:37
+msgid "Featured?"
+msgstr ""
+
+#: wc-paid-listings/my-packages.php:51
+msgid "Unlimited"
+msgstr ""
+
+#: wc-paid-listings/my-packages.php:57
+#, php-format
+msgid "%d day"
+msgstr ""
+
+#: wc-paid-listings/my-packages.php:59
+msgid "-"
+msgstr ""
+
+#: wc-paid-listings/package-selection.php:72
+#: wc-paid-listings/resume-package-selection.php:73
+msgid "unlimited"
+msgstr ""
+
+#: wc-paid-listings/package-selection.php:73
+msgid "featured"
+msgstr ""
+
+#: wc-paid-listings/package-selection.php:75
+#, php-format
+msgid "%1$s for %2$s %3$s job"
+msgstr ""
+
+#: wc-paid-listings/package-selection.php:79
+#: wc-paid-listings/resume-package-selection.php:76
+#, php-format
+msgid "listed for %s day"
+msgstr ""
+
+#: wc-paid-listings/package-selection.php:98
+#: wc-paid-listings/resume-package-selection.php:97
+msgid "No packages found"
+msgstr ""
+
+#: wc-paid-listings/resume-package-selection.php:73
+#, php-format
+msgid "%1$s to post %2$d resume"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:18
+msgid "Cart Totals"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:24
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:81 woocommerce/cart/cart.php:32
+#: woocommerce/cart/cart.php:105
+msgid "Total"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:96
+#, php-format
+msgid " (taxes estimated for %s)"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:99
+#, php-format
+msgid ""
+"Note: taxes are estimated %s and will be updated during checkout based on your "
+"billing and shipping information."
+msgstr ""
+
+#: woocommerce/cart/cart.php:28 woocommerce/cart/cart.php:61
+msgid "Product"
+msgstr ""
+
+#: woocommerce/cart/cart.php:29
+msgid "Product name"
+msgstr ""
+
+#: woocommerce/cart/cart.php:30
+msgid "Unit Price"
+msgstr ""
+
+#: woocommerce/cart/cart.php:31 woocommerce/cart/cart.php:87
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/cart/cart.php:33
+msgid "Close"
+msgstr ""
+
+#: woocommerce/cart/cart.php:76
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:81
+msgid "Price"
+msgstr ""
+
+#: woocommerce/cart/cart.php:117
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/cart.php:137
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:137
+msgid "Apply coupon"
+msgstr ""
+
+#: woocommerce/cart/cart.php:142
+msgid "Update cart"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:26
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:54
+msgid "Your order"
+msgstr ""
+
+#: woocommerce/checkout/payment.php:33
+msgid ""
+"Sorry, it seems that there are no available payment methods for your state. "
+"Please contact us if you require assistance or wish to make alternate "
+"arrangements."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:33
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:42
+#, php-format
+msgid ""
+"Since your browser does not support JavaScript, or it is disabled, please "
+"ensure you click the %1$sUpdate Totals%2$s button before placing your order. "
+"You may be charged more than the amount stated above if you fail to do so."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:44
+msgid "Update totals"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:39
+msgid "Username or email address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:57
+msgid "Lost your password?"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:86
+msgid "Email address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:99
+msgid "A link to set a new password will be sent to your email address."
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:25
+msgid ""
+"Lost your password? Please enter your username or email address. You will "
+"receive a link to create a new password via email."
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:28
+msgid "Username or email"
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:38
+msgid "Reset password"
+msgstr ""
+
+#: woocommerce/product-searchform.php:25
+msgid "Search for:"
+msgstr ""
+
+#: woocommerce/product-searchform.php:26
+msgid "Search products&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:34
+#, php-format
+msgid "%1$s review for %2$s"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:37
+msgid "Reviews"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:64
+msgid "There are no reviews yet."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:75
+msgid "Add a review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:75
+#, php-format
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:120
+#, php-format
+msgid "You must be %1$slogged in%2$s to post a review."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:124
+msgid "Your rating"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:125
+msgid "Rate&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:126
+msgid "Perfect"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:127
+msgid "Good"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:128
+msgid "Average"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:129
+msgid "Not that bad"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:130
+msgid "Very poor"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:134
+msgid "Your review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:141
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: woocommerce/single-product/related.php:30
+msgid "Related Products"
+msgstr ""
+
+#: wp-job-manager-alerts/alert-form.php:22
+msgid "Alerts Form"
+msgstr ""
+
+#: wp-job-manager-alerts/alert-form.php:32
+msgid "Enter a name for your alert"
+msgstr ""
+
+#: wp-job-manager-alerts/alert-form.php:40
+msgid "Optionally add a keyword to match jobs against"
+msgstr ""
+
+#: wp-job-manager-alerts/alert-form.php:60
+msgid "Any region"
+msgstr ""
+
+#: wp-job-manager-alerts/alert-form.php:70
+msgid "Optionally define a location to search against"
+msgstr ""
+
+#: wp-job-manager-alerts/alert-form.php:113
+msgid "Any tag"
+msgstr ""
+
+#: wp-job-manager-alerts/alert-form.php:136
+msgid "Email Frequency"
+msgstr ""
+
+#: wp-job-manager-alerts/alert-form.php:149
+msgid "Save alert"
+msgstr ""
+
+#: wp-job-manager-alerts/content-email_job_listing.php:40
+#, php-format
+msgid "Location: %s"
+msgstr ""
+
+#: wp-job-manager-alerts/content-email_job_listing.php:43
+#, php-format
+msgid "Company: %s"
+msgstr ""
+
+#: wp-job-manager-alerts/content-email_job_listing.php:47
+#, php-format
+msgid "View Details: %s"
+msgstr ""
+
+#: wp-job-manager-alerts/my-alerts.php:25
+#, php-format
+msgid "Your job alerts are shown in the table below and will be emailed to %s."
+msgstr ""
+
+#: wp-job-manager-alerts/my-alerts.php:27
+msgid "Add alert"
+msgstr ""
+
+#: wp-job-manager-alerts/my-alerts.php:130
+#, php-format
+msgid "Next: %s at %s"
+msgstr ""
+
+#: wp-job-manager-alerts/my-alerts.php:136
+msgid "Results"
+msgstr ""
+
+#: wp-job-manager-alerts/my-alerts.php:137
+msgid "fa fa-eye"
+msgstr ""
+
+#: wp-job-manager-alerts/my-alerts.php:141
+msgid "Send&nbsp;Now"
+msgstr ""
+
+#: wp-job-manager-alerts/my-alerts.php:142
+msgid "fa fa-envelope"
+msgstr ""
+
+#: wp-job-manager-alerts/my-alerts.php:147
+msgid "far fa-edit"
+msgstr ""
+
+#: wp-job-manager-alerts/my-alerts.php:151
+msgid "Enable"
+msgstr ""
+
+#: wp-job-manager-alerts/my-alerts.php:151
+msgid "Disable"
+msgstr ""
+
+#: wp-job-manager-alerts/my-alerts.php:157
+msgid "fa fa-trash-alt"
+msgstr ""
+
+#: wp-job-manager-applications/application-form-login.php:18
+#, php-format
+msgid "You must <a href=\"%s\">sign in</a> to apply for this position."
+msgstr ""
+
+#: wp-job-manager-applications/application-form.php:61
+msgid "Send application"
+msgstr ""
+
+#: wp-job-manager-applications/applied-notice.php:19
+msgid "You have already applied for this job."
+msgstr ""
+
+#: wp-job-manager-applications/job-application-edit.php:21
+msgid "Application status"
+msgstr ""
+
+#: wp-job-manager-applications/job-application-edit.php:32
+msgid "Rating (out of 5)"
+msgstr ""
+
+#: wp-job-manager-applications/job-application-edit.php:40
+msgid "Save changes"
+msgstr ""
+
+#: wp-job-manager-applications/job-application-footer.php:30
+msgid "Details"
+msgstr ""
+
+#: wp-job-manager-applications/job-application-footer.php:45
+#, php-format
+msgid "Your job application for %s"
+msgstr ""
+
+#: wp-job-manager-applications/job-application-footer.php:47
+#, php-format
+msgid "Hello %s"
+msgstr ""
+
+#: wp-job-manager-applications/job-application-footer.php:52
+#: wp-job-manager-bookmarks/my-bookmarks.php:32
+msgid "Notes"
+msgstr ""
+
+#: wp-job-manager-applications/job-applications.php:19
+msgid "Download CSV"
+msgstr ""
+
+#: wp-job-manager-applications/job-applications.php:20
+#, php-format
+msgid "The job applications for \"%s\" are listed below."
+msgstr ""
+
+#: wp-job-manager-applications/job-applications.php:25
+msgid "Filter by status"
+msgstr ""
+
+#: wp-job-manager-applications/job-applications.php:33
+msgid "Newest first"
+msgstr ""
+
+#: wp-job-manager-applications/job-applications.php:34
+msgid "Sort by name"
+msgstr ""
+
+#: wp-job-manager-applications/job-applications.php:35
+msgid "Sort by rating"
+msgstr ""
+
+#: wp-job-manager-applications/past-applications.php:23
+msgid "Applications Listing"
+msgstr ""
+
+#: wp-job-manager-applications/past-applications.php:30
+msgid "Job"
+msgstr ""
+
+#: wp-job-manager-applications/past-applications.php:31
+msgid "Date Applied"
+msgstr ""
+
+#: wp-job-manager-applications/past-applications.php:33
+msgid "Application Message"
+msgstr ""
+
+#: wp-job-manager-bookmarks/bookmark-form.php:26
+#, php-format
+msgid "Bookmark This %s"
+msgstr ""
+
+#: wp-job-manager-bookmarks/bookmark-form.php:36
+msgid "Bookmark Details"
+msgstr ""
+
+#: wp-job-manager-bookmarks/bookmark-form.php:46
+msgid "Notes:"
+msgstr ""
+
+#: wp-job-manager-bookmarks/logged-out-bookmark-form.php:19
+#, php-format
+msgid "Login to bookmark this %s"
+msgstr ""
+
+#: wp-job-manager-bookmarks/my-bookmarks.php:23
+msgid "Bookmarked Jobs"
+msgstr ""
+
+#: wp-job-manager-resumes/access-denied-browse-resumes.php:18
+msgid "Sorry, you do not have permission to browse resumes."
+msgstr ""
+
+#: wp-job-manager-resumes/access-denied-single-resume.php:19
+msgid "This listing has expired"
+msgstr ""
+
+#: wp-job-manager-resumes/access-denied-single-resume.php:21
+msgid "Sorry, you do not have permission to view this resume."
+msgstr ""
+
+#: wp-job-manager-resumes/account-signin.php:47
+msgid ""
+"If you don&rsquo;t have an account you can create one below by entering your "
+"email address. Your account details will be confirmed via email."
+msgstr ""
+
+#: wp-job-manager-resumes/account-signin.php:51
+msgid "You must sign in to submit a resume."
+msgstr ""
+
+#: wp-job-manager-resumes/apply-with-resume.php:27
+msgid ""
+"Apply using your online resume; just enter a short message to send your "
+"application."
+msgstr ""
+
+#: wp-job-manager-resumes/apply-with-resume.php:30
+msgid "Online resume"
+msgstr ""
+
+#: wp-job-manager-resumes/apply-with-resume.php:44
+msgid "Message"
+msgstr ""
+
+#: wp-job-manager-resumes/apply-with-resume.php:51
+msgid "To whom it may concern,"
+msgstr ""
+
+#: wp-job-manager-resumes/apply-with-resume.php:53
+#, php-format
+msgid ""
+"I am very interested in the %1$s position at %2$s. I believe my skills and work "
+"experience make me an ideal candidate for this role. I look forward to speaking "
+"with you soon about this position."
+msgstr ""
+
+#: wp-job-manager-resumes/apply-with-resume.php:55
+msgid "Thank you for your consideration."
+msgstr ""
+
+#: wp-job-manager-resumes/apply-with-resume.php:63
+msgid "Send Application"
+msgstr ""
+
+#: wp-job-manager-resumes/apply-with-resume.php:70
+msgid ""
+"You can apply to this job and others using your online resume. Click the link "
+"below to submit your online resume and email your application to this employer."
+msgstr ""
+
+#: wp-job-manager-resumes/apply-with-resume.php:73
+msgid "Submit Resume &amp; Apply"
+msgstr ""
+
+#: wp-job-manager-resumes/candidate-dashboard-login.php:20
+msgid "You need to be signed in to manage your resumes."
+msgstr ""
+
+#: wp-job-manager-resumes/candidate-dashboard.php:27
+msgid "All Candidates"
+msgstr ""
+
+#: wp-job-manager-resumes/candidate-dashboard.php:32
+msgid "Your resume can be viewed, edited or removed below."
+msgstr ""
+
+#: wp-job-manager-resumes/candidate-dashboard.php:37
+msgid "Add Resume"
+msgstr ""
+
+#: wp-job-manager-resumes/candidate-dashboard.php:125
+#, php-format
+msgid "Expires %s"
+msgstr ""
+
+#: wp-job-manager-resumes/contact-details-email.php:18
+#, php-format
+msgid ""
+"To contact this candidate email <a class=\"job_application_email\" href="
+"\"mailto:%1$s%2$s\">%1$s</a>"
+msgstr ""
+
+#: wp-job-manager-resumes/contact-details-email.php:21
+msgid "Contact using webmail: "
+msgstr ""
+
+#: wp-job-manager-resumes/contact-details-email.php:23
+msgid "Gmail"
+msgstr ""
+
+#: wp-job-manager-resumes/contact-details-email.php:25
+msgid "AOL"
+msgstr ""
+
+#: wp-job-manager-resumes/contact-details-email.php:29
+msgid "Outlook"
+msgstr ""
+
+#: wp-job-manager-resumes/contact-details.php:28
+msgid "Contact"
+msgstr ""
+
+#: wp-job-manager-resumes/content-no-resumes-found.php:19
+msgid "There are no listings matching your search."
+msgstr ""
+
+#: wp-job-manager-resumes/content-no-resumes-found.php:21
+msgid "There are currently no resumes."
+msgstr ""
+
+#: wp-job-manager-resumes/content-resume.php:68
+#: wp-job-manager-resumes/content-resume.php:117
+msgid "View Profile"
+msgstr ""
+
+#: wp-job-manager-resumes/emails/admin-new-resume.php:32
+#, php-format
+msgid "A new resume has been submitted to <a href=\"%1$s\">%2$s</a>."
+msgstr ""
+
+#: wp-job-manager-resumes/emails/apply-with-resume.php:41
+#, php-format
+msgid ""
+"A candidate has applied on the site <a href=\"%1$s\">%2$s</a> for the position "
+"<a href=\"%3$s\">%4$s</a>."
+msgstr ""
+
+#: wp-job-manager-resumes/emails/apply-with-resume.php:50
+#: wp-job-manager-resumes/emails/plain/apply-with-resume.php:62
+msgid "They included the following message along with their resume: "
+msgstr ""
+
+#: wp-job-manager-resumes/emails/apply-with-resume.php:59
+#, php-format
+msgid "You can <a href=\"%s\">view their resume online</a>."
+msgstr ""
+
+#: wp-job-manager-resumes/emails/apply-with-resume.php:65
+#: wp-job-manager-resumes/emails/plain/apply-with-resume.php:57
+#, php-format
+msgid " Additionally, you can contact them directly at %s."
+msgstr ""
+
+#: wp-job-manager-resumes/emails/plain/admin-new-resume.php:31
+#, php-format
+msgid "A new resume has been submitted to %1$s (%2$s)."
+msgstr ""
+
+#: wp-job-manager-resumes/emails/plain/apply-with-resume.php:40
+#, php-format
+msgid ""
+"A candidate has applied on the site %1$s (%2$s) for the position %3$s (%4$s)."
+msgstr ""
+
+#: wp-job-manager-resumes/emails/plain/apply-with-resume.php:51
+#, php-format
+msgid "You can view their online resume by visiting %s."
+msgstr ""
+
+#: wp-job-manager-resumes/force-apply-with-resume.php:22
+msgid ""
+"Before applying for this position you need to submit your <strong>online "
+"resume</strong>. Click the button below to continue."
+msgstr ""
+
+#: wp-job-manager-resumes/force-apply-with-resume.php:24
+msgid "Submit Resume"
+msgstr ""
+
+#: wp-job-manager-resumes/resume-filters.php:50
+msgid "All Resumes"
+msgstr ""
+
+#: wp-job-manager-resumes/resume-filters.php:57
+msgid "Any Location"
+msgstr ""
+
+#: wp-job-manager-resumes/resume-submit.php:21
+msgid "Resume Form"
+msgstr ""
+
+#: wp-job-manager-resumes/resume-submitted-application-form.php:30
+#, php-format
+msgid "Submit your application to the job \"%s\"."
+msgstr ""
+
+#: wp-job-manager-resumes/resume-submitted.php:28
+#, php-format
+msgid ""
+"Your resume has been submitted successfully. To view your resume <a href=\"%s"
+"\">click here</a>."
+msgstr ""
+
+#: wp-job-manager-resumes/resume-submitted.php:35
+msgid "Your resume has been submitted successfully."
+msgstr ""
+
+#: wp-job-manager-resumes/resume-submitted.php:41
+msgid "Your resume has been submitted successfully and is pending approval."
+msgstr ""
+
+#: wp-job-manager-resumes/resume-submitted.php:52
+#, php-format
+msgid ""
+" You will be able to apply for <a href=\"%1$s\">%2$s</a> once your resume has "
+"been approved."
+msgstr ""
